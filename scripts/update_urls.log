@@ -1,0 +1,32 @@
+2026-05-11 17:37:38,084  INFO      Connecting to Firebase...
+2026-05-11 17:37:38,176  INFO      Connecting to Microsoft 365...
+2026-05-11 17:38:28,742  INFO      Microsoft login successful
+2026-05-11 17:38:28,743  INFO      Finding folder: Dad's Files/Sermons1
+2026-05-11 17:38:29,810  INFO      Found: Sermons1
+2026-05-11 17:38:29,811  INFO      Scanning OneDrive for file URLs...
+2026-05-11 17:38:32,566  INFO      Scanning: Billy Sunday
+2026-05-11 17:38:33,667  INFO      Scanning: Browning
+2026-05-11 17:38:36,904  INFO      Scanning: Chapman
+2026-05-11 17:38:37,943  INFO      Scanning: FBIS - Cloud
+2026-05-11 17:38:38,765  INFO      Scanning: Franklin Sermons
+2026-05-11 17:38:41,730  INFO      Scanning: Hughes
+2026-05-11 17:38:43,022  INFO      Scanning: Johnston
+2026-05-11 17:38:44,182  INFO      Found 1005 file URLs
+2026-05-11 17:38:44,182  INFO      Fetching all sermon documents from Firestore...
+2026-05-11 17:38:46,255  INFO      Found 1041 sermon documents
+2026-05-11 17:39:28,124  INFO      Connecting to Firebase...
+2026-05-11 17:39:28,199  INFO      Connecting to Microsoft 365...
+2026-05-11 17:41:20,123  INFO      Microsoft login successful
+2026-05-11 17:41:20,124  INFO      Finding folder: Dad's Files/Sermons1
+2026-05-11 17:41:21,025  INFO      Found: Sermons1
+2026-05-11 17:41:21,026  INFO      Scanning OneDrive for file URLs...
+2026-05-11 17:41:23,518  INFO      Scanning: Billy Sunday
+2026-05-11 17:41:24,464  INFO      Scanning: Browning
+2026-05-11 17:41:26,662  INFO      Scanning: Chapman
+2026-05-11 17:41:27,861  INFO      Scanning: FBIS - Cloud
+2026-05-11 17:41:29,127  INFO      Scanning: Franklin Sermons
+2026-05-11 17:41:36,560  INFO      Scanning: Hughes
+2026-05-11 17:41:38,578  INFO      Scanning: Johnston
+2026-05-11 17:41:40,492  INFO      Found 1005 file URLs
+2026-05-11 17:41:40,492  INFO      Fetching all sermon documents from Firestore...
+2026-05-11 17:41:43,844  INFO      Found 1041 sermon documents

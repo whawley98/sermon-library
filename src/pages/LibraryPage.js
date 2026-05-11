@@ -1,5 +1,5 @@
 // src/pages/LibraryPage.js
-import React, { useState, useEffect, useCallback, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { getSermons, searchSermonsByTitle } from "../lib/firebase";
 import Sidebar from "../components/Sidebar";
 import SermonCard from "../components/SermonCard";
@@ -13,14 +13,17 @@ export default function LibraryPage({ pastor }) {
   const [loadingMore, setLoadingMore] = useState(false);
   const [lastDoc,     setLastDoc]     = useState(null);
   const [hasMore,     setHasMore]     = useState(false);
+  const [error,       setError]       = useState(null);
   const [view,        setView]        = useState("grid");
   const [search,      setSearch]      = useState("");
   const [filters,     setFilters]     = useState({ author: null, book: null, keyword: null });
   const searchTimer = useRef(null);
+  const prevFilters = useRef(filters);
 
-  const load = useCallback(async (reset = true) => {
+  const load = async (reset = true) => {
     if (!pastor?.id) return;
     reset ? setLoading(true) : setLoadingMore(true);
+    setError(null);
 
     try {
       let result;
@@ -28,10 +31,16 @@ export default function LibraryPage({ pastor }) {
         const found = await searchSermonsByTitle(search.trim(), pastor.id);
         result = { sermons: found, lastDoc: null, hasMore: false };
       } else {
+        // Convert author filter to isPrimary boolean
+        let isPrimary = null;
+        if (filters.author === "hawley") isPrimary = true;
+        if (filters.author === "other")  isPrimary = false;
+
         result = await getSermons({
           pastorId:  pastor.id,
-          keyword:   filters.keyword   || null,
-          book:      filters.book      || null,
+          keyword:   filters.keyword || null,
+          book:      filters.book    || null,
+          isPrimary,
           pageSize:  PAGE_SIZE,
           lastDoc:   reset ? null : lastDoc,
         });
@@ -41,18 +50,34 @@ export default function LibraryPage({ pastor }) {
       setHasMore(result.hasMore);
     } catch (e) {
       console.error("Failed to load sermons:", e);
+      setError(e.message);
     } finally {
       setLoading(false);
       setLoadingMore(false);
     }
-  }, [pastor?.id, filters, search]);
+  };
 
-  useEffect(() => { load(true); }, [pastor?.id, filters]);
+  // Load when pastor changes
+  useEffect(() => {
+    load(true);
+  // eslint-disable-next-line
+  }, [pastor?.id]);
 
+  // Load when filters change
+  useEffect(() => {
+    if (prevFilters.current !== filters) {
+      prevFilters.current = filters;
+      load(true);
+    }
+  // eslint-disable-next-line
+  }, [filters]);
+
+  // Debounce search
   useEffect(() => {
     clearTimeout(searchTimer.current);
     searchTimer.current = setTimeout(() => load(true), 400);
     return () => clearTimeout(searchTimer.current);
+  // eslint-disable-next-line
   }, [search]);
 
   const handleFilterChange = (updates) => {
@@ -77,10 +102,10 @@ export default function LibraryPage({ pastor }) {
             <input
               className="input search-input"
               type="text"
-              placeholder="Search by title…  (press / to focus)"
+              placeholder="Search by title…"
               value={search}
               onChange={e => setSearch(e.target.value)}
-              onKeyDown={e => { if (e.key === "/" && !search) e.preventDefault(); }}
+              onKeyDown={e => e.key === "Escape" && setSearch("")}
             />
             {search && (
               <button className="search-clear" onClick={() => setSearch("")}>×</button>
@@ -97,8 +122,8 @@ export default function LibraryPage({ pastor }) {
               </button>
             )}
             <div className="view-toggle">
-              <button className={`view-btn ${view === "grid" ? "active" : ""}`} onClick={() => setView("grid")} title="Grid">⊞</button>
-              <button className={`view-btn ${view === "list" ? "active" : ""}`} onClick={() => setView("list")} title="List">☰</button>
+              <button className={`view-btn ${view === "grid" ? "active" : ""}`} onClick={() => setView("grid")}>⊞</button>
+              <button className={`view-btn ${view === "list" ? "active" : ""}`} onClick={() => setView("list")}>☰</button>
             </div>
           </div>
         </div>
@@ -106,13 +131,13 @@ export default function LibraryPage({ pastor }) {
         {/* Active filter chips */}
         {activeFilterCount > 0 && (
           <div className="active-chips">
-            {filters.keyword && <FilterChip label={`Topic: ${filters.keyword}`} onRemove={() => handleFilterChange({ keyword: null })} />}
-            {filters.book    && <FilterChip label={`Book: ${filters.book}`}     onRemove={() => handleFilterChange({ book: null })} />}
+            {filters.keyword && <FilterChip label={`Topic: ${filters.keyword}`}  onRemove={() => handleFilterChange({ keyword: null })} />}
+            {filters.book    && <FilterChip label={`Book: ${filters.book}`}      onRemove={() => handleFilterChange({ book: null })} />}
             {filters.author  && <FilterChip label={`Author: ${filters.author === "hawley" ? pastor?.name : "Other Preachers"}`} onRemove={() => handleFilterChange({ author: null })} />}
           </div>
         )}
 
-        {!loading && (
+        {!loading && !error && (
           <p className="result-count">
             {sermons.length > 0
               ? `${sermons.length}${hasMore ? "+" : ""} sermon${sermons.length !== 1 ? "s" : ""}`
@@ -123,6 +148,11 @@ export default function LibraryPage({ pastor }) {
         {loading ? (
           <div className="grid-loading">
             {Array.from({ length: 8 }).map((_, i) => <div key={i} className="skeleton-card" />)}
+          </div>
+        ) : error ? (
+          <div className="error-state">
+            ⚠️ {error}
+            <br /><small>Check browser console for details.</small>
           </div>
         ) : sermons.length === 0 ? (
           <div className="empty-state">

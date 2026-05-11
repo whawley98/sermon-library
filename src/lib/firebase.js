@@ -1,109 +1,123 @@
 // src/lib/firebase.js
-// ─────────────────────────────────────────────────────────────
-// Firebase initialization for Sermon Library
-// Config is safe to be public (Firestore rules control access)
-// ─────────────────────────────────────────────────────────────
-
 import { initializeApp } from "firebase/app";
 import {
-  getFirestore,
-  collection,
-  doc,
-  getDoc,
-  getDocs,
-  query,
-  where,
-  orderBy,
-  limit,
-  startAfter,
-  collectionGroup,
+  getFirestore, collection, doc,
+  getDoc, getDocs, query,
+  where, orderBy, limit, startAfter,
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBlrNposSO9q-fRORmmG6a_0bLy3TkXqgc",
-  authDomain: "sermon-library-89f46.firebaseapp.com",
-  projectId: "sermon-library-89f46",
-  storageBucket: "sermon-library-89f46.firebasestorage.app",
+  apiKey:            "AIzaSyBlrNposSO9q-fRORmmG6a_0bLy3TkXqgc",
+  authDomain:        "sermon-library-89f46.firebaseapp.com",
+  projectId:         "sermon-library-89f46",
+  storageBucket:     "sermon-library-89f46.firebasestorage.app",
   messagingSenderId: "375159141051",
-  appId: "1:375159141051:web:337cc6aee9c01c8f12af9e",
+  appId:             "1:375159141051:web:337cc6aee9c01c8f12af9e",
 };
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 
-// ── Collection references ──────────────────────────────────────
-export const pastorsRef    = () => collection(db, "pastors");
-export const sermonsRef    = () => collection(db, "sermons");
-export const pastorRef     = (id) => doc(db, "pastors", id);
-export const sermonRef     = (id) => doc(db, "sermons", id);
-
-// ── Queries ────────────────────────────────────────────────────
-
 export async function getPastors() {
-  const snap = await getDocs(pastorsRef());
-  return snap.docs.map((d) => ({ id: d.id, ...d.data() }));
-}
-
-export async function getPastor(id) {
-  const snap = await getDoc(pastorRef(id));
-  return snap.exists() ? { id: snap.id, ...snap.data() } : null;
+  const snap = await getDocs(collection(db, "pastors"));
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
 }
 
 export async function getSermon(id) {
-  const snap = await getDoc(sermonRef(id));
+  const snap = await getDoc(doc(db, "sermons", id));
   return snap.exists() ? { id: snap.id, ...snap.data() } : null;
 }
 
-export async function getSermons({
-  pastorId   = null,
-  keyword    = null,
-  book       = null,
-  authorName = null,
-  seriesName = null,
-  pageSize   = 24,
-  lastDoc    = null,
-} = {}) {
-  const constraints = [];
-  if (pastorId)   constraints.push(where("pastor_id",    "==", pastorId));
-  if (keyword)    constraints.push(where("keywords",     "array-contains", keyword));
-  if (book)       constraints.push(where("bible_books",  "array-contains", book));
-  if (authorName) constraints.push(where("author",       "==", authorName));
-  if (seriesName) constraints.push(where("series_name",  "==", seriesName));
-
-  constraints.push(orderBy("title"));
-  constraints.push(limit(pageSize));
-  if (lastDoc) constraints.push(startAfter(lastDoc));
-
-  const q = query(sermonsRef(), ...constraints);
-  const snap = await getDocs(q);
-  return {
-    sermons: snap.docs.map((d) => ({ id: d.id, ...d.data() })),
-    lastDoc: snap.docs[snap.docs.length - 1] || null,
-    hasMore: snap.docs.length === pageSize,
-  };
-}
-
-export async function searchSermonsByTitle(titleQuery, pastorId = null) {
-  // Firestore prefix search using >= and <= trick
-  const end = titleQuery.slice(0, -1) +
-    String.fromCharCode(titleQuery.charCodeAt(titleQuery.length - 1) + 1);
-  const constraints = [
-    where("title_lower", ">=", titleQuery.toLowerCase()),
-    where("title_lower", "<",  end.toLowerCase()),
-    orderBy("title_lower"),
-    limit(20),
-  ];
-  if (pastorId) constraints.unshift(where("pastor_id", "==", pastorId));
-  const q = query(sermonsRef(), ...constraints);
-  const snap = await getDocs(q);
-  return snap.docs.map((d) => ({ id: d.id, ...d.data() }));
-}
-
 export async function getStats(pastorId = null) {
-  // Returns aggregated stats — pulled from a pre-computed stats doc
-  const id = pastorId || "global";
-  const snap = await getDoc(doc(db, "stats", id));
+  const snap = await getDoc(doc(db, "stats", pastorId || "global"));
   return snap.exists() ? snap.data() : null;
 }
 
-export { query, where, orderBy, limit, startAfter, getDocs, collection };
+// ── Build a query safely, falling back if index missing ───────────────────
+async function runQuery(constraints) {
+  try {
+    const snap = await getDocs(query(collection(db, "sermons"), ...constraints));
+    return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+  } catch (err) {
+    if (err.code === "failed-precondition" || (err.message && err.message.includes("index"))) {
+      console.warn("Index missing, retrying without orderBy:", err.message);
+      // Remove any orderBy constraints and retry
+      const fallback = constraints.filter(c => {
+        const str = c.toString();
+        return !str.includes("orderBy");
+      });
+      // Simpler: just rebuild without orderBy
+      return null; // signal to caller to use fallback
+    }
+    throw err;
+  }
+}
+
+export async function getSermons({
+  pastorId     = null,
+  keyword      = null,
+  book         = null,
+  isPrimary    = null,   // true = William Hawley only, false = others only
+  pageSize     = 24,
+  lastDoc      = null,
+} = {}) {
+  const base = [];
+  if (pastorId)            base.push(where("pastor_id",       "==",             pastorId));
+  if (keyword)             base.push(where("keywords",        "array-contains", keyword));
+  if (book)                base.push(where("bible_books",     "array-contains", book));
+  if (isPrimary !== null)  base.push(where("is_primary_pastor", "==",           isPrimary));
+
+  // Only add orderBy when it won't require a missing composite index
+  // Safe: single equality filter + orderBy on same or different field
+  const canOrderBy = !keyword && !book && isPrimary === null;
+  if (canOrderBy) base.push(orderBy("title"));
+
+  base.push(limit(pageSize));
+  if (lastDoc) base.push(startAfter(lastDoc));
+
+  try {
+    const snap    = await getDocs(query(collection(db, "sermons"), ...base));
+    const sermons = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+    // Client-side sort when we couldn't use orderBy
+    if (!canOrderBy) sermons.sort((a, b) => (a.title || "").localeCompare(b.title || ""));
+    return {
+      sermons,
+      lastDoc: snap.docs[snap.docs.length - 1] || null,
+      hasMore: snap.docs.length === pageSize,
+    };
+  } catch (err) {
+    if (err.code === "failed-precondition" || (err.message && err.message.includes("index"))) {
+      console.warn("Index missing, falling back to unordered query");
+      const fallbackBase = [];
+      if (pastorId)           fallbackBase.push(where("pastor_id",         "==",             pastorId));
+      if (keyword)            fallbackBase.push(where("keywords",          "array-contains", keyword));
+      if (book)               fallbackBase.push(where("bible_books",       "array-contains", book));
+      if (isPrimary !== null) fallbackBase.push(where("is_primary_pastor", "==",             isPrimary));
+      fallbackBase.push(limit(pageSize));
+      if (lastDoc) fallbackBase.push(startAfter(lastDoc));
+      const snap    = await getDocs(query(collection(db, "sermons"), ...fallbackBase));
+      const sermons = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+      sermons.sort((a, b) => (a.title || "").localeCompare(b.title || ""));
+      return { sermons, lastDoc: snap.docs[snap.docs.length - 1] || null, hasMore: snap.docs.length === pageSize };
+    }
+    throw err;
+  }
+}
+
+export async function searchSermonsByTitle(titleQuery, pastorId = null) {
+  const q   = titleQuery.toLowerCase();
+  const end = q.slice(0, -1) + String.fromCharCode(q.charCodeAt(q.length - 1) + 1);
+  const constraints = [];
+  if (pastorId) constraints.push(where("pastor_id", "==", pastorId));
+  constraints.push(where("title_lower", ">=", q));
+  constraints.push(where("title_lower", "<",  end));
+  constraints.push(orderBy("title_lower"));
+  constraints.push(limit(20));
+  try {
+    const snap = await getDocs(query(collection(db, "sermons"), ...constraints));
+    return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+  } catch (err) {
+    console.warn("Title search failed:", err.message);
+    return [];
+  }
+}

@@ -1,29 +1,32 @@
 // src/lib/ai.js
-// ─────────────────────────────────────────────────────────────
-// Runtime AI layer — powers "Ask the Collection" and
-// per-sermon Q&A using Anthropic API + Firestore data
-// ─────────────────────────────────────────────────────────────
+// Runtime AI using Anthropic API with browser CORS support
 
 import { getSermons, searchSermonsByTitle } from "./firebase";
 
 const ANTHROPIC_API = "https://api.anthropic.com/v1/messages";
+const MODEL         = "claude-sonnet-4-20250514";
 
-// API key is stored in .env — NEVER hardcoded or committed
-const getApiKey = () => process.env.REACT_APP_ANTHROPIC_API_KEY;
+function getApiKey() {
+  return process.env.REACT_APP_ANTHROPIC_API_KEY || "";
+}
 
-// ── Core API call ──────────────────────────────────────────────
-async function callClaude(systemPrompt, userMessage, maxTokens = 1024) {
+async function callClaude(system, userMessage, maxTokens = 1024) {
   const key = getApiKey();
-  if (!key) throw new Error("Anthropic API key not configured");
+  if (!key) throw new Error("Anthropic API key not configured.");
 
   const response = await fetch(ANTHROPIC_API, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: {
+      "Content-Type":                              "application/json",
+      "x-api-key":                                 key,
+      "anthropic-version":                         "2023-06-01",
+      "anthropic-dangerous-direct-browser-access": "true",
+    },
     body: JSON.stringify({
-      model: "claude-sonnet-4-20250514",
+      model:      MODEL,
       max_tokens: maxTokens,
-      system: systemPrompt,
-      messages: [{ role: "user", content: userMessage }],
+      system,
+      messages:   [{ role: "user", content: userMessage }],
     }),
   });
 
@@ -36,18 +39,17 @@ async function callClaude(systemPrompt, userMessage, maxTokens = 1024) {
   return data.content[0].text;
 }
 
-// ── Retrieve relevant sermons for RAG ──────────────────────────
-async function retrieveRelevantSermons(question, pastorId, maxSermons = 5) {
-  // Extract potential keywords from the question
-  const stopWords = new Set(["what","where","when","how","did","does","the","a","an","and","or","in","of","to","is","was","were","about","that","this","for","my","me","any","all","have","has","been"]);
+// ── RAG helpers ────────────────────────────────────────────────────────────
+
+async function retrieveRelevantSermons(question, pastorId, max = 5) {
+  const stopWords = new Set(["what","where","when","how","did","does","the","a","an",
+    "and","or","in","of","to","is","was","were","about","that","this","for","my","me"]);
   const words = question.toLowerCase()
-    .replace(/[^a-z0-9\s]/g, "")
-    .split(/\s+/)
+    .replace(/[^a-z0-9\s]/g, "").split(/\s+/)
     .filter(w => w.length > 3 && !stopWords.has(w));
 
-  // Try to find sermons by keyword match
   const results = [];
-  const seen = new Set();
+  const seen    = new Set();
 
   for (const word of words.slice(0, 3)) {
     try {
@@ -55,101 +57,70 @@ async function retrieveRelevantSermons(question, pastorId, maxSermons = 5) {
       for (const s of sermons) {
         if (!seen.has(s.id)) { seen.add(s.id); results.push(s); }
       }
-    } catch (_) { /* keyword not indexed, skip */ }
+    } catch (_) {}
   }
 
-  // Also try title search
   if (words.length > 0) {
     try {
-      const titleResults = await searchSermonsByTitle(words[0], pastorId);
-      for (const s of titleResults.slice(0, 3)) {
+      const found = await searchSermonsByTitle(words[0], pastorId);
+      for (const s of found.slice(0, 3)) {
         if (!seen.has(s.id)) { seen.add(s.id); results.push(s); }
       }
     } catch (_) {}
   }
 
-  return results.slice(0, maxSermons);
+  return results.slice(0, max);
 }
 
-// ── Build sermon context for prompts ──────────────────────────
-function buildSermonContext(sermons) {
-  return sermons.map((s, i) => `
-SERMON ${i + 1}: "${s.title}"
-Author: ${s.author}
-Date: ${s.date || "Unknown"}
-Summary: ${s.summary || "No summary"}
-Keywords: ${(s.keywords || []).join(", ")}
-Scripture: ${(s.scripture_references || []).map(r => r.reference).join(", ")}
-${s.full_text_clean ? `Text excerpt: ${s.full_text_clean.substring(0, 800)}...` : ""}
-`).join("\n---\n");
+function sermonContext(sermons) {
+  return sermons.map((s, i) => [
+    `SERMON ${i + 1}: "${s.title}"`,
+    `Author: ${s.author}`,
+    `Date: ${s.date || "Unknown"}`,
+    `Summary: ${s.summary || "No summary"}`,
+    `Keywords: ${(s.keywords || []).join(", ")}`,
+    `Scripture: ${(s.scripture_references || []).map(r => r.reference).join(", ")}`,
+  ].join("\n")).join("\n---\n");
 }
 
-// ── Public AI functions ────────────────────────────────────────
+// ── Public API ─────────────────────────────────────────────────────────────
 
-/**
- * Ask a question about the entire sermon collection.
- * Uses RAG: retrieves relevant sermons, then sends to Claude.
- */
 export async function askCollection(question, pastor, pastorId) {
-  const relevantSermons = await retrieveRelevantSermons(question, pastorId);
+  const relevant = await retrieveRelevantSermons(question, pastorId);
 
-  const systemPrompt = `You are a knowledgeable assistant helping a family explore the sermon collection of ${pastor?.name || "a pastor"}. 
-You have access to excerpts from their sermons and should answer questions thoughtfully and accurately.
-If you don't have enough information from the provided sermons, say so honestly rather than guessing.
-When referencing specific sermons, mention the title so the user can find them.
+  const system = `You are a knowledgeable assistant helping a family explore the sermon collection of ${pastor?.name || "a pastor"}.
+Answer questions thoughtfully and accurately based on the sermon content provided.
+If you don't have enough information, say so honestly.
+When referencing specific sermons, mention the title.
 Tone: warm, respectful, as if helping a family honor their loved one's ministry.`;
 
-  const context = relevantSermons.length > 0
-    ? `Here are the most relevant sermons I found:\n\n${buildSermonContext(relevantSermons)}\n\n`
-    : "I couldn't find sermons closely matching this query, but I'll answer based on general knowledge.\n\n";
+  const context = relevant.length > 0
+    ? `Here are relevant sermons:\n\n${sermonContext(relevant)}\n\n`
+    : "No closely matching sermons found.\n\n";
 
-  const userMessage = `${context}Question: ${question}`;
-
-  const answer = await callClaude(systemPrompt, userMessage, 1024);
-
-  return {
-    answer,
-    sourcedFrom: relevantSermons.map(s => ({ id: s.id, title: s.title })),
-  };
+  const answer = await callClaude(system, `${context}Question: ${question}`, 1024);
+  return { answer, sourcedFrom: relevant.map(s => ({ id: s.id, title: s.title })) };
 }
 
-/**
- * Ask a question about a single specific sermon.
- */
 export async function askSermon(question, sermon) {
-  const systemPrompt = `You are helping a family explore a specific sermon titled "${sermon.title}" by ${sermon.author}.
-Answer questions about this sermon accurately and warmly.
-Only reference what is in the sermon text provided.`;
-
-  const sermonText = sermon.full_text_clean || sermon.full_text_raw || sermon.summary || "No text available.";
-
-  const userMessage = `Here is the sermon text:\n\n${sermonText.substring(0, 4000)}\n\nQuestion: ${question}`;
-
-  return callClaude(systemPrompt, userMessage, 512);
+  const system = `You are helping a family explore the sermon "${sermon.title}" by ${sermon.author}.
+Answer questions accurately and warmly based only on the sermon text provided.`;
+  const text    = sermon.full_text_raw || sermon.summary || "No text available.";
+  return callClaude(system, `Sermon:\n\n${text.substring(0, 4000)}\n\nQuestion: ${question}`, 512);
 }
 
-/**
- * Generate a ministry summary across all of a pastor's sermons.
- */
 export async function generateMinistrySummary(pastor, stats) {
-  const systemPrompt = `You are writing a warm, celebratory summary of a pastor's ministry based on their sermon collection data.
-Write in a tone appropriate for a family tribute — reverent but personal.`;
-
-  const userMessage = `Please write a 3-4 paragraph summary of this pastor's ministry based on the following data:
-
-Pastor: ${pastor.name}
+  const system = `Write a warm, celebratory summary of a pastor's ministry for a family tribute. Reverent but personal.`;
+  const msg    = `Pastor: ${pastor.name}
 Total sermons: ${stats?.total_sermons || "unknown"}
 Top themes: ${(stats?.top_keywords || []).slice(0, 10).map(k => k.word).join(", ")}
 Top Bible books: ${(stats?.top_bible_books || []).slice(0, 8).map(b => b.book).join(", ")}
-Years of ministry: ${pastor.years_of_ministry || "approximately 40"}
-Description: ${pastor.description || ""}`;
+Description: ${pastor.description || ""}
 
-  return callClaude(systemPrompt, userMessage, 800);
+Write 3-4 paragraphs.`;
+  return callClaude(system, msg, 800);
 }
 
-/**
- * Suggest related sermons based on a given sermon.
- */
 export async function getRelatedSermons(sermon, pastorId) {
   const keyword = sermon.keywords?.[0];
   if (!keyword) return [];

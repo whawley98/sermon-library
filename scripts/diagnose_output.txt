@@ -1,0 +1,455 @@
+SERMON LIBRARY DIAGNOSTIC REPORT
+============================================================
+
+{
+  "total_sermons": 1041,
+  "data_completeness": {
+    "has_summary": "932/1041 (89%)",
+    "has_keywords": "932/1041 (89%)",
+    "has_scripture": "928/1041 (89%)",
+    "has_bible_books": "927/1041 (89%)",
+    "has_web_url": "1041/1041 (100%)",
+    "has_readable_text": "1040/1041 (99%)",
+    "is_primary_pastor": "738/1041 (70%)"
+  },
+  "processing_status": {
+    "success": 932,
+    "failed": 108,
+    "text_too_short": 1,
+    "other": 0
+  },
+  "extraction_quality": {
+    "medium": 765,
+    "high": 276
+  },
+  "unique_bible_books": 73,
+  "top_30_bible_books": [
+    [
+      "Matthew",
+      289
+    ],
+    [
+      "John",
+      285
+    ],
+    [
+      "Romans",
+      220
+    ],
+    [
+      "Luke",
+      205
+    ],
+    [
+      "Hebrews",
+      174
+    ],
+    [
+      "Psalms",
+      172
+    ],
+    [
+      "Acts",
+      169
+    ],
+    [
+      "Ephesians",
+      160
+    ],
+    [
+      "1 Corinthians",
+      153
+    ],
+    [
+      "2 Corinthians",
+      143
+    ],
+    [
+      "Proverbs",
+      126
+    ],
+    [
+      "Isaiah",
+      115
+    ],
+    [
+      "Revelation",
+      110
+    ],
+    [
+      "1 John",
+      104
+    ],
+    [
+      "2 Timothy",
+      101
+    ],
+    [
+      "Mark",
+      99
+    ],
+    [
+      "Galatians",
+      98
+    ],
+    [
+      "Genesis",
+      97
+    ],
+    [
+      "1 Peter",
+      93
+    ],
+    [
+      "Psalm",
+      92
+    ],
+    [
+      "Philippians",
+      92
+    ],
+    [
+      "James",
+      78
+    ],
+    [
+      "Exodus",
+      74
+    ],
+    [
+      "Colossians",
+      65
+    ],
+    [
+      "Deuteronomy",
+      55
+    ],
+    [
+      "1 Timothy",
+      53
+    ],
+    [
+      "Jeremiah",
+      50
+    ],
+    [
+      "Joshua",
+      48
+    ],
+    [
+      "Titus",
+      45
+    ],
+    [
+      "1 Thessalonians",
+      44
+    ]
+  ],
+  "unique_keywords": 3414,
+  "top_30_keywords": [
+    [
+      "faith",
+      197
+    ],
+    [
+      "salvation",
+      182
+    ],
+    [
+      "redemption",
+      137
+    ],
+    [
+      "Jesus Christ",
+      86
+    ],
+    [
+      "sin",
+      79
+    ],
+    [
+      "grace",
+      78
+    ],
+    [
+      "obedience",
+      73
+    ],
+    [
+      "repentance",
+      63
+    ],
+    [
+      "prayer",
+      55
+    ],
+    [
+      "sacrifice",
+      52
+    ],
+    [
+      "resurrection",
+      50
+    ],
+    [
+      "transformation",
+      45
+    ],
+    [
+      "faithfulness",
+      45
+    ],
+    [
+      "Christ",
+      44
+    ],
+    [
+      "judgment",
+      43
+    ],
+    [
+      "forgiveness",
+      41
+    ],
+    [
+      "eternal life",
+      40
+    ],
+    [
+      "worship",
+      36
+    ],
+    [
+      "God's Word",
+      33
+    ],
+    [
+      "Holy Spirit",
+      32
+    ],
+    [
+      "righteousness",
+      32
+    ],
+    [
+      "trust",
+      31
+    ],
+    [
+      "crucifixion",
+      31
+    ],
+    [
+      "service",
+      29
+    ],
+    [
+      "discipleship",
+      29
+    ],
+    [
+      "commitment",
+      28
+    ],
+    [
+      "persecution",
+      26
+    ],
+    [
+      "spiritual warfare",
+      26
+    ],
+    [
+      "hope",
+      26
+    ],
+    [
+      "compassion",
+      25
+    ]
+  ],
+  "authors": [
+    [
+      "William Hawley",
+      738
+    ],
+    [
+      "Johnston",
+      119
+    ],
+    [
+      "Dr. Al Hughes",
+      80
+    ],
+    [
+      "William O. Hawley, Sr.",
+      22
+    ],
+    [
+      "Hughes",
+      19
+    ],
+    [
+      "J. Wilbur Chapman",
+      6
+    ],
+    [
+      "William O. Hawley",
+      5
+    ],
+    [
+      "Billy Sunday",
+      3
+    ],
+    [
+      "Pastor Craig Ledbetter",
+      3
+    ],
+    [
+      "Eddie Snipes",
+      2
+    ],
+    [
+      "Pastor Ron Bankson",
+      2
+    ],
+    [
+      "Dr. Shelton Smith",
+      1
+    ],
+    [
+      "Dr. Tom Malone",
+      1
+    ],
+    [
+      "Dr. Charles Keen and Dr. Bob Taylor",
+      1
+    ],
+    [
+      "C.H. Spurgeon",
+      1
+    ],
+    [
+      "David Cloud",
+      1
+    ],
+    [
+      "aharris",
+      1
+    ],
+    [
+      "Pastor Brian La Croix",
+      1
+    ],
+    [
+      "Ian A. Paul",
+      1
+    ],
+    [
+      "Rev. Scott Sato, Rev. Paul Hornung, Rev. Howard Talley",
+      1
+    ]
+  ],
+  "failed_samples": [
+    {
+      "filename": "What Foundation Are You Building On.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "Hindsight Is Not Always 20-20.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "Old Fashion Day.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "52-Dead End Roads (5-31-09).pdf",
+      "status": "analysis_failed",
+      "quality": "high"
+    },
+    {
+      "filename": "STILL GRACE.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "07-Day of Atonement (2-3-10).pdf",
+      "status": "analysis_failed",
+      "quality": "high"
+    },
+    {
+      "filename": "14-The Enemy Of The Tongue.docx",
+      "status": "analysis_failed",
+      "quality": "high"
+    },
+    {
+      "filename": "God Give Us A Heart.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "18-4-1-7-What An Inheritance.docx",
+      "status": "analysis_failed",
+      "quality": "high"
+    },
+    {
+      "filename": "Limiting God.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "A Father's Failure.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "51-The Eyes of the Lord (5-27-09).pdf",
+      "status": "analysis_failed",
+      "quality": "high"
+    },
+    {
+      "filename": "What Have I Done.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "When The King Comes Back.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "Controversy of Christ2.DOC",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "Gods Darling Lamb.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "Onward Christian Soldiers.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "25-5-10-12-The Offence of the Cross of Christ.docx",
+      "status": "analysis_failed",
+      "quality": "high"
+    },
+    {
+      "filename": "Who Jesus Is.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    },
+    {
+      "filename": "Our Infinite God.doc",
+      "status": "analysis_failed",
+      "quality": "medium"
+    }
+  ]
+}
