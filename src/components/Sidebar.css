@@ -2,8 +2,8 @@
 .sidebar {
   width: var(--sidebar-w);
   flex-shrink: 0;
-  background: var(--card);
-  border-right: 1px solid var(--border);
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
   overflow-y: auto;
   height: 100%;
   transition: transform 0.25s ease;
@@ -21,10 +21,10 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--muted);
+  color: var(--color-text-muted);
   margin-bottom: 0.6rem;
   padding-bottom: 0.35rem;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--color-border);
 }
 
 /* Pill group */
@@ -34,17 +34,17 @@
   width: 100%;
   text-align: left;
   padding: 0.4rem 0.7rem;
-  border: 1px solid var(--border);
+  border: 1px solid var(--color-border);
   border-radius: 20px;
   background: white;
-  color: var(--muted);
+  color: var(--color-text-muted);
   font-family: var(--font-ui);
   font-size: 0.82rem;
   cursor: pointer;
   transition: all 0.15s;
 }
-.pill:hover { border-color: var(--gold); color: var(--gold); }
-.pill-active { background: var(--gold) !important; border-color: var(--gold) !important; color: white !important; }
+.pill:hover { border-color: var(--color-gold); color: var(--color-gold); }
+.pill-active { background: var(--color-gold) !important; border-color: var(--color-gold) !important; color: white !important; }
 
 /* Book list */
 .book-list { display: flex; flex-direction: column; gap: 0.1rem; }
@@ -60,18 +60,18 @@
   border-radius: var(--radius-sm);
   font-family: var(--font-body);
   font-size: 0.9rem;
-  color: var(--ink);
+  color: var(--color-text-primary);
   cursor: pointer;
   transition: background 0.12s;
 }
-.book-row:hover { background: var(--warm); }
-.book-row-active { background: var(--sage) !important; color: white !important; }
+.book-row:hover { background: var(--color-surface-sunken); }
+.book-row-active { background: var(--color-sage) !important; color: white !important; }
 .book-row-active .book-count { background: rgba(255,255,255,0.2); color: white; }
 
 .book-count {
   font-size: 0.72rem;
-  background: var(--warm);
-  color: var(--muted);
+  background: var(--color-surface-sunken);
+  color: var(--color-text-muted);
   padding: 0.1rem 0.4rem;
   border-radius: 10px;
   font-family: var(--font-ui);
@@ -83,30 +83,30 @@
 .kw-btn {
   border: none;
   background: transparent;
-  color: var(--ink);
+  color: var(--color-text-primary);
   cursor: pointer;
   padding: 0.15rem 0.1rem;
   font-family: var(--font-body);
   transition: color 0.15s;
   line-height: 1.4;
 }
-.kw-btn:hover { color: var(--gold); }
-.kw-btn-active { color: var(--rust) !important; font-weight: 600; opacity: 1 !important; }
+.kw-btn:hover { color: var(--color-gold); }
+.kw-btn-active { color: var(--color-rust) !important; font-weight: 600; opacity: 1 !important; }
 
 /* Clear button */
 .clear-btn {
   width: 100%;
   padding: 0.4rem 0.7rem;
-  background: var(--warm);
-  border: 1px solid var(--border);
+  background: var(--color-surface-sunken);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
   font-family: var(--font-ui);
   font-size: 0.82rem;
-  color: var(--muted);
+  color: var(--color-text-muted);
   cursor: pointer;
   transition: all 0.15s;
 }
-.clear-btn:hover { background: var(--rust); color: white; border-color: var(--rust); }
+.clear-btn:hover { background: var(--color-rust); color: white; border-color: var(--color-rust); }
 
 /* Mobile */
 .sidebar-overlay {

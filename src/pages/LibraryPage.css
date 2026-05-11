@@ -32,7 +32,7 @@
   left: 0.65rem;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--muted);
+  color: var(--color-text-muted);
   font-size: 1.1rem;
   pointer-events: none;
 }
@@ -45,7 +45,7 @@
   background: none;
   border: none;
   font-size: 1.1rem;
-  color: var(--muted);
+  color: var(--color-text-muted);
   cursor: pointer;
   line-height: 1;
   padding: 0.1rem;
@@ -67,17 +67,17 @@
 .view-toggle { display: flex; }
 .view-btn {
   padding: 0.45rem 0.65rem;
-  border: 1px solid var(--border);
+  border: 1px solid var(--color-border);
   background: white;
   cursor: pointer;
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--color-text-muted);
   transition: all 0.15s;
   line-height: 1;
 }
 .view-btn:first-child { border-radius: var(--radius-sm) 0 0 var(--radius-sm); }
 .view-btn:last-child  { border-radius: 0 var(--radius-sm) var(--radius-sm) 0; border-left: none; }
-.view-btn.active { background: var(--ink); color: var(--parchment); border-color: var(--ink); }
+.view-btn.active { background: var(--color-text-primary); color: var(--color-bg); border-color: var(--color-text-primary); }
 
 /* Filter chips */
 .active-chips {
@@ -91,8 +91,8 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.2rem 0.6rem;
-  background: var(--ink);
-  color: var(--parchment);
+  background: var(--color-text-primary);
+  color: var(--color-bg);
   border-radius: var(--radius-sm);
   font-family: var(--font-ui);
   font-size: 0.8rem;
@@ -100,7 +100,7 @@
 .filter-chip button {
   background: none;
   border: none;
-  color: var(--gold-light);
+  color: var(--color-gold-light);
   cursor: pointer;
   font-size: 1rem;
   line-height: 1;
@@ -111,7 +111,7 @@
 .result-count {
   font-family: var(--font-ui);
   font-size: 0.82rem;
-  color: var(--muted);
+  color: var(--color-text-muted);
   margin-bottom: 1rem;
   font-style: italic;
 }
@@ -137,11 +137,11 @@
 }
 .skeleton-card {
   height: 180px;
-  background: linear-gradient(90deg, var(--warm) 25%, var(--card) 50%, var(--warm) 75%);
+  background: linear-gradient(90deg, var(--color-surface-sunken) 25%, var(--color-surface) 50%, var(--color-surface-sunken) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.4s infinite;
   border-radius: var(--radius-md);
-  border: 1px solid var(--border);
+  border: 1px solid var(--color-border);
 }
 @keyframes shimmer { to { background-position: -200% 0; } }
 
@@ -149,10 +149,10 @@
 .empty-state {
   text-align: center;
   padding: 4rem 2rem;
-  color: var(--muted);
+  color: var(--color-text-muted);
 }
 .empty-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
-.empty-state h3 { font-family: var(--font-serif); color: var(--ink); margin-bottom: 0.4rem; }
+.empty-state h3 { font-family: var(--font-serif); color: var(--color-text-primary); margin-bottom: 0.4rem; }
 
 /* Load more */
 .load-more {

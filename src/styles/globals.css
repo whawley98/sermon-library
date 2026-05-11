@@ -1,91 +1,390 @@
 /* src/styles/globals.css */
+/* ═══════════════════════════════════════════════════════════════
+   SERMON LIBRARY — Design System
+   
+   Architecture:
+   1. Raw palette   — actual color values, never used directly
+   2. Light mode    — semantic token values (default)
+   3. Dark mode     — token overrides via media query + attribute
+   4. Base styles   — reset, typography, scrollbars, focus
+   5. Components    — buttons, inputs, tags, badges, cards
+   6. Utilities     — helper classes
+   7. Print         — clean print output
+   ═══════════════════════════════════════════════════════════════ */
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap');
 
+/* ── RAW PALETTE ──────────────────────────────────────────────── */
 :root {
-  /* Brand palette */
-  --ink:          #1a1208;
-  --parchment:    #f5edd8;
-  --warm:         #e8d8b0;
-  --gold:         #b8860b;
-  --gold-light:   #d4a017;
-  --gold-pale:    #f0e4c0;
-  --rust:         #8b3a0f;
-  --sage:         #4a5e3a;
-  --sage-light:   #6a7e5a;
-  --muted:        #7a6a52;
-  --border:       #d0bc8c;
-  --card:         #fdf6e3;
-  --white:        #ffffff;
-  --shadow:       rgba(26,18,8,0.12);
-  --shadow-md:    rgba(26,18,8,0.18);
+  /* Warm neutrals */
+  --raw-parchment-50:  #fdf8f0;
+  --raw-parchment-100: #f5edd8;
+  --raw-parchment-200: #e8d8b0;
+  --raw-parchment-300: #d8c48a;
+  --raw-brown-600:     #7a6a52;
+  --raw-brown-700:     #5a4a32;
+  --raw-brown-800:     #3a2a12;
+  --raw-brown-900:     #1a1208;
 
-  /* UI */
-  --radius-sm:    4px;
-  --radius-md:    8px;
-  --radius-lg:    12px;
-  --sidebar-w:    280px;
-  --header-h:     72px;
+  /* Dark neutrals */
+  --raw-dark-950: #0f0f14;
+  --raw-dark-900: #16161f;
+  --raw-dark-800: #1e1e2a;
+  --raw-dark-700: #262636;
+  --raw-dark-600: #32324a;
+  --raw-dark-500: #44445e;
+  --raw-dark-400: #6a6a8a;
+  --raw-dark-300: #9898b8;
+  --raw-dark-200: #c4c4d8;
+  --raw-dark-100: #e8e8f0;
 
-  /* Typography */
-  --font-serif:   'Playfair Display', Georgia, serif;
-  --font-body:    'Crimson Pro', Georgia, serif;
-  --font-ui:      'Inter', system-ui, sans-serif;
+  /* Gold */
+  --raw-gold-300: #f0d070;
+  --raw-gold-400: #d4a017;
+  --raw-gold-500: #b8860b;
+  --raw-gold-600: #9a6e00;
+
+  /* Rust */
+  --raw-rust-300: #e07858;
+  --raw-rust-500: #8b3a0f;
+
+  /* Sage */
+  --raw-sage-300: #7aaa6a;
+  --raw-sage-500: #4a5e3a;
+
+  /* Structural */
+  --radius-xs:   3px;
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   16px;
+  --radius-full: 9999px;
+  --sidebar-w:   280px;
+  --header-h:    68px;
+  --font-serif:  'Playfair Display', Georgia, serif;
+  --font-body:   'Crimson Pro', Georgia, serif;
+  --font-ui:     'Inter', system-ui, sans-serif;
+  --transition-fast: 0.12s ease;
+  --transition-base: 0.2s ease;
+  --transition-slow: 0.35s ease;
 }
 
+/* ── LIGHT MODE (default) ─────────────────────────────────────── */
+:root,
+[data-theme="light"] {
+  --color-bg:              var(--raw-parchment-100);
+  --color-surface:         var(--raw-parchment-50);
+  --color-surface-raised:  #ffffff;
+  --color-surface-sunken:  var(--raw-parchment-200);
+  --color-surface-overlay: rgba(26,18,8,0.65);
+
+  --color-border:          var(--raw-parchment-300);
+  --color-border-subtle:   var(--raw-parchment-200);
+
+  --color-text-primary:    var(--raw-brown-900);
+  --color-text-secondary:  var(--raw-brown-700);
+  --color-text-muted:      var(--raw-brown-600);
+  --color-text-placeholder:#aaa;
+  --color-text-inverse:    var(--raw-parchment-50);
+
+  --color-gold:            var(--raw-gold-500);
+  --color-gold-light:      var(--raw-gold-400);
+  --color-gold-subtle:     #f5e8c0;
+  --color-gold-text:       var(--raw-gold-600);
+
+  --color-rust:            var(--raw-rust-500);
+  --color-rust-subtle:     #fde8de;
+
+  --color-sage:            var(--raw-sage-500);
+  --color-sage-subtle:     #ddeaD8;
+
+  --color-header-bg:       var(--raw-brown-900);
+  --color-header-text:     var(--raw-parchment-100);
+  --color-header-muted:    var(--raw-parchment-300);
+  --color-header-border:   var(--raw-gold-500);
+
+  --color-hover:           rgba(184,134,11,0.08);
+  --color-focus-ring:      rgba(184,134,11,0.25);
+
+  --shadow-sm:   0 1px 3px rgba(26,18,8,0.08);
+  --shadow-md:   0 4px 12px rgba(26,18,8,0.10);
+  --shadow-lg:   0 10px 30px rgba(26,18,8,0.14);
+  --shadow-card: 0 2px 8px rgba(26,18,8,0.07);
+}
+
+/* ── DARK MODE (system preference) ───────────────────────────── */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg:              var(--raw-dark-950);
+    --color-surface:         var(--raw-dark-900);
+    --color-surface-raised:  var(--raw-dark-800);
+    --color-surface-sunken:  var(--raw-dark-700);
+    --color-surface-overlay: rgba(0,0,0,0.75);
+
+    --color-border:          var(--raw-dark-600);
+    --color-border-subtle:   var(--raw-dark-700);
+
+    --color-text-primary:    var(--raw-dark-100);
+    --color-text-secondary:  var(--raw-dark-200);
+    --color-text-muted:      var(--raw-dark-300);
+    --color-text-placeholder:var(--raw-dark-400);
+    --color-text-inverse:    var(--raw-brown-900);
+
+    --color-gold:            var(--raw-gold-400);
+    --color-gold-light:      var(--raw-gold-300);
+    --color-gold-subtle:     rgba(212,160,23,0.12);
+    --color-gold-text:       var(--raw-gold-300);
+
+    --color-rust:            var(--raw-rust-300);
+    --color-rust-subtle:     rgba(224,120,88,0.12);
+
+    --color-sage:            var(--raw-sage-300);
+    --color-sage-subtle:     rgba(122,170,106,0.15);
+
+    --color-hover:           rgba(212,160,23,0.10);
+    --color-focus-ring:      rgba(212,160,23,0.30);
+
+    --shadow-sm:   0 1px 3px rgba(0,0,0,0.30);
+    --shadow-md:   0 4px 12px rgba(0,0,0,0.40);
+    --shadow-lg:   0 10px 30px rgba(0,0,0,0.50);
+    --shadow-card: 0 2px 8px rgba(0,0,0,0.25);
+  }
+}
+
+/* ── DARK MODE (manual toggle) ────────────────────────────────── */
+[data-theme="dark"] {
+  --color-bg:              var(--raw-dark-950);
+  --color-surface:         var(--raw-dark-900);
+  --color-surface-raised:  var(--raw-dark-800);
+  --color-surface-sunken:  var(--raw-dark-700);
+  --color-surface-overlay: rgba(0,0,0,0.75);
+
+  --color-border:          var(--raw-dark-600);
+  --color-border-subtle:   var(--raw-dark-700);
+
+  --color-text-primary:    var(--raw-dark-100);
+  --color-text-secondary:  var(--raw-dark-200);
+  --color-text-muted:      var(--raw-dark-300);
+  --color-text-placeholder:var(--raw-dark-400);
+  --color-text-inverse:    var(--raw-brown-900);
+
+  --color-gold:            var(--raw-gold-400);
+  --color-gold-light:      var(--raw-gold-300);
+  --color-gold-subtle:     rgba(212,160,23,0.12);
+  --color-gold-text:       var(--raw-gold-300);
+
+  --color-rust:            var(--raw-rust-300);
+  --color-rust-subtle:     rgba(224,120,88,0.12);
+
+  --color-sage:            var(--raw-sage-300);
+  --color-sage-subtle:     rgba(122,170,106,0.15);
+
+  --color-hover:           rgba(212,160,23,0.10);
+  --color-focus-ring:      rgba(212,160,23,0.30);
+
+  --shadow-sm:   0 1px 3px rgba(0,0,0,0.30);
+  --shadow-md:   0 4px 12px rgba(0,0,0,0.40);
+  --shadow-lg:   0 10px 30px rgba(0,0,0,0.50);
+  --shadow-card: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+/* ── RESET & BASE ─────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { font-size: 16px; scroll-behavior: smooth; }
+html { font-size: 16px; scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
 body {
   font-family: var(--font-body);
-  background: var(--parchment);
-  color: var(--ink);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
   min-height: 100vh;
-  line-height: 1.6;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  transition: background-color var(--transition-slow), color var(--transition-slow);
 }
 
-/* ── Typography ─────────────────────────────────────────────── */
-h1, h2, h3, h4 { font-family: var(--font-serif); line-height: 1.2; }
-h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); }
-h2 { font-size: clamp(1.4rem, 3vw, 2rem); }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.05rem; }
+/* ── TYPOGRAPHY ───────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  line-height: 1.2;
+  color: var(--color-text-primary);
+  letter-spacing: -0.01em;
+}
+h1 { font-size: clamp(1.75rem, 4vw, 2.75rem); font-weight: 700; }
+h2 { font-size: clamp(1.35rem, 3vw, 1.9rem);  font-weight: 600; }
+h3 { font-size: 1.25rem; font-weight: 600; }
+h4 { font-size: 1.05rem; font-weight: 600; }
 
-p { line-height: 1.7; }
-a { color: var(--gold); text-decoration: none; }
-a:hover { color: var(--rust); }
+p { line-height: 1.75; color: var(--color-text-secondary); }
 
-/* ── Scrollbars ─────────────────────────────────────────────── */
+a { color: var(--color-gold); text-decoration: none; transition: color var(--transition-fast); }
+a:hover { color: var(--color-rust); }
+
+strong { font-weight: 600; color: var(--color-text-primary); }
+
+/* ── SCROLLBARS ───────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: var(--radius-full); }
+::-webkit-scrollbar-thumb:hover { background: var(--color-text-muted); }
 
-/* ── Utilities ──────────────────────────────────────────────── */
+/* ── FOCUS ────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}
+
+/* ── SELECTION ────────────────────────────────────────────────── */
+::selection { background: var(--color-gold-subtle); color: var(--color-text-primary); }
+
+/* ── BUTTONS ──────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-primary {
+  background: var(--color-text-primary);
+  color: var(--color-bg);
+  border-color: var(--color-text-primary);
+}
+.btn-primary:hover:not(:disabled) {
+  background: var(--color-rust);
+  border-color: var(--color-rust);
+  color: white;
+}
+
+.btn-secondary {
+  background: var(--color-surface-raised);
+  color: var(--color-text-primary);
+  border-color: var(--color-border);
+}
+.btn-secondary:hover:not(:disabled) {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+  background: var(--color-hover);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-text-muted);
+  border-color: transparent;
+}
+.btn-ghost:hover:not(:disabled) {
+  color: var(--color-text-primary);
+  background: var(--color-hover);
+}
+
+.btn-gold {
+  background: var(--color-gold);
+  color: white;
+  border-color: var(--color-gold);
+}
+.btn-gold:hover:not(:disabled) {
+  background: var(--color-gold-light);
+  border-color: var(--color-gold-light);
+}
+
+/* ── INPUTS ───────────────────────────────────────────────────── */
+.input {
+  width: 100%;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-raised);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--color-text-primary);
+  outline: none;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  line-height: 1.5;
+}
+.input:focus {
+  border-color: var(--color-gold);
+  box-shadow: 0 0 0 3px var(--color-focus-ring);
+}
+.input::placeholder { color: var(--color-text-placeholder); }
+
+/* ── TAGS ─────────────────────────────────────────────────────── */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.6rem;
+  border-radius: var(--radius-full);
+  font-size: 0.78rem;
+  font-family: var(--font-ui);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-sunken);
+  color: var(--color-text-muted);
+  transition: all var(--transition-fast);
+}
+.tag-gold   { background: var(--color-gold); color: white; border-color: var(--color-gold); }
+.tag-sage   { background: var(--color-sage); color: white; border-color: var(--color-sage); }
+.tag-rust   { background: var(--color-rust); color: white; border-color: var(--color-rust); }
+
+/* ── BADGES ───────────────────────────────────────────────────── */
+.badge {
+  display: inline-block;
+  padding: 0.14rem 0.55rem;
+  border-radius: var(--radius-xs);
+  font-size: 0.72rem;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+}
+.badge-hawley {
+  background: var(--color-sage-subtle);
+  color: var(--color-sage);
+  border: 1px solid var(--color-sage);
+}
+.badge-other {
+  background: var(--color-surface-sunken);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}
+
+/* ── CARD ─────────────────────────────────────────────────────── */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-card);
+}
+
+/* ── DIVIDER ──────────────────────────────────────────────────── */
+.divider { border: none; border-top: 1px solid var(--color-border); margin: 1.5rem 0; }
+
+/* ── UTILITIES ────────────────────────────────────────────────── */
 .sr-only {
   position: absolute; width: 1px; height: 1px;
   padding: 0; margin: -1px; overflow: hidden;
   clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
+.truncate-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.truncate-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.text-muted     { color: var(--color-text-muted); }
+.text-secondary { color: var(--color-text-secondary); }
+.text-gold      { color: var(--color-gold); }
+.text-rust      { color: var(--color-rust); }
 
-.truncate-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.truncate-3 {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* ── Print styles ────────────────────────────────────────────── */
+/* ── PRINT ────────────────────────────────────────────────────── */
 @media print {
-  body { background: white; color: black; font-size: 12pt; }
+  body { background: white; color: black; font-size: 11pt; }
   .no-print { display: none !important; }
   .print-only { display: block !important; }
   a { color: black; }

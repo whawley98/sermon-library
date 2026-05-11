@@ -1,13 +1,13 @@
 /* src/components/Header.css */
 .header {
   height: var(--header-h);
-  background: var(--ink);
-  color: var(--parchment);
+  background: var(--color-text-primary);
+  color: var(--color-bg);
   display: flex;
   align-items: center;
   padding: 0 1.5rem;
   gap: 1.5rem;
-  border-bottom: 3px solid var(--gold);
+  border-bottom: 3px solid var(--color-gold);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -23,7 +23,7 @@
 .menu-btn {
   background: none;
   border: none;
-  color: var(--parchment);
+  color: var(--color-bg);
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.25rem 0.4rem;
@@ -34,7 +34,7 @@
 .menu-btn:hover { background: rgba(255,255,255,0.1); }
 
 .brand-icon {
-  color: var(--gold-light);
+  color: var(--color-gold-light);
   font-size: 1.4rem;
 }
 
@@ -43,12 +43,12 @@
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.1;
-  color: var(--parchment);
+  color: var(--color-bg);
 }
 
 .brand-sub {
   font-size: 0.72rem;
-  color: var(--gold-light);
+  color: var(--color-gold-light);
   font-style: italic;
   line-height: 1;
 }
@@ -70,8 +70,8 @@
   text-decoration: none;
   transition: all 0.15s;
 }
-.nav-link:hover { background: rgba(255,255,255,0.08); color: var(--parchment); }
-.nav-link.active { background: rgba(184,134,11,0.25); color: var(--gold-light); }
+.nav-link:hover { background: rgba(255,255,255,0.08); color: var(--color-bg); }
+.nav-link.active { background: rgba(184,134,11,0.25); color: var(--color-gold-light); }
 
 .header-right {
   flex-shrink: 0;
@@ -82,15 +82,38 @@
   background: rgba(255,255,255,0.1);
   border: 1px solid rgba(255,255,255,0.2);
   border-radius: var(--radius-sm);
-  color: var(--parchment);
+  color: var(--color-bg);
   font-family: var(--font-ui);
   font-size: 0.85rem;
   cursor: pointer;
   outline: none;
 }
-.pastor-select option { background: var(--ink); }
+.pastor-select option { background: var(--color-text-primary); }
 
 @media (max-width: 600px) {
   .header-nav .nav-link span { display: none; }
   .brand-sub { display: none; }
+}
+
+/* Theme toggle */
+.theme-btn {
+  background: none;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 0.3rem 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  line-height: 1;
+  color: var(--color-header-text);
+}
+.theme-btn:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.3);
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
 }

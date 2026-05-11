@@ -3,7 +3,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
-export default function Header({ pastors, activePastor, onPastorChange, onMenuToggle }) {
+export default function Header({ pastors, activePastor, onPastorChange, onMenuToggle, theme, onThemeToggle }) {
   return (
     <header className="header no-print">
       <div className="header-left">
@@ -48,6 +48,15 @@ export default function Header({ pastors, activePastor, onPastorChange, onMenuTo
             ))}
           </select>
         )}
+
+        <button
+          className="theme-btn"
+          onClick={onThemeToggle}
+          aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+          title={theme === "dark" ? "Light mode" : "Dark mode"}
+        >
+          {theme === "dark" ? "☀️" : "🌙"}
+        </button>
       </div>
     </header>
   );
