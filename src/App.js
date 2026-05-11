@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { getPastors } from "./lib/firebase";
 import { useTheme } from "./hooks/useTheme";
 import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
 import LibraryPage from "./pages/LibraryPage";
 import SermonPage from "./pages/SermonPage";
 import AskPage from "./pages/AskPage";
@@ -15,7 +14,6 @@ import "./App.css";
 export default function App() {
   const [pastors, setPastors]           = useState([]);
   const [activePastor, setActivePastor] = useState(null);
-  const [sidebarOpen, setSidebarOpen]   = useState(false);
   const [loading, setLoading]           = useState(true);
   const [error, setError]               = useState(null);
   const { theme, toggle: toggleTheme }  = useTheme();
@@ -30,7 +28,6 @@ export default function App() {
       .finally(() => setLoading(false));
   }, []);
 
-  // Always render the shell so header + toggle are always visible
   return (
     <BrowserRouter>
       <div className="app-shell">
@@ -38,7 +35,6 @@ export default function App() {
           pastors={pastors}
           activePastor={activePastor}
           onPastorChange={setActivePastor}
-          onMenuToggle={() => setSidebarOpen(o => !o)}
           theme={theme}
           onThemeToggle={toggleTheme}
         />
@@ -56,9 +52,6 @@ export default function App() {
             <div style={{ textAlign: "center", maxWidth: 400 }}>
               <h2 style={{ marginBottom: "0.5rem" }}>Connection Error</h2>
               <p>{error}</p>
-              <p style={{ marginTop: "1rem", fontSize: "0.9rem", color: "var(--color-text-muted)" }}>
-                Check your Firebase configuration and internet connection.
-              </p>
             </div>
           </div>
 
@@ -72,22 +65,15 @@ export default function App() {
           </div>
 
         ) : (
-          <div className="app-body">
-            <Sidebar
-              open={sidebarOpen}
-              onClose={() => setSidebarOpen(false)}
-              activePastor={activePastor}
-            />
-            <main className="app-main">
-              <Routes>
-                <Route path="/"           element={<Navigate to="/library" replace />} />
-                <Route path="/library"    element={<LibraryPage pastor={activePastor} />} />
-                <Route path="/sermon/:id" element={<SermonPage pastor={activePastor} />} />
-                <Route path="/ask"        element={<AskPage pastor={activePastor} />} />
-                <Route path="/stats"      element={<StatsPage pastor={activePastor} />} />
-              </Routes>
-            </main>
-          </div>
+          <main className="app-main">
+            <Routes>
+              <Route path="/"           element={<Navigate to="/library" replace />} />
+              <Route path="/library"    element={<LibraryPage pastor={activePastor} />} />
+              <Route path="/sermon/:id" element={<SermonPage pastor={activePastor} />} />
+              <Route path="/ask"        element={<AskPage pastor={activePastor} />} />
+              <Route path="/stats"      element={<StatsPage pastor={activePastor} />} />
+            </Routes>
+          </main>
         )}
       </div>
     </BrowserRouter>

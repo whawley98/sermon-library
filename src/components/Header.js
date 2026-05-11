@@ -3,20 +3,15 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
-export default function Header({ pastors, activePastor, onPastorChange, onMenuToggle, theme, onThemeToggle }) {
+export default function Header({ pastors, activePastor, onPastorChange, theme, onThemeToggle }) {
   return (
     <header className="header no-print">
       <div className="header-left">
-        <button className="menu-btn" onClick={onMenuToggle} aria-label="Toggle filters">
-          ☰
-        </button>
         <div className="header-brand">
           <span className="brand-icon">✦</span>
           <div>
             <div className="brand-title">Sermon Library</div>
-            {activePastor && (
-              <div className="brand-sub">{activePastor.name}</div>
-            )}
+            {activePastor && <div className="brand-sub">{activePastor.name}</div>}
           </div>
         </div>
       </div>
@@ -43,12 +38,9 @@ export default function Header({ pastors, activePastor, onPastorChange, onMenuTo
               if (p) onPastorChange(p);
             }}
           >
-            {pastors.map((p) => (
-              <option key={p.id} value={p.id}>{p.name}</option>
-            ))}
+            {pastors.map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
           </select>
         )}
-
         <button
           className="theme-btn"
           onClick={onThemeToggle}
