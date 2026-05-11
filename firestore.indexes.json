@@ -1,0 +1,56 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "sermons",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "pastor_id",  "order": "ASCENDING" },
+        { "fieldPath": "title",      "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "sermons",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "pastor_id",  "order": "ASCENDING" },
+        { "fieldPath": "keywords",   "arrayConfig": "CONTAINS" },
+        { "fieldPath": "title",      "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "sermons",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "pastor_id",   "order": "ASCENDING" },
+        { "fieldPath": "bible_books", "arrayConfig": "CONTAINS" },
+        { "fieldPath": "title",       "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "sermons",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "pastor_id",   "order": "ASCENDING" },
+        { "fieldPath": "title_lower", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "sermons",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "pastor_id", "order": "ASCENDING" },
+        { "fieldPath": "author",    "order": "ASCENDING" },
+        { "fieldPath": "title",     "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "sermons",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "pastor_id", "order": "ASCENDING" },
+        { "fieldPath": "date",      "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

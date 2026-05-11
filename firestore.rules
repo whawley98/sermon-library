@@ -1,0 +1,39 @@
+// firestore.rules
+// ─────────────────────────────────────────────────────────────
+// Sermon Library — Firestore Security Rules
+//
+// Philosophy: This is a read-only public library.
+// No authentication needed. Nobody can write from the browser.
+// All writes happen via the Python ingestion script using
+// the Firebase Admin SDK (service account), which bypasses
+// these rules entirely.
+// ─────────────────────────────────────────────────────────────
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Pastors — public read, no write
+    match /pastors/{pastorId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Sermons — public read, no write
+    match /sermons/{sermonId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Stats — public read, no write
+    match /stats/{statId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Everything else — deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
