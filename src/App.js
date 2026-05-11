@@ -30,10 +30,7 @@ export default function App() {
       .finally(() => setLoading(false));
   }, []);
 
-  if (loading) return <LoadingScreen />;
-  if (error)   return <ErrorScreen message={error} />;
-  if (!pastors.length) return <EmptyScreen />;
-
+  // Always render the shell so header + toggle are always visible
   return (
     <BrowserRouter>
       <div className="app-shell">
@@ -45,63 +42,54 @@ export default function App() {
           theme={theme}
           onThemeToggle={toggleTheme}
         />
-        <div className="app-body">
-          <Sidebar
-            open={sidebarOpen}
-            onClose={() => setSidebarOpen(false)}
-            activePastor={activePastor}
-          />
-          <main className="app-main">
-            <Routes>
-              <Route path="/"           element={<Navigate to="/library" replace />} />
-              <Route path="/library"    element={<LibraryPage pastor={activePastor} />} />
-              <Route path="/sermon/:id" element={<SermonPage pastor={activePastor} />} />
-              <Route path="/ask"        element={<AskPage pastor={activePastor} />} />
-              <Route path="/stats"      element={<StatsPage pastor={activePastor} />} />
-            </Routes>
-          </main>
-        </div>
+
+        {loading ? (
+          <div className="fullscreen-center">
+            <div className="spinner" />
+            <p style={{ marginTop: "1rem", fontFamily: "var(--font-serif)", fontSize: "1.2rem", color: "var(--color-text-muted)" }}>
+              Loading the collection…
+            </p>
+          </div>
+
+        ) : error ? (
+          <div className="fullscreen-center">
+            <div style={{ textAlign: "center", maxWidth: 400 }}>
+              <h2 style={{ marginBottom: "0.5rem" }}>Connection Error</h2>
+              <p>{error}</p>
+              <p style={{ marginTop: "1rem", fontSize: "0.9rem", color: "var(--color-text-muted)" }}>
+                Check your Firebase configuration and internet connection.
+              </p>
+            </div>
+          </div>
+
+        ) : !pastors.length ? (
+          <div className="fullscreen-center">
+            <div style={{ textAlign: "center", maxWidth: 500 }}>
+              <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>📖</div>
+              <h2 style={{ marginBottom: "0.5rem" }}>No Collections Yet</h2>
+              <p>Run the Python ingestion script to load sermons into the database, then refresh this page.</p>
+            </div>
+          </div>
+
+        ) : (
+          <div className="app-body">
+            <Sidebar
+              open={sidebarOpen}
+              onClose={() => setSidebarOpen(false)}
+              activePastor={activePastor}
+            />
+            <main className="app-main">
+              <Routes>
+                <Route path="/"           element={<Navigate to="/library" replace />} />
+                <Route path="/library"    element={<LibraryPage pastor={activePastor} />} />
+                <Route path="/sermon/:id" element={<SermonPage pastor={activePastor} />} />
+                <Route path="/ask"        element={<AskPage pastor={activePastor} />} />
+                <Route path="/stats"      element={<StatsPage pastor={activePastor} />} />
+              </Routes>
+            </main>
+          </div>
+        )}
       </div>
     </BrowserRouter>
-  );
-}
-
-function LoadingScreen() {
-  return (
-    <div className="fullscreen-center">
-      <div className="spinner" />
-      <p style={{ marginTop: "1rem", fontFamily: "var(--font-serif)", fontSize: "1.2rem", color: "var(--color-text-muted)" }}>
-        Loading the collection…
-      </p>
-    </div>
-  );
-}
-
-function ErrorScreen({ message }) {
-  return (
-    <div className="fullscreen-center">
-      <div style={{ textAlign: "center", maxWidth: 400 }}>
-        <h2 style={{ marginBottom: "0.5rem" }}>Connection Error</h2>
-        <p>{message}</p>
-        <p style={{ marginTop: "1rem", fontSize: "0.9rem", color: "var(--color-text-muted)" }}>
-          Check your Firebase configuration and internet connection.
-        </p>
-      </div>
-    </div>
-  );
-}
-
-function EmptyScreen() {
-  return (
-    <div className="fullscreen-center">
-      <div style={{ textAlign: "center", maxWidth: 500 }}>
-        <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>📖</div>
-        <h2 style={{ marginBottom: "0.5rem" }}>No Collections Yet</h2>
-        <p>
-          Run the Python ingestion script to load sermons into the database,
-          then refresh this page.
-        </p>
-      </div>
-    </div>
   );
 }
