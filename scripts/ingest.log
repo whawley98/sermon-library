@@ -1,0 +1,633 @@
+2026-05-11 10:16:37  INFO      Initializing Firebase...
+2026-05-11 10:16:38  INFO      Initializing Anthropic...
+2026-05-11 10:16:38  INFO      Connecting to Microsoft 365...
+2026-05-11 10:17:47  INFO      Microsoft login successful
+2026-05-11 10:20:22  INFO      Initializing Firebase...
+2026-05-11 10:20:22  INFO      Initializing Anthropic...
+2026-05-11 10:20:22  INFO      Connecting to Microsoft 365...
+2026-05-11 10:21:19  INFO      Microsoft login successful
+2026-05-11 10:24:38  INFO      Initializing Firebase...
+2026-05-11 10:24:38  INFO      Initializing Anthropic...
+2026-05-11 10:24:38  INFO      Connecting to Microsoft 365...
+2026-05-11 10:25:23  INFO      Microsoft login successful
+2026-05-11 10:25:24  INFO      Created pastor document: William Hawley (id: 0KVJuFbgSuQT9Nc6xs7a)
+2026-05-11 10:25:24  INFO      Pastor ID: 0KVJuFbgSuQT9Nc6xs7a
+2026-05-11 10:25:24  INFO      Finding OneDrive folder: Dad's Files/Sermons1
+2026-05-11 10:25:25  INFO      Found: Sermons1 (id: 01PWFTMMZDODV32GLGTRDKRJLXQLHPA7TO)
+2026-05-11 10:25:25  INFO      Scanning files...
+2026-05-11 10:25:27  INFO      📁 Billy Sunday
+2026-05-11 10:25:27  INFO      📁 Browning
+2026-05-11 10:25:29  INFO      📁 Chapman
+2026-05-11 10:25:30  INFO      📁 FBIS - Cloud
+2026-05-11 10:25:31  INFO      📁 Franklin Sermons
+2026-05-11 10:25:33  INFO      📁 Hughes
+2026-05-11 10:25:34  INFO      ⏭  Skipping: Illustrations
+2026-05-11 10:25:34  INFO      📁 Johnston
+2026-05-11 10:25:35  INFO      Found 1040 sermon files
+2026-05-11 10:25:37  WARNING   API error attempt 1 for Atonement Through the Blood of Jesus.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwDiFohvsKhVvshCHeq'}
+2026-05-11 10:25:39  WARNING   API error attempt 2 for Atonement Through the Blood of Jesus.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwDtEpoUWpK2SLvPWZ3'}
+2026-05-11 10:25:44  WARNING   API error attempt 3 for Atonement Through the Blood of Jesus.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwECZ9njHH6FCWRSCnR'}
+2026-05-11 10:25:51  WARNING   API error attempt 1 for Broken Down Altars.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwEmS5HXGhGcg9YYbxs'}
+2026-05-11 10:25:54  WARNING   API error attempt 2 for Broken Down Altars.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwEw8ESoUX4UWRkbYtH'}
+2026-05-11 10:25:58  WARNING   API error attempt 3 for Broken Down Altars.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwFFSomGT4cBacKmgVh'}
+2026-05-11 10:26:06  WARNING   API error attempt 1 for Old Time Religion.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwFrYBZdBFtEZnXar75'}
+2026-05-11 10:26:08  WARNING   API error attempt 2 for Old Time Religion.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwG2EbXisULykz9QjR4'}
+2026-05-11 10:26:13  WARNING   API error attempt 3 for Old Time Religion.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwGLed3H6pVk32GPpyQ'}
+2026-05-11 10:26:21  WARNING   API error attempt 1 for A Case Of Mistaken Identity.doc: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwGw5onY3pnuaqegjJM'}
+2026-05-11 10:26:23  WARNING   API error attempt 2 for A Case Of Mistaken Identity.doc: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwH7c5Yh6sXTFu77k9r'}
+2026-05-11 10:26:27  WARNING   API error attempt 3 for A Case Of Mistaken Identity.doc: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwHRtAwbACJXy2tHhFM'}
+2026-05-11 10:26:35  WARNING   API error attempt 1 for A Friend of God.doc: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwJ1SXEHaLB9NtHseUp'}
+2026-05-11 10:30:50  INFO      Initializing Firebase...
+2026-05-11 10:30:50  INFO      Initializing Anthropic...
+2026-05-11 10:30:50  INFO      Connecting to Microsoft 365...
+2026-05-11 10:31:37  INFO      Microsoft login successful
+2026-05-11 10:31:38  INFO      Pastor ID: 0KVJuFbgSuQT9Nc6xs7a
+2026-05-11 10:31:38  INFO      Finding OneDrive folder: Dad's Files/Sermons1
+2026-05-11 10:31:39  INFO      Found: Sermons1 (id: 01PWFTMMZDODV32GLGTRDKRJLXQLHPA7TO)
+2026-05-11 10:31:39  INFO      Scanning files...
+2026-05-11 10:31:41  INFO      📁 Billy Sunday
+2026-05-11 10:31:41  INFO      📁 Browning
+2026-05-11 10:31:43  INFO      📁 Chapman
+2026-05-11 10:31:44  INFO      📁 FBIS - Cloud
+2026-05-11 10:31:44  INFO      📁 Franklin Sermons
+2026-05-11 10:31:47  INFO      📁 Hughes
+2026-05-11 10:31:48  INFO      ⏭  Skipping: Illustrations
+2026-05-11 10:31:48  INFO      📁 Johnston
+2026-05-11 10:31:49  INFO      Found 1040 sermon files
+2026-05-11 10:31:49  INFO      Resuming: 1040 files remaining
+2026-05-11 10:31:51  WARNING   API error attempt 1 for Atonement Through the Blood of Jesus.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwhFn88twY566Gruzqh'}
+2026-05-11 10:31:53  WARNING   API error attempt 2 for Atonement Through the Blood of Jesus.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwhRT3SM23nwM44MwMf'}
+2026-05-11 10:31:57  WARNING   API error attempt 3 for Atonement Through the Blood of Jesus.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cavwhk9gbNmV2Tqqyz67p'}
+2026-05-11 10:32:05  WARNING   API error attempt 1 for Broken Down Altars.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwiKmGWP6eQQn8KYSWb'}
+2026-05-11 10:32:07  WARNING   API error attempt 2 for Broken Down Altars.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwiVZsQETpknxExgQ8A'}
+2026-05-11 10:32:12  WARNING   API error attempt 3 for Broken Down Altars.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwiooV1GKw8eie5i6yX'}
+2026-05-11 10:32:20  WARNING   API error attempt 1 for Old Time Religion.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwjRrATGszFjnPP6uaA'}
+2026-05-11 10:32:22  WARNING   API error attempt 2 for Old Time Religion.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cavwjbjj1RhkrxGqwJ81n'}
+2026-05-11 10:32:27  WARNING   API error attempt 3 for Old Time Religion.docx: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CavwjuybC65Lxkd2rHMir'}
+2026-05-11 10:37:21  INFO      Initializing Firebase...
+2026-05-11 10:37:21  INFO      Initializing Anthropic...
+2026-05-11 10:37:21  INFO      Connecting to Microsoft 365...
+2026-05-11 10:38:01  INFO      Microsoft login successful
+2026-05-11 10:38:01  INFO      Pastor ID: 0KVJuFbgSuQT9Nc6xs7a
+2026-05-11 10:38:01  INFO      Finding OneDrive folder: Dad's Files/Sermons1
+2026-05-11 10:38:02  INFO      Found: Sermons1 (id: 01PWFTMMZDODV32GLGTRDKRJLXQLHPA7TO)
+2026-05-11 10:38:02  INFO      Scanning files...
+2026-05-11 10:38:04  INFO      📁 Billy Sunday
+2026-05-11 10:38:05  INFO      📁 Browning
+2026-05-11 10:38:07  INFO      📁 Chapman
+2026-05-11 10:38:08  INFO      📁 FBIS - Cloud
+2026-05-11 10:38:08  INFO      📁 Franklin Sermons
+2026-05-11 10:38:11  INFO      📁 Hughes
+2026-05-11 10:38:12  INFO      ⏭  Skipping: Illustrations
+2026-05-11 10:38:12  INFO      📁 Johnston
+2026-05-11 10:38:13  INFO      Found 1040 sermon files
+2026-05-11 10:38:13  INFO      Resuming: 1040 files remaining
+2026-05-11 10:38:40  WARNING   JSON parse error attempt 1 for Atonement Through the Blood of Jesus.docx: Unterminated string starting at: line 55 column 22 (char 1900)
+2026-05-11 10:39:06  WARNING   JSON parse error attempt 2 for Atonement Through the Blood of Jesus.docx: Unterminated string starting at: line 56 column 22 (char 1996)
+2026-05-11 10:39:33  WARNING   JSON parse error attempt 3 for Atonement Through the Blood of Jesus.docx: Unterminated string starting at: line 56 column 22 (char 2106)
+2026-05-11 10:40:04  WARNING   JSON parse error attempt 1 for Broken Down Altars.docx: Unterminated string starting at: line 56 column 22 (char 2012)
+2026-05-11 10:40:31  WARNING   JSON parse error attempt 2 for Broken Down Altars.docx: Unterminated string starting at: line 62 column 22 (char 1994)
+2026-05-11 10:40:59  WARNING   JSON parse error attempt 3 for Broken Down Altars.docx: Unterminated string starting at: line 63 column 22 (char 2163)
+2026-05-11 10:57:14  INFO      Initializing Firebase...
+2026-05-11 10:57:14  INFO      Initializing Anthropic...
+2026-05-11 10:57:15  INFO      Pastor ID: 0KVJuFbgSuQT9Nc6xs7a
+2026-05-11 10:57:15  INFO      Using local folder: C:\Users\WilliamHawley\OneDrive - Juhls\Dad's Files\Sermons1
+2026-05-11 10:57:15  INFO      📁 Billy Sunday
+2026-05-11 10:57:15  INFO      📁 Browning
+2026-05-11 10:57:15  INFO      📁 Chapman
+2026-05-11 10:57:15  INFO      📁 FBIS - Cloud
+2026-05-11 10:57:15  INFO      📁 Franklin Sermons
+2026-05-11 10:57:15  INFO      📁 Hughes
+2026-05-11 10:57:15  INFO      ⏭  Skipping: Illustrations
+2026-05-11 10:57:15  INFO      📁 Johnston
+2026-05-11 10:57:15  INFO      Found 1041 sermon files (local)
+2026-05-11 10:57:38  WARNING   JSON parse error attempt 1 for 12 OClock.doc: Unterminated string starting at: line 117 column 18 (char 3559)
+2026-05-11 10:57:47  WARNING   JSON parse error attempt 2 for 12 OClock.doc: Unterminated string starting at: line 123 column 20 (char 3486)
+2026-05-11 10:57:56  WARNING   JSON parse error attempt 3 for 12 OClock.doc: Expecting ',' delimiter: line 120 column 72 (char 3577)
+2026-05-11 10:58:57  WARNING   JSON parse error attempt 1 for A DAILY DISCIPLINE.doc: Unterminated string starting at: line 122 column 12 (char 3703)
+2026-05-11 11:07:01  INFO      Initializing Firebase...
+2026-05-11 11:07:01  INFO      Initializing Anthropic...
+2026-05-11 11:07:02  INFO      Created pastor: William Hawley (id: PsLcoQMFpN3k8GgrMUHW)
+2026-05-11 11:07:02  INFO      Pastor ID: PsLcoQMFpN3k8GgrMUHW
+2026-05-11 11:07:02  INFO      Scanning local files...
+2026-05-11 11:07:02  INFO      Folder: Billy Sunday
+2026-05-11 11:07:02  INFO      Folder: Browning
+2026-05-11 11:07:02  INFO      Folder: Chapman
+2026-05-11 11:07:02  INFO      Folder: FBIS - Cloud
+2026-05-11 11:07:02  INFO      Folder: Franklin Sermons
+2026-05-11 11:07:02  INFO      Folder: Hughes
+2026-05-11 11:07:02  INFO      Skipping: Illustrations
+2026-05-11 11:07:02  INFO      Folder: Johnston
+2026-05-11 11:07:02  INFO      Found 1041 sermon files
+2026-05-11 11:07:22  WARNING   JSON parse error attempt 1 for 12 OClock.doc: Unterminated string starting at: line 116 column 7 (char 3635)
+2026-05-11 11:07:30  WARNING   JSON parse error attempt 2 for 12 OClock.doc: Expecting value: line 120 column 17 (char 3603)
+2026-05-11 11:07:40  WARNING   JSON parse error attempt 3 for 12 OClock.doc: Unterminated string starting at: line 120 column 18 (char 3559)
+2026-05-11 11:08:25  WARNING   JSON parse error attempt 1 for A Case Of Mistaken Identity.doc: Unterminated string starting at: line 122 column 12 (char 3714)
+2026-05-11 11:08:34  WARNING   JSON parse error attempt 2 for A Case Of Mistaken Identity.doc: Unterminated string starting at: line 120 column 23 (char 3716)
+2026-05-11 11:10:00  INFO      Initializing Firebase...
+2026-05-11 11:10:00  INFO      Initializing Anthropic...
+2026-05-11 11:10:01  INFO      Created pastor: William Hawley (id: 3ADVrSEgSuZcKgPOuL0z)
+2026-05-11 11:10:01  INFO      Pastor ID: 3ADVrSEgSuZcKgPOuL0z
+2026-05-11 11:10:01  INFO      Scanning local files...
+2026-05-11 11:10:01  INFO      Folder: Billy Sunday
+2026-05-11 11:10:01  INFO      Folder: Browning
+2026-05-11 11:10:01  INFO      Folder: Chapman
+2026-05-11 11:10:01  INFO      Folder: FBIS - Cloud
+2026-05-11 11:10:01  INFO      Folder: Franklin Sermons
+2026-05-11 11:10:01  INFO      Folder: Hughes
+2026-05-11 11:10:01  INFO      Skipping: Illustrations
+2026-05-11 11:10:01  INFO      Folder: Johnston
+2026-05-11 11:10:01  INFO      Found 1041 sermon files
+2026-05-11 11:10:21  WARNING   JSON parse error attempt 1 for 12 OClock.doc: Unterminated string starting at: line 112 column 7 (char 3639)
+2026-05-11 11:10:29  WARNING   JSON parse error attempt 2 for 12 OClock.doc: Unterminated string starting at: line 112 column 20 (char 3719)
+2026-05-11 11:10:39  WARNING   JSON parse error attempt 3 for 12 OClock.doc: Expecting property name enclosed in double quotes: line 113 column 25 (char 3712)
+2026-05-11 11:10:57  WARNING   JSON parse error attempt 1 for 2 Kings 19.doc: Unterminated string starting at: line 125 column 12 (char 3537)
+2026-05-11 11:18:24  INFO      Initializing Firebase...
+2026-05-11 11:18:24  INFO      Initializing Anthropic...
+2026-05-11 11:18:25  INFO      Created pastor: William Hawley (id: ae3wWQfg7TDoPQpkhI7e)
+2026-05-11 11:18:25  INFO      Pastor ID: ae3wWQfg7TDoPQpkhI7e
+2026-05-11 11:18:25  INFO      Scanning local files...
+2026-05-11 11:18:25  INFO      Folder: Billy Sunday
+2026-05-11 11:18:25  INFO      Folder: Browning
+2026-05-11 11:18:25  INFO      Folder: Chapman
+2026-05-11 11:18:25  INFO      Folder: FBIS - Cloud
+2026-05-11 11:18:25  INFO      Folder: Franklin Sermons
+2026-05-11 11:18:25  INFO      Folder: Hughes
+2026-05-11 11:18:25  INFO      Skipping: Illustrations
+2026-05-11 11:18:25  INFO      Folder: Johnston
+2026-05-11 11:18:25  INFO      Found 1041 sermon files
+2026-05-11 11:18:32  WARNING   API error attempt 1 for 06-Josh 4-Mounments.doc: cannot access local variable 'raw' where it is not associated with a value
+2026-05-11 11:18:40  WARNING   API error attempt 2 for 06-Josh 4-Mounments.doc: cannot access local variable 'raw' where it is not associated with a value
+2026-05-11 11:18:51  WARNING   API error attempt 3 for 06-Josh 4-Mounments.doc: cannot access local variable 'raw' where it is not associated with a value
+2026-05-11 11:20:50  INFO      Initializing Firebase...
+2026-05-11 11:20:50  INFO      Initializing Anthropic...
+2026-05-11 11:20:51  INFO      Created pastor: William Hawley (id: 4uTCrTpL0O9Gi8Xgesnd)
+2026-05-11 11:20:51  INFO      Pastor ID: 4uTCrTpL0O9Gi8Xgesnd
+2026-05-11 11:20:51  INFO      Scanning local files...
+2026-05-11 11:20:51  INFO      Folder: Billy Sunday
+2026-05-11 11:20:51  INFO      Folder: Browning
+2026-05-11 11:20:51  INFO      Folder: Chapman
+2026-05-11 11:20:51  INFO      Folder: FBIS - Cloud
+2026-05-11 11:20:51  INFO      Folder: Franklin Sermons
+2026-05-11 11:20:51  INFO      Folder: Hughes
+2026-05-11 11:20:51  INFO      Skipping: Illustrations
+2026-05-11 11:20:51  INFO      Folder: Johnston
+2026-05-11 11:20:51  INFO      Found 1041 sermon files
+2026-05-11 11:21:10  WARNING   JSON parse error attempt 1 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3672)
+2026-05-11 11:21:18  WARNING   JSON parse error attempt 2 for 12 OClock.doc: Expecting ',' delimiter: line 118 column 6 (char 3577)
+2026-05-11 11:21:27  WARNING   JSON parse error attempt 3 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3474)
+2026-05-11 11:26:43  INFO      Initializing Firebase...
+2026-05-11 11:26:43  INFO      Initializing Anthropic...
+2026-05-11 11:26:44  INFO      Created pastor: William Hawley (id: 6Pr4zp4EXej5tmiuH8HS)
+2026-05-11 11:26:44  INFO      Pastor ID: 6Pr4zp4EXej5tmiuH8HS
+2026-05-11 11:26:44  INFO      Scanning local files...
+2026-05-11 11:26:44  INFO      Folder: Billy Sunday
+2026-05-11 11:26:44  INFO      Folder: Browning
+2026-05-11 11:26:44  INFO      Folder: Chapman
+2026-05-11 11:26:44  INFO      Folder: FBIS - Cloud
+2026-05-11 11:26:44  INFO      Folder: Franklin Sermons
+2026-05-11 11:26:44  INFO      Folder: Hughes
+2026-05-11 11:26:44  INFO      Skipping: Illustrations
+2026-05-11 11:26:44  INFO      Folder: Johnston
+2026-05-11 11:26:44  INFO      Found 1041 sermon files
+2026-05-11 11:27:05  WARNING   JSON parse error attempt 1 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3345)
+2026-05-11 11:27:14  WARNING   JSON parse error attempt 2 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3459)
+2026-05-11 11:27:23  WARNING   JSON parse error attempt 3 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3267)
+2026-05-11 11:32:56  INFO      Initializing Firebase...
+2026-05-11 11:32:56  INFO      Initializing Anthropic...
+2026-05-11 11:32:57  INFO      Created pastor: William Hawley (id: 1Z6liRhhmEh9GSaVSX43)
+2026-05-11 11:32:57  INFO      Pastor ID: 1Z6liRhhmEh9GSaVSX43
+2026-05-11 11:32:57  INFO      Scanning local files...
+2026-05-11 11:32:57  INFO      Folder: Billy Sunday
+2026-05-11 11:32:57  INFO      Folder: Browning
+2026-05-11 11:32:57  INFO      Folder: Chapman
+2026-05-11 11:32:57  INFO      Folder: FBIS - Cloud
+2026-05-11 11:32:57  INFO      Folder: Franklin Sermons
+2026-05-11 11:32:57  INFO      Folder: Hughes
+2026-05-11 11:32:57  INFO      Skipping: Illustrations
+2026-05-11 11:32:57  INFO      Folder: Johnston
+2026-05-11 11:32:57  INFO      Found 1041 sermon files
+2026-05-11 11:33:16  WARNING   JSON parse error attempt 1 for 12 OClock.doc: Expecting ',' delimiter: line 118 column 6 (char 3566)
+2026-05-11 11:33:28  WARNING   JSON parse error attempt 2 for 12 OClock.doc: Expecting ',' delimiter: line 102 column 6 (char 3221)
+2026-05-11 11:33:38  WARNING   JSON parse error attempt 3 for 12 OClock.doc: Expecting ',' delimiter: line 102 column 6 (char 3589)
+2026-05-11 11:35:54  INFO      Initializing Firebase...
+2026-05-11 11:35:54  INFO      Initializing Anthropic...
+2026-05-11 11:35:55  INFO      Created pastor: William Hawley (id: 9oo0pTRt84yfUYrt82Jh)
+2026-05-11 11:35:55  INFO      Pastor ID: 9oo0pTRt84yfUYrt82Jh
+2026-05-11 11:35:55  INFO      Scanning local files...
+2026-05-11 11:35:55  INFO      Folder: Billy Sunday
+2026-05-11 11:35:55  INFO      Folder: Browning
+2026-05-11 11:35:55  INFO      Folder: Chapman
+2026-05-11 11:35:55  INFO      Folder: FBIS - Cloud
+2026-05-11 11:35:55  INFO      Folder: Franklin Sermons
+2026-05-11 11:35:55  INFO      Folder: Hughes
+2026-05-11 11:35:55  INFO      Skipping: Illustrations
+2026-05-11 11:35:55  INFO      Folder: Johnston
+2026-05-11 11:35:55  INFO      Found 1041 sermon files
+2026-05-11 11:36:17  WARNING   JSON parse error attempt 1 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3493)
+2026-05-11 11:36:25  WARNING   JSON parse error attempt 2 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3395)
+2026-05-11 11:36:35  WARNING   JSON parse error attempt 3 for 12 OClock.doc: Expecting ',' delimiter: line 102 column 6 (char 3235)
+2026-05-11 11:37:31  WARNING   JSON parse error attempt 1 for A DAILY DISCIPLINE.doc: Expecting ',' delimiter: line 108 column 6 (char 3366)
+2026-05-11 11:37:39  WARNING   JSON parse error attempt 2 for A DAILY DISCIPLINE.doc: Expecting ',' delimiter: line 108 column 6 (char 3384)
+2026-05-11 11:37:48  WARNING   JSON parse error attempt 3 for A DAILY DISCIPLINE.doc: Expecting ',' delimiter: line 108 column 6 (char 3264)
+2026-05-11 11:41:57  INFO      Wrote 50 sermons to Firestore
+2026-05-11 11:42:15  WARNING   JSON parse error attempt 1 for BEHOLD.doc: Expecting ',' delimiter: line 122 column 6 (char 3398)
+2026-05-11 11:43:33  WARNING   JSON parse error attempt 1 for BITTERNESS.doc: Expecting ',' delimiter: line 109 column 6 (char 3459)
+2026-05-11 11:43:41  WARNING   JSON parse error attempt 2 for BITTERNESS.doc: Expecting ',' delimiter: line 109 column 6 (char 3493)
+2026-05-11 11:43:50  WARNING   JSON parse error attempt 3 for BITTERNESS.doc: Expecting ',' delimiter: line 117 column 6 (char 3593)
+2026-05-11 11:44:14  WARNING   JSON parse error attempt 1 for Bringing In the Sheaves.doc: Expecting ',' delimiter: line 123 column 6 (char 3384)
+2026-05-11 11:44:31  WARNING   JSON parse error attempt 1 for Brotherly Kindness.doc: Expecting ',' delimiter: line 109 column 6 (char 3473)
+2026-05-11 11:59:09  WARNING   JSON parse error attempt 2 for Brotherly Kindness.doc: Expecting ',' delimiter: line 118 column 6 (char 3554)
+2026-05-11 11:59:18  WARNING   JSON parse error attempt 3 for Brotherly Kindness.doc: Expecting ',' delimiter: line 117 column 6 (char 3409)
+2026-05-11 11:59:45  WARNING   JSON parse error attempt 1 for A Friend of God.doc: Expecting ',' delimiter: line 122 column 6 (char 3187)
+2026-05-11 11:59:54  WARNING   JSON parse error attempt 2 for A Friend of God.doc: Expecting ',' delimiter: line 122 column 6 (char 3316)
+2026-05-11 12:00:05  WARNING   JSON parse error attempt 3 for A Friend of God.doc: Expecting ',' delimiter: line 122 column 6 (char 3310)
+2026-05-11 12:03:37  INFO      Wrote 50 sermons to Firestore
+2026-05-11 12:04:59  WARNING   JSON parse error attempt 1 for Cultivating A Christian Conscience.docx: Expecting ',' delimiter: line 123 column 6 (char 3451)
+2026-05-11 12:07:49  WARNING   JSON parse error attempt 1 for HOW LONG.doc: Expecting ',' delimiter: line 116 column 6 (char 3321)
+2026-05-11 12:09:31  INFO      Wrote 50 sermons to Firestore
+2026-05-11 12:12:38  WARNING   JSON parse error attempt 1 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 114 column 6 (char 3378)
+2026-05-11 12:12:46  WARNING   JSON parse error attempt 2 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 122 column 6 (char 3512)
+2026-05-11 12:12:55  WARNING   JSON parse error attempt 3 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 114 column 6 (char 3376)
+2026-05-11 12:14:40  WARNING   JSON parse error attempt 1 for The Coming World Dictator.doc: Expecting ',' delimiter: line 114 column 6 (char 3412)
+2026-05-11 12:14:48  WARNING   JSON parse error attempt 2 for The Coming World Dictator.doc: Expecting ',' delimiter: line 114 column 6 (char 3383)
+2026-05-11 12:14:58  WARNING   JSON parse error attempt 3 for The Coming World Dictator.doc: Expecting ',' delimiter: line 114 column 6 (char 3677)
+2026-05-11 12:15:41  INFO      Wrote 50 sermons to Firestore
+2026-05-11 12:20:05  WARNING   JSON parse error attempt 1 for TWO MEN SITTING AT A GATE.docx: Expecting ',' delimiter: line 114 column 6 (char 3245)
+2026-05-11 12:20:13  WARNING   JSON parse error attempt 2 for TWO MEN SITTING AT A GATE.docx: Expecting ',' delimiter: line 115 column 6 (char 3372)
+2026-05-11 12:20:22  WARNING   JSON parse error attempt 3 for TWO MEN SITTING AT A GATE.docx: Expecting ',' delimiter: line 114 column 6 (char 3373)
+2026-05-11 12:21:38  INFO      Wrote 50 sermons to Firestore
+2026-05-11 12:22:41  WARNING   JSON parse error attempt 1 for Why Christ Came.doc: Expecting ',' delimiter: line 124 column 6 (char 3479)
+2026-05-11 12:22:50  WARNING   JSON parse error attempt 2 for Why Christ Came.doc: Expecting ',' delimiter: line 108 column 6 (char 3327)
+2026-05-11 12:22:59  WARNING   JSON parse error attempt 3 for Why Christ Came.doc: Expecting ',' delimiter: line 114 column 6 (char 3332)
+2026-05-11 12:23:23  WARNING   JSON parse error attempt 1 for Will We Die For Jesus.doc: Expecting ',' delimiter: line 114 column 6 (char 3503)
+2026-05-11 12:23:31  WARNING   JSON parse error attempt 2 for Will We Die For Jesus.doc: Expecting ',' delimiter: line 114 column 6 (char 3490)
+2026-05-11 12:23:40  WARNING   JSON parse error attempt 3 for Will We Die For Jesus.doc: Expecting ',' delimiter: line 122 column 6 (char 3424)
+2026-05-11 12:23:51  WARNING   JSON parse error attempt 1 for Will You Deny Jesus.doc: Expecting ',' delimiter: line 115 column 6 (char 3225)
+2026-05-11 12:24:00  WARNING   JSON parse error attempt 2 for Will You Deny Jesus.doc: Expecting ',' delimiter: line 123 column 6 (char 3500)
+2026-05-11 12:24:11  WARNING   JSON parse error attempt 3 for Will You Deny Jesus.doc: Expecting ',' delimiter: line 123 column 6 (char 3333)
+2026-05-11 12:25:01  WARNING   JSON parse error attempt 1 for HASTY SPIRIT.docx: Expecting ',' delimiter: line 121 column 6 (char 3413)
+2026-05-11 12:25:09  WARNING   JSON parse error attempt 2 for HASTY SPIRIT.docx: Expecting ',' delimiter: line 122 column 6 (char 3375)
+2026-05-11 12:25:18  WARNING   JSON parse error attempt 3 for HASTY SPIRIT.docx: Expecting ',' delimiter: line 122 column 6 (char 3339)
+2026-05-11 12:28:15  WARNING   JSON parse error attempt 1 for A Father's Failure.doc: Expecting ',' delimiter: line 114 column 6 (char 3302)
+2026-05-11 12:28:24  WARNING   JSON parse error attempt 2 for A Father's Failure.doc: Expecting ',' delimiter: line 107 column 6 (char 3522)
+2026-05-11 12:28:35  WARNING   JSON parse error attempt 3 for A Father's Failure.doc: Expecting ',' delimiter: line 106 column 6 (char 3468)
+2026-05-11 12:28:51  WARNING   JSON parse error attempt 1 for A Friend of God.doc: Expecting ',' delimiter: line 122 column 6 (char 3453)
+2026-05-11 12:29:02  WARNING   JSON parse error attempt 2 for A Friend of God.doc: Expecting ',' delimiter: line 122 column 6 (char 3368)
+2026-05-11 12:29:11  WARNING   JSON parse error attempt 3 for A Friend of God.doc: Expecting ',' delimiter: line 122 column 6 (char 3411)
+2026-05-11 12:29:27  INFO      Wrote 50 sermons to Firestore
+2026-05-11 12:30:22  WARNING   JSON parse error attempt 1 for A Prison Without Bars.doc: Expecting ',' delimiter: line 116 column 6 (char 3570)
+2026-05-11 12:30:34  WARNING   JSON parse error attempt 2 for A Prison Without Bars.doc: Expecting ',' delimiter: line 111 column 6 (char 3556)
+2026-05-11 12:30:45  WARNING   JSON parse error attempt 3 for A Prison Without Bars.doc: Expecting ',' delimiter: line 110 column 6 (char 3593)
+2026-05-11 12:31:08  WARNING   JSON parse error attempt 1 for A Sad Funeral Service.doc: Expecting ',' delimiter: line 121 column 6 (char 3528)
+2026-05-11 12:31:17  WARNING   JSON parse error attempt 2 for A Sad Funeral Service.doc: Expecting ',' delimiter: line 116 column 6 (char 3546)
+2026-05-11 12:31:26  WARNING   JSON parse error attempt 3 for A Sad Funeral Service.doc: Expecting ',' delimiter: line 121 column 6 (char 3376)
+2026-05-11 12:32:36  WARNING   JSON parse error attempt 1 for Almost or Altogether.doc: Expecting ',' delimiter: line 111 column 6 (char 3197)
+2026-05-11 12:32:46  WARNING   JSON parse error attempt 2 for Almost or Altogether.doc: Expecting ',' delimiter: line 110 column 6 (char 3272)
+2026-05-11 12:33:10  WARNING   JSON parse error attempt 1 for ANOTHER GOSPEL.doc: Expecting ',' delimiter: line 115 column 6 (char 3474)
+2026-05-11 12:33:18  WARNING   JSON parse error attempt 2 for ANOTHER GOSPEL.doc: Expecting ',' delimiter: line 115 column 6 (char 3158)
+2026-05-11 12:33:27  WARNING   JSON parse error attempt 3 for ANOTHER GOSPEL.doc: Expecting ',' delimiter: line 115 column 6 (char 3175)
+2026-05-11 12:33:37  WARNING   JSON parse error attempt 1 for Another Night with Frogs.doc: Expecting ',' delimiter: line 121 column 6 (char 3178)
+2026-05-11 12:34:00  WARNING   JSON parse error attempt 1 for APPROVED OF GOD 2.doc: Expecting ',' delimiter: line 108 column 6 (char 3331)
+2026-05-11 12:34:08  WARNING   JSON parse error attempt 2 for APPROVED OF GOD 2.doc: Expecting ',' delimiter: line 108 column 6 (char 3221)
+2026-05-11 12:34:18  WARNING   JSON parse error attempt 3 for APPROVED OF GOD 2.doc: Expecting ',' delimiter: line 108 column 6 (char 3362)
+2026-05-11 12:34:44  WARNING   JSON parse error attempt 1 for Armed With The Mind Of Christ.doc: Expecting ',' delimiter: line 114 column 6 (char 3455)
+2026-05-11 12:34:54  WARNING   JSON parse error attempt 2 for Armed With The Mind Of Christ.doc: Expecting ',' delimiter: line 114 column 6 (char 3376)
+2026-05-11 12:35:04  WARNING   JSON parse error attempt 3 for Armed With The Mind Of Christ.doc: Expecting ',' delimiter: line 114 column 6 (char 3437)
+2026-05-11 12:35:38  WARNING   JSON parse error attempt 1 for At The Name of Jesus.doc: Expecting ',' delimiter: line 107 column 6 (char 3235)
+2026-05-11 12:36:34  WARNING   JSON parse error attempt 1 for BIG SINS vs Little Sins.doc: Expecting ',' delimiter: line 123 column 6 (char 3451)
+2026-05-11 12:38:02  INFO      Wrote 50 sermons to Firestore
+2026-05-11 12:38:33  WARNING   JSON parse error attempt 1 for Controversy of Christ2.DOC: Expecting ',' delimiter: line 116 column 6 (char 3645)
+2026-05-11 12:38:43  WARNING   JSON parse error attempt 2 for Controversy of Christ2.DOC: Expecting ',' delimiter: line 117 column 6 (char 3745)
+2026-05-11 12:38:54  WARNING   JSON parse error attempt 3 for Controversy of Christ2.DOC: Expecting ',' delimiter: line 115 column 6 (char 3432)
+2026-05-11 12:39:25  WARNING   JSON parse error attempt 1 for Dangerous Times Are Here.doc: Expecting ',' delimiter: line 106 column 6 (char 3265)
+2026-05-11 12:40:04  WARNING   JSON parse error attempt 1 for DEADNESS IN OUR CHURCHES.doc: Expecting ',' delimiter: line 126 column 6 (char 3318)
+2026-05-11 12:40:13  WARNING   JSON parse error attempt 2 for DEADNESS IN OUR CHURCHES.doc: Expecting ',' delimiter: line 134 column 6 (char 3384)
+2026-05-11 12:40:24  WARNING   JSON parse error attempt 3 for DEADNESS IN OUR CHURCHES.doc: Expecting ',' delimiter: line 126 column 6 (char 3388)
+2026-05-11 12:40:42  WARNING   JSON parse error attempt 1 for Do You Believe.doc: Expecting ',' delimiter: line 113 column 6 (char 3176)
+2026-05-11 12:40:50  WARNING   JSON parse error attempt 2 for Do You Believe.doc: Expecting ',' delimiter: line 115 column 6 (char 3336)
+2026-05-11 12:41:00  WARNING   JSON parse error attempt 3 for Do You Believe.doc: Expecting ',' delimiter: line 113 column 6 (char 3185)
+2026-05-11 12:41:40  WARNING   JSON parse error attempt 1 for Don't Wait Too Long.doc: Expecting ',' delimiter: line 114 column 6 (char 3348)
+2026-05-11 12:41:48  WARNING   JSON parse error attempt 2 for Don't Wait Too Long.doc: Expecting ',' delimiter: line 122 column 6 (char 3386)
+2026-05-11 12:41:57  WARNING   JSON parse error attempt 3 for Don't Wait Too Long.doc: Expecting ',' delimiter: line 122 column 6 (char 3310)
+2026-05-11 12:42:44  WARNING   JSON parse error attempt 1 for Eternal Life.doc: Expecting ',' delimiter: line 114 column 6 (char 3124)
+2026-05-11 12:42:52  WARNING   JSON parse error attempt 2 for Eternal Life.doc: Expecting ',' delimiter: line 114 column 6 (char 3300)
+2026-05-11 12:43:01  WARNING   JSON parse error attempt 3 for Eternal Life.doc: Expecting ',' delimiter: line 114 column 6 (char 3111)
+2026-05-11 12:43:55  WARNING   JSON parse error attempt 1 for Four Aspects of Our Spiritual Walk.doc: Expecting ',' delimiter: line 111 column 6 (char 3556)
+2026-05-11 12:44:11  WARNING   JSON parse error attempt 1 for Four Things Jesus Saw.doc: Expecting ',' delimiter: line 115 column 6 (char 3519)
+2026-05-11 12:45:19  WARNING   JSON parse error attempt 1 for God Give Us A Heart.doc: Expecting ',' delimiter: line 115 column 6 (char 3503)
+2026-05-11 12:45:27  WARNING   JSON parse error attempt 2 for God Give Us A Heart.doc: Expecting ',' delimiter: line 117 column 6 (char 3395)
+2026-05-11 12:45:36  WARNING   JSON parse error attempt 3 for God Give Us A Heart.doc: Expecting ',' delimiter: line 113 column 6 (char 3308)
+2026-05-11 12:46:38  WARNING   JSON parse error attempt 1 for Gods Darling Lamb2.doc: Expecting ',' delimiter: line 101 column 6 (char 3194)
+2026-05-11 12:46:47  WARNING   JSON parse error attempt 2 for Gods Darling Lamb2.doc: Expecting ',' delimiter: line 101 column 6 (char 3210)
+2026-05-11 12:46:57  INFO      Wrote 50 sermons to Firestore
+2026-05-11 12:47:48  WARNING   JSON parse error attempt 1 for Having the Mind of A Pastor.doc: Expecting ',' delimiter: line 109 column 6 (char 3455)
+2026-05-11 12:47:59  WARNING   JSON parse error attempt 2 for Having the Mind of A Pastor.doc: Expecting ',' delimiter: line 110 column 6 (char 3614)
+2026-05-11 12:48:10  WARNING   JSON parse error attempt 3 for Having the Mind of A Pastor.doc: Expecting ',' delimiter: line 110 column 6 (char 3573)
+2026-05-11 12:48:34  WARNING   JSON parse error attempt 1 for Heaven.doc: Expecting ',' delimiter: line 115 column 6 (char 3247)
+2026-05-11 12:48:43  WARNING   JSON parse error attempt 2 for Heaven.doc: Expecting ',' delimiter: line 115 column 6 (char 3246)
+2026-05-11 12:48:56  WARNING   JSON parse error attempt 3 for Heaven.doc: Expecting ',' delimiter: line 115 column 6 (char 3244)
+2026-05-11 12:49:15  WARNING   JSON parse error attempt 1 for Hindsight Is Not Always 20-20.doc: Expecting ',' delimiter: line 125 column 6 (char 3480)
+2026-05-11 12:49:24  WARNING   JSON parse error attempt 2 for Hindsight Is Not Always 20-20.doc: Expecting ',' delimiter: line 124 column 6 (char 3337)
+2026-05-11 12:49:34  WARNING   JSON parse error attempt 3 for Hindsight Is Not Always 20-20.doc: Expecting ',' delimiter: line 108 column 6 (char 3179)
+2026-05-11 12:49:44  WARNING   JSON parse error attempt 1 for His Grace and Mercy are Eternal.doc: Expecting ',' delimiter: line 117 column 6 (char 3226)
+2026-05-11 12:49:52  WARNING   JSON parse error attempt 2 for His Grace and Mercy are Eternal.doc: Expecting ',' delimiter: line 117 column 6 (char 3295)
+2026-05-11 12:50:01  WARNING   JSON parse error attempt 3 for His Grace and Mercy are Eternal.doc: Expecting ',' delimiter: line 117 column 6 (char 3257)
+2026-05-11 12:51:03  WARNING   JSON parse error attempt 1 for I AM THE LORD2.doc: Expecting ',' delimiter: line 123 column 6 (char 3293)
+2026-05-11 12:51:13  WARNING   JSON parse error attempt 2 for I AM THE LORD2.doc: Expecting ',' delimiter: line 107 column 6 (char 3466)
+2026-05-11 12:51:22  WARNING   JSON parse error attempt 3 for I AM THE LORD2.doc: Expecting ',' delimiter: line 123 column 6 (char 3453)
+2026-05-11 12:51:56  WARNING   JSON parse error attempt 1 for In Jesus Name.doc: Expecting ',' delimiter: line 126 column 6 (char 3530)
+2026-05-11 12:52:04  WARNING   JSON parse error attempt 2 for In Jesus Name.doc: Expecting ',' delimiter: line 110 column 6 (char 3454)
+2026-05-11 12:52:12  WARNING   JSON parse error attempt 3 for In Jesus Name.doc: Expecting ',' delimiter: line 118 column 6 (char 3433)
+2026-05-11 12:54:21  WARNING   JSON parse error attempt 1 for Limiting God.doc: Expecting ',' delimiter: line 108 column 6 (char 3212)
+2026-05-11 12:54:29  WARNING   JSON parse error attempt 2 for Limiting God.doc: Expecting ',' delimiter: line 108 column 6 (char 3544)
+2026-05-11 12:54:38  WARNING   JSON parse error attempt 3 for Limiting God.doc: Expecting ',' delimiter: line 108 column 6 (char 3393)
+2026-05-11 12:55:04  WARNING   JSON parse error attempt 1 for Living Within The Realm Of God's Grace.doc: Expecting ',' delimiter: line 116 column 6 (char 3564)
+2026-05-11 12:55:12  WARNING   JSON parse error attempt 2 for Living Within The Realm Of God's Grace.doc: Expecting ',' delimiter: line 115 column 6 (char 3356)
+2026-05-11 12:55:21  WARNING   JSON parse error attempt 3 for Living Within The Realm Of God's Grace.doc: Expecting ',' delimiter: line 115 column 6 (char 3404)
+2026-05-11 12:55:32  WARNING   JSON parse error attempt 1 for LORD ITS GOOD TO BE HERE.doc: Expecting ',' delimiter: line 122 column 6 (char 3519)
+2026-05-11 12:55:41  WARNING   JSON parse error attempt 2 for LORD ITS GOOD TO BE HERE.doc: Expecting ',' delimiter: line 124 column 6 (char 3430)
+2026-05-11 12:55:52  WARNING   JSON parse error attempt 3 for LORD ITS GOOD TO BE HERE.doc: Expecting ',' delimiter: line 124 column 6 (char 3488)
+2026-05-11 12:56:09  INFO      Wrote 50 sermons to Firestore
+2026-05-11 12:56:30  WARNING   JSON parse error attempt 1 for No Excuses.doc: Expecting ',' delimiter: line 122 column 6 (char 3474)
+2026-05-11 12:56:38  WARNING   JSON parse error attempt 2 for No Excuses.doc: Expecting ',' delimiter: line 122 column 6 (char 3326)
+2026-05-11 12:56:47  WARNING   JSON parse error attempt 3 for No Excuses.doc: Expecting ',' delimiter: line 114 column 6 (char 3317)
+2026-05-11 12:57:26  WARNING   JSON parse error attempt 1 for Occupying Till Christ Comes.doc: Expecting ',' delimiter: line 122 column 6 (char 3457)
+2026-05-11 12:57:42  WARNING   JSON parse error attempt 1 for Old Fashion Day.doc: Expecting ',' delimiter: line 121 column 6 (char 3322)
+2026-05-11 12:57:50  WARNING   JSON parse error attempt 2 for Old Fashion Day.doc: Expecting ',' delimiter: line 121 column 6 (char 3245)
+2026-05-11 12:57:59  WARNING   JSON parse error attempt 3 for Old Fashion Day.doc: Expecting ',' delimiter: line 114 column 6 (char 3372)
+2026-05-11 12:58:19  WARNING   JSON parse error attempt 1 for On The Greatest Mission With The Greatest Message To.doc: Expecting ',' delimiter: line 106 column 6 (char 3177)
+2026-05-11 12:58:28  WARNING   JSON parse error attempt 2 for On The Greatest Mission With The Greatest Message To.doc: Expecting ',' delimiter: line 106 column 6 (char 3191)
+2026-05-11 12:58:50  WARNING   JSON parse error attempt 1 for Onward Christian Soldiers.doc: Expecting ',' delimiter: line 122 column 6 (char 3412)
+2026-05-11 12:58:57  WARNING   JSON parse error attempt 2 for Onward Christian Soldiers.doc: Expecting ',' delimiter: line 122 column 6 (char 3400)
+2026-05-11 12:59:06  WARNING   JSON parse error attempt 3 for Onward Christian Soldiers.doc: Expecting ',' delimiter: line 114 column 6 (char 3359)
+2026-05-11 12:59:39  WARNING   JSON parse error attempt 1 for Our Memory Vs God's Memory.doc: Expecting ',' delimiter: line 123 column 6 (char 3391)
+2026-05-11 12:59:47  WARNING   JSON parse error attempt 2 for Our Memory Vs God's Memory.doc: Expecting ',' delimiter: line 123 column 6 (char 3534)
+2026-05-11 12:59:56  WARNING   JSON parse error attempt 3 for Our Memory Vs God's Memory.doc: Expecting ',' delimiter: line 121 column 6 (char 3387)
+2026-05-11 13:00:15  WARNING   JSON parse error attempt 1 for Out Of The Pit.doc: Expecting ',' delimiter: line 107 column 6 (char 3298)
+2026-05-11 13:01:57  WARNING   JSON parse error attempt 1 for Rejoicing Along Life.doc: Expecting ',' delimiter: line 105 column 6 (char 3171)
+2026-05-11 13:02:52  WARNING   JSON parse error attempt 1 for Restoring The Fallen.doc: Expecting ',' delimiter: line 106 column 6 (char 3315)
+2026-05-11 13:03:00  WARNING   JSON parse error attempt 2 for Restoring The Fallen.doc: Expecting ',' delimiter: line 106 column 6 (char 3313)
+2026-05-11 13:03:10  WARNING   JSON parse error attempt 3 for Restoring The Fallen.doc: Expecting ',' delimiter: line 106 column 6 (char 3289)
+2026-05-11 13:04:52  INFO      Wrote 50 sermons to Firestore
+2026-05-11 13:05:06  WARNING   JSON parse error attempt 1 for SHOW ME THE CROSS.doc: Expecting ',' delimiter: line 125 column 6 (char 3371)
+2026-05-11 13:05:14  WARNING   JSON parse error attempt 2 for SHOW ME THE CROSS.doc: Expecting ',' delimiter: line 117 column 6 (char 3238)
+2026-05-11 13:05:23  WARNING   JSON parse error attempt 3 for SHOW ME THE CROSS.doc: Expecting ',' delimiter: line 121 column 6 (char 3331)
+2026-05-11 13:06:30  WARNING   JSON parse error attempt 1 for STILL GRACE.doc: Expecting ',' delimiter: line 126 column 6 (char 3362)
+2026-05-11 13:06:38  WARNING   JSON parse error attempt 2 for STILL GRACE.doc: Expecting ',' delimiter: line 126 column 6 (char 3313)
+2026-05-11 13:06:47  WARNING   JSON parse error attempt 3 for STILL GRACE.doc: Expecting ',' delimiter: line 126 column 6 (char 3475)
+2026-05-11 13:06:58  WARNING   JSON parse error attempt 1 for Stop and Think.doc: Expecting ',' delimiter: line 122 column 6 (char 3313)
+2026-05-11 13:07:06  WARNING   JSON parse error attempt 2 for Stop and Think.doc: Expecting ',' delimiter: line 122 column 6 (char 3350)
+2026-05-11 13:07:15  WARNING   JSON parse error attempt 3 for Stop and Think.doc: Expecting ',' delimiter: line 122 column 6 (char 3247)
+2026-05-11 13:07:34  WARNING   JSON parse error attempt 1 for STUMBLING OVER THE TRUTH.doc: Expecting ',' delimiter: line 123 column 6 (char 3551)
+2026-05-11 13:07:42  WARNING   JSON parse error attempt 2 for STUMBLING OVER THE TRUTH.doc: Expecting ',' delimiter: line 123 column 6 (char 3590)
+2026-05-11 13:07:51  WARNING   JSON parse error attempt 3 for STUMBLING OVER THE TRUTH.doc: Expecting ',' delimiter: line 123 column 6 (char 3603)
+2026-05-11 13:08:02  WARNING   JSON parse error attempt 1 for SUBDUING MOAB.doc: Expecting ',' delimiter: line 122 column 6 (char 3478)
+2026-05-11 13:08:10  WARNING   JSON parse error attempt 2 for SUBDUING MOAB.doc: Expecting ',' delimiter: line 112 column 6 (char 3237)
+2026-05-11 13:08:19  WARNING   JSON parse error attempt 3 for SUBDUING MOAB.doc: Expecting ',' delimiter: line 108 column 6 (char 3477)
+2026-05-11 13:09:11  WARNING   JSON parse error attempt 1 for THANKSGIVING.doc: Expecting ',' delimiter: line 122 column 6 (char 3378)
+2026-05-11 13:09:18  WARNING   JSON parse error attempt 2 for THANKSGIVING.doc: Expecting ',' delimiter: line 123 column 6 (char 3413)
+2026-05-11 13:09:26  WARNING   JSON parse error attempt 3 for THANKSGIVING.doc: Expecting ',' delimiter: line 122 column 6 (char 3488)
+2026-05-11 13:10:44  WARNING   JSON parse error attempt 1 for The Circle Will Be Broken.doc: Expecting ',' delimiter: line 107 column 6 (char 3200)
+2026-05-11 13:10:52  WARNING   JSON parse error attempt 2 for The Circle Will Be Broken.doc: Expecting ',' delimiter: line 107 column 6 (char 3173)
+2026-05-11 13:11:40  WARNING   JSON parse error attempt 1 for The Donkey.doc: Expecting ',' delimiter: line 114 column 6 (char 3297)
+2026-05-11 13:12:55  WARNING   JSON parse error attempt 1 for THE HEDGE.doc: Expecting ',' delimiter: line 115 column 6 (char 3419)
+2026-05-11 13:13:04  WARNING   JSON parse error attempt 2 for THE HEDGE.doc: Expecting ',' delimiter: line 115 column 6 (char 3360)
+2026-05-11 13:13:12  WARNING   JSON parse error attempt 3 for THE HEDGE.doc: Expecting ',' delimiter: line 123 column 6 (char 3392)
+2026-05-11 13:13:51  WARNING   JSON parse error attempt 1 for The Last Days.doc: Expecting ',' delimiter: line 117 column 6 (char 3158)
+2026-05-11 13:14:08  INFO      Wrote 50 sermons to Firestore
+2026-05-11 13:14:54  WARNING   JSON parse error attempt 1 for The Man Christ Jesus.doc: Expecting ',' delimiter: line 114 column 6 (char 3203)
+2026-05-11 13:15:03  WARNING   JSON parse error attempt 2 for The Man Christ Jesus.doc: Expecting ',' delimiter: line 114 column 6 (char 3206)
+2026-05-11 13:15:13  WARNING   JSON parse error attempt 3 for The Man Christ Jesus.doc: Expecting ',' delimiter: line 114 column 6 (char 3145)
+2026-05-11 13:16:41  WARNING   JSON parse error attempt 1 for THE OLD RUGGED CROSS.doc: Expecting ',' delimiter: line 122 column 6 (char 3378)
+2026-05-11 13:16:49  WARNING   JSON parse error attempt 2 for THE OLD RUGGED CROSS.doc: Expecting ',' delimiter: line 122 column 6 (char 3406)
+2026-05-11 13:16:58  WARNING   JSON parse error attempt 3 for THE OLD RUGGED CROSS.doc: Expecting ',' delimiter: line 122 column 6 (char 3386)
+2026-05-11 13:18:35  WARNING   JSON parse error attempt 1 for THE SEEKING LORD.doc: Expecting ',' delimiter: line 122 column 6 (char 3304)
+2026-05-11 13:19:28  WARNING   JSON parse error attempt 1 for The Tree In the Midst.doc: Expecting ',' delimiter: line 117 column 6 (char 3465)
+2026-05-11 13:19:37  WARNING   JSON parse error attempt 2 for The Tree In the Midst.doc: Expecting ',' delimiter: line 116 column 6 (char 3401)
+2026-05-11 13:19:48  WARNING   JSON parse error attempt 3 for The Tree In the Midst.doc: Expecting ',' delimiter: line 117 column 6 (char 3377)
+2026-05-11 13:20:11  WARNING   JSON parse error attempt 1 for The Unchangeable One.doc: Expecting ',' delimiter: line 123 column 6 (char 3544)
+2026-05-11 13:21:22  WARNING   JSON parse error attempt 1 for THINGS GOD WANTS US TO KNOW.doc: Expecting ',' delimiter: line 125 column 6 (char 3248)
+2026-05-11 13:21:30  WARNING   JSON parse error attempt 2 for THINGS GOD WANTS US TO KNOW.doc: Expecting ',' delimiter: line 125 column 6 (char 3274)
+2026-05-11 13:21:40  WARNING   JSON parse error attempt 3 for THINGS GOD WANTS US TO KNOW.doc: Expecting ',' delimiter: line 125 column 6 (char 3320)
+2026-05-11 13:21:49  INFO      Wrote 50 sermons to Firestore
+2026-05-11 13:22:24  WARNING   JSON parse error attempt 1 for This Man.doc: Expecting ',' delimiter: line 110 column 6 (char 3409)
+2026-05-11 13:22:33  WARNING   JSON parse error attempt 2 for This Man.doc: Expecting ',' delimiter: line 110 column 6 (char 3388)
+2026-05-11 13:22:43  WARNING   JSON parse error attempt 3 for This Man.doc: Expecting ',' delimiter: line 110 column 6 (char 3403)
+2026-05-11 13:23:44  WARNING   JSON parse error attempt 1 for Walking With God.doc: Expecting ',' delimiter: line 115 column 6 (char 3320)
+2026-05-11 13:23:52  WARNING   JSON parse error attempt 2 for Walking With God.doc: Expecting ',' delimiter: line 115 column 6 (char 3251)
+2026-05-11 13:24:00  WARNING   JSON parse error attempt 3 for Walking With God.doc: Expecting ',' delimiter: line 115 column 6 (char 3540)
+2026-05-11 13:24:42  WARNING   JSON parse error attempt 1 for What About Hell.doc: Expecting ',' delimiter: line 119 column 6 (char 3389)
+2026-05-11 13:24:51  WARNING   JSON parse error attempt 2 for What About Hell.doc: Expecting ',' delimiter: line 119 column 6 (char 3390)
+2026-05-11 13:25:01  WARNING   JSON parse error attempt 3 for What About Hell.doc: Expecting ',' delimiter: line 127 column 6 (char 3475)
+2026-05-11 13:25:26  WARNING   JSON parse error attempt 1 for What Does It Mean to be Lost.doc: Expecting ',' delimiter: line 108 column 6 (char 3128)
+2026-05-11 13:25:43  WARNING   JSON parse error attempt 1 for WHAT FAITH CAN SEE.doc: Expecting ',' delimiter: line 117 column 6 (char 3462)
+2026-05-11 13:26:00  WARNING   JSON parse error attempt 1 for What Foundation Are You Building On.doc: Expecting ',' delimiter: line 117 column 6 (char 3556)
+2026-05-11 13:26:08  WARNING   JSON parse error attempt 2 for What Foundation Are You Building On.doc: Expecting ',' delimiter: line 115 column 6 (char 3456)
+2026-05-11 13:26:17  WARNING   JSON parse error attempt 3 for What Foundation Are You Building On.doc: Expecting ',' delimiter: line 121 column 6 (char 3428)
+2026-05-11 13:27:09  WARNING   JSON parse error attempt 1 for What Men Thinketh.doc: Expecting ',' delimiter: line 115 column 6 (char 3441)
+2026-05-11 13:27:18  WARNING   JSON parse error attempt 2 for What Men Thinketh.doc: Expecting ',' delimiter: line 115 column 6 (char 3604)
+2026-05-11 13:27:29  WARNING   JSON parse error attempt 3 for What Men Thinketh.doc: Expecting ',' delimiter: line 115 column 6 (char 3597)
+2026-05-11 13:27:40  WARNING   JSON parse error attempt 1 for What Men Thinketh2.doc: Expecting ',' delimiter: line 106 column 6 (char 3478)
+2026-05-11 13:27:48  WARNING   JSON parse error attempt 2 for What Men Thinketh2.doc: Expecting ',' delimiter: line 106 column 6 (char 3276)
+2026-05-11 13:27:58  WARNING   JSON parse error attempt 3 for What Men Thinketh2.doc: Expecting ',' delimiter: line 106 column 6 (char 3323)
+2026-05-11 13:29:36  WARNING   JSON parse error attempt 1 for When The King Comes Back.doc: Expecting ',' delimiter: line 125 column 6 (char 3359)
+2026-05-11 13:29:44  WARNING   JSON parse error attempt 2 for When The King Comes Back.doc: Expecting ',' delimiter: line 125 column 6 (char 3378)
+2026-05-11 13:29:53  WARNING   JSON parse error attempt 3 for When The King Comes Back.doc: Expecting ',' delimiter: line 125 column 6 (char 3412)
+2026-05-11 13:30:42  WARNING   JSON parse error attempt 1 for Where Art Thou.doc: Expecting ',' delimiter: line 125 column 6 (char 3514)
+2026-05-11 13:30:50  WARNING   JSON parse error attempt 2 for Where Art Thou.doc: Expecting ',' delimiter: line 117 column 6 (char 3308)
+2026-05-11 13:30:59  WARNING   JSON parse error attempt 3 for Where Art Thou.doc: Expecting ',' delimiter: line 124 column 6 (char 3454)
+2026-05-11 13:31:04  INFO      Wrote 50 sermons to Firestore
+2026-05-11 13:31:12  WARNING   JSON parse error attempt 1 for WHERE HAVE THEY LAID HIM.doc: Expecting ',' delimiter: line 107 column 6 (char 3152)
+2026-05-11 13:31:52  WARNING   JSON parse error attempt 1 for Who Jesus Is.doc: Expecting ',' delimiter: line 124 column 6 (char 3495)
+2026-05-11 13:32:00  WARNING   JSON parse error attempt 2 for Who Jesus Is.doc: Expecting ',' delimiter: line 116 column 6 (char 3485)
+2026-05-11 13:32:08  WARNING   JSON parse error attempt 3 for Who Jesus Is.doc: Expecting ',' delimiter: line 116 column 6 (char 3448)
+2026-05-11 13:32:33  WARNING   JSON parse error attempt 1 for WHY DO WE NEED GOD'S WORD.doc: Expecting ',' delimiter: line 118 column 6 (char 3299)
+2026-05-11 13:32:41  WARNING   JSON parse error attempt 2 for WHY DO WE NEED GOD'S WORD.doc: Expecting ',' delimiter: line 118 column 6 (char 3297)
+2026-05-11 13:32:50  WARNING   JSON parse error attempt 3 for WHY DO WE NEED GOD'S WORD.doc: Expecting ',' delimiter: line 126 column 6 (char 3318)
+2026-05-11 13:33:07  WARNING   JSON parse error attempt 1 for Why I Preach The Resurrection of Christ.doc: Expecting ',' delimiter: line 116 column 6 (char 3608)
+2026-05-11 13:33:15  WARNING   JSON parse error attempt 2 for Why I Preach The Resurrection of Christ.doc: Expecting ',' delimiter: line 116 column 6 (char 3643)
+2026-05-11 13:33:24  WARNING   JSON parse error attempt 3 for Why I Preach The Resurrection of Christ.doc: Expecting ',' delimiter: line 116 column 6 (char 3454)
+2026-05-11 13:33:50  WARNING   JSON parse error attempt 1 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 123 column 6 (char 3418)
+2026-05-11 13:33:58  WARNING   JSON parse error attempt 2 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 123 column 6 (char 3462)
+2026-05-11 13:34:08  WARNING   JSON parse error attempt 3 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 115 column 6 (char 3448)
+2026-05-11 13:34:27  WARNING   JSON parse error attempt 1 for Winning Your Lost Loved Ones.doc: Expecting ',' delimiter: line 122 column 6 (char 3433)
+2026-05-11 13:36:22  WARNING   JSON parse error attempt 1 for Gods Darling Lamb.doc: Expecting ',' delimiter: line 110 column 6 (char 3089)
+2026-05-11 13:36:31  WARNING   JSON parse error attempt 2 for Gods Darling Lamb.doc: Expecting ',' delimiter: line 110 column 6 (char 3288)
+2026-05-11 13:36:41  WARNING   JSON parse error attempt 3 for Gods Darling Lamb.doc: Expecting ',' delimiter: line 110 column 6 (char 3000)
+2026-05-11 13:39:08  WARNING   JSON parse error attempt 1 for 02-Passover (12-2-09).pdf: Expecting ',' delimiter: line 114 column 6 (char 3215)
+2026-05-11 13:39:16  WARNING   JSON parse error attempt 2 for 02-Passover (12-2-09).pdf: Expecting ',' delimiter: line 116 column 6 (char 3299)
+2026-05-11 13:39:27  WARNING   JSON parse error attempt 3 for 02-Passover (12-2-09).pdf: Expecting ',' delimiter: line 115 column 6 (char 3163)
+2026-05-11 13:39:40  WARNING   JSON parse error attempt 1 for 03-Commanding the People (2-14-10).pdf: Invalid \escape: line 107 column 336 (char 3451)
+2026-05-11 13:39:49  WARNING   JSON parse error attempt 2 for 03-Commanding the People (2-14-10).pdf: Invalid \escape: line 98 column 248 (char 3062)
+2026-05-11 13:40:06  WARNING   JSON parse error attempt 1 for 03-Feast of Unleavened Bread (12-16-09).pdf: Expecting ',' delimiter: line 113 column 6 (char 3264)
+2026-05-11 13:40:14  WARNING   JSON parse error attempt 2 for 03-Feast of Unleavened Bread (12-16-09).pdf: Expecting ',' delimiter: line 113 column 6 (char 3342)
+2026-05-11 13:40:24  WARNING   JSON parse error attempt 3 for 03-Feast of Unleavened Bread (12-16-09).pdf: Expecting ',' delimiter: line 113 column 6 (char 3307)
+2026-05-11 13:40:38  INFO      Wrote 50 sermons to Firestore
+2026-05-11 13:41:44  WARNING   JSON parse error attempt 1 for 07-Day of Atonement (2-3-10).pdf: Expecting ',' delimiter: line 107 column 6 (char 3299)
+2026-05-11 13:41:57  WARNING   JSON parse error attempt 2 for 07-Day of Atonement (2-3-10).pdf: Expecting ',' delimiter: line 99 column 6 (char 3134)
+2026-05-11 13:42:07  WARNING   JSON parse error attempt 3 for 07-Day of Atonement (2-3-10).pdf: Expecting ',' delimiter: line 107 column 6 (char 3244)
+2026-05-11 13:42:27  WARNING   JSON parse error attempt 1 for 07-Preparing for Victory (3-14-10pm).pdf: Expecting ',' delimiter: line 113 column 6 (char 3336)
+2026-05-11 13:42:36  WARNING   JSON parse error attempt 2 for 07-Preparing for Victory (3-14-10pm).pdf: Expecting ',' delimiter: line 116 column 6 (char 3541)
+2026-05-11 13:42:46  WARNING   JSON parse error attempt 3 for 07-Preparing for Victory (3-14-10pm).pdf: Expecting ',' delimiter: line 115 column 6 (char 3505)
+2026-05-11 13:42:58  WARNING   JSON parse error attempt 1 for 08-Battle of Jericho (3_21_10).pdf: Expecting ',' delimiter: line 105 column 6 (char 3105)
+2026-05-11 13:43:06  WARNING   JSON parse error attempt 2 for 08-Battle of Jericho (3_21_10).pdf: Expecting ',' delimiter: line 107 column 6 (char 3250)
+2026-05-11 13:43:19  WARNING   JSON parse error attempt 3 for 08-Battle of Jericho (3_21_10).pdf: Expecting ',' delimiter: line 105 column 6 (char 3042)
+2026-05-11 13:44:55  WARNING   JSON parse error attempt 1 for 11-Bamboozled by the Enemy (4-25-10).pdf: Expecting ',' delimiter: line 106 column 6 (char 3152)
+2026-05-11 13:45:12  WARNING   JSON parse error attempt 1 for 11-Passing the Torch (12-6-09 pm).pdf: Expecting ',' delimiter: line 114 column 6 (char 3288)
+2026-05-11 13:46:22  WARNING   JSON parse error attempt 1 for 13b-Ten Notable Church Members - Part 2 (5-10-09).pdf: Expecting ',' delimiter: line 109 column 6 (char 3060)
+2026-05-11 13:46:40  WARNING   JSON parse error attempt 1 for 14-31 Kings (5-23-10).pdf: Expecting ',' delimiter: line 118 column 6 (char 3555)
+2026-05-11 13:46:50  WARNING   JSON parse error attempt 2 for 14-31 Kings (5-23-10).pdf: Expecting ',' delimiter: line 110 column 6 (char 3716)
+2026-05-11 13:47:00  WARNING   JSON parse error attempt 3 for 14-31 Kings (5-23-10).pdf: Expecting ',' delimiter: line 110 column 6 (char 3530)
+2026-05-11 13:47:46  WARNING   JSON parse error attempt 1 for 17-Peril of Slackness (6-13-10am).pdf: Expecting ',' delimiter: line 100 column 6 (char 3319)
+2026-05-11 13:47:56  WARNING   JSON parse error attempt 2 for 17-Peril of Slackness (6-13-10am).pdf: Expecting ',' delimiter: line 100 column 6 (char 3372)
+2026-05-11 13:48:06  WARNING   JSON parse error attempt 3 for 17-Peril of Slackness (6-13-10am).pdf: Expecting ',' delimiter: line 101 column 6 (char 3292)
+2026-05-11 13:49:36  WARNING   JSON parse error attempt 1 for 45-The Unwalled Spirit (4-22-09).pdf: Expecting ',' delimiter: line 107 column 6 (char 3270)
+2026-05-11 13:49:44  WARNING   JSON parse error attempt 2 for 45-The Unwalled Spirit (4-22-09).pdf: Expecting ',' delimiter: line 113 column 6 (char 3356)
+2026-05-11 13:49:54  WARNING   JSON parse error attempt 3 for 45-The Unwalled Spirit (4-22-09).pdf: Expecting ',' delimiter: line 115 column 6 (char 3512)
+2026-05-11 13:50:14  WARNING   JSON parse error attempt 1 for 50-The Sluggard (5-20-09).pdf: Expecting ',' delimiter: line 106 column 6 (char 3201)
+2026-05-11 13:50:22  WARNING   JSON parse error attempt 2 for 50-The Sluggard (5-20-09).pdf: Expecting ',' delimiter: line 106 column 6 (char 3272)
+2026-05-11 13:50:31  WARNING   JSON parse error attempt 3 for 50-The Sluggard (5-20-09).pdf: Expecting ',' delimiter: line 106 column 6 (char 3270)
+2026-05-11 13:50:43  WARNING   JSON parse error attempt 1 for 51-The Eyes of the Lord (5-27-09).pdf: Expecting ',' delimiter: line 122 column 6 (char 3282)
+2026-05-11 13:50:51  WARNING   JSON parse error attempt 2 for 51-The Eyes of the Lord (5-27-09).pdf: Expecting ',' delimiter: line 114 column 6 (char 3413)
+2026-05-11 13:51:02  WARNING   JSON parse error attempt 3 for 51-The Eyes of the Lord (5-27-09).pdf: Expecting ',' delimiter: line 114 column 6 (char 3348)
+2026-05-11 13:51:16  WARNING   JSON parse error attempt 1 for 52-Dead End Roads (5-31-09).pdf: Expecting ',' delimiter: line 114 column 6 (char 3509)
+2026-05-11 13:51:25  WARNING   JSON parse error attempt 2 for 52-Dead End Roads (5-31-09).pdf: Expecting ',' delimiter: line 114 column 6 (char 3262)
+2026-05-11 13:51:35  WARNING   JSON parse error attempt 3 for 52-Dead End Roads (5-31-09).pdf: Expecting ',' delimiter: line 114 column 6 (char 3453)
+2026-05-11 13:51:47  WARNING   JSON parse error attempt 1 for 54-Beatitudes of Proverbs (6-10-09).pdf: Expecting ',' delimiter: line 99 column 6 (char 3193)
+2026-05-11 13:52:04  INFO      Wrote 50 sermons to Firestore
+2026-05-11 13:55:31  WARNING   JSON parse error attempt 1 for SAVED and SURE (4-25-10).pdf: Expecting ',' delimiter: line 113 column 6 (char 3254)
+2026-05-11 13:55:48  WARNING   JSON parse error attempt 1 for Signs of the Times (7-5-09).pdf: Expecting ',' delimiter: line 111 column 6 (char 3227)
+2026-05-11 13:56:05  WARNING   JSON parse error attempt 1 for Solomon on Prayer.docx: Expecting ',' delimiter: line 122 column 6 (char 3398)
+2026-05-11 13:56:13  WARNING   JSON parse error attempt 2 for Solomon on Prayer.docx: Expecting ',' delimiter: line 130 column 6 (char 3476)
+2026-05-11 13:56:45  WARNING   JSON parse error attempt 1 for The Awful Doctrine of Hell.pdf: Expecting ',' delimiter: line 131 column 6 (char 3441)
+2026-05-11 13:56:53  WARNING   JSON parse error attempt 2 for The Awful Doctrine of Hell.pdf: Expecting ',' delimiter: line 123 column 6 (char 3403)
+2026-05-11 13:57:02  WARNING   JSON parse error attempt 3 for The Awful Doctrine of Hell.pdf: Expecting ',' delimiter: line 120 column 6 (char 3409)
+2026-05-11 13:57:28  WARNING   JSON parse error attempt 1 for The Stars Also (2-24-10).pdf: Expecting ',' delimiter: line 126 column 6 (char 3556)
+2026-05-11 13:57:36  WARNING   JSON parse error attempt 2 for The Stars Also (2-24-10).pdf: Expecting ',' delimiter: line 126 column 6 (char 3572)
+2026-05-11 13:57:46  WARNING   JSON parse error attempt 3 for The Stars Also (2-24-10).pdf: Expecting ',' delimiter: line 125 column 6 (char 3541)
+2026-05-11 13:57:57  WARNING   JSON parse error attempt 1 for USA in Prophecy (7-5-09 am).pdf: Expecting ',' delimiter: line 122 column 6 (char 3500)
+2026-05-11 14:06:41  WARNING   JSON parse error attempt 1 for Zacchaeus- How The Tax Collector Got Saved (2-7-10).pdf: Expecting ',' delimiter: line 114 column 6 (char 3308)
+2026-05-11 14:06:49  WARNING   JSON parse error attempt 2 for Zacchaeus- How The Tax Collector Got Saved (2-7-10).pdf: Expecting ',' delimiter: line 122 column 6 (char 3398)
+2026-05-11 14:06:58  WARNING   JSON parse error attempt 3 for Zacchaeus- How The Tax Collector Got Saved (2-7-10).pdf: Expecting ',' delimiter: line 114 column 6 (char 3135)
+2026-05-11 14:07:57  INFO      Wrote 50 sermons to Firestore
+2026-05-11 14:08:06  WARNING   JSON parse error attempt 1 for JOB.DOC: Expecting ',' delimiter: line 123 column 6 (char 3708)
+2026-05-11 14:08:15  WARNING   JSON parse error attempt 2 for JOB.DOC: Expecting ',' delimiter: line 126 column 6 (char 3620)
+2026-05-11 14:08:26  WARNING   JSON parse error attempt 3 for JOB.DOC: Expecting ',' delimiter: line 123 column 6 (char 3582)
+2026-05-11 14:08:36  WARNING   JSON parse error attempt 1 for 1-1-1-Saints.doc: Expecting ',' delimiter: line 116 column 6 (char 3506)
+2026-05-11 14:08:45  WARNING   JSON parse error attempt 2 for 1-1-1-Saints.doc: Expecting ',' delimiter: line 116 column 6 (char 3373)
+2026-05-11 14:08:54  WARNING   JSON parse error attempt 3 for 1-1-1-Saints.doc: Expecting ',' delimiter: line 109 column 6 (char 3487)
+2026-05-11 14:09:32  WARNING   JSON parse error attempt 1 for 1-1Behold The Man.doc: Expecting ',' delimiter: line 118 column 6 (char 3437)
+2026-05-11 14:09:41  WARNING   JSON parse error attempt 2 for 1-1Behold The Man.doc: Expecting ',' delimiter: line 118 column 6 (char 3382)
+2026-05-11 14:09:50  WARNING   JSON parse error attempt 3 for 1-1Behold The Man.doc: Expecting ',' delimiter: line 118 column 6 (char 3256)
+2026-05-11 14:10:08  WARNING   JSON parse error attempt 1 for 1-3-The Common Salvation.docx: Expecting ',' delimiter: line 118 column 6 (char 3686)
+2026-05-11 14:10:16  WARNING   JSON parse error attempt 2 for 1-3-The Common Salvation.docx: Expecting ',' delimiter: line 118 column 6 (char 3758)
+2026-05-11 14:10:26  WARNING   JSON parse error attempt 3 for 1-3-The Common Salvation.docx: Expecting ',' delimiter: line 116 column 6 (char 3597)
+2026-05-11 14:11:49  WARNING   JSON parse error attempt 1 for 10-32-40-The Christian Warfare.docx: Expecting ',' delimiter: line 117 column 6 (char 3600)
+2026-05-11 14:11:58  WARNING   JSON parse error attempt 2 for 10-32-40-The Christian Warfare.docx: Expecting ',' delimiter: line 115 column 6 (char 3566)
+2026-05-11 14:12:08  WARNING   JSON parse error attempt 3 for 10-32-40-The Christian Warfare.docx: Expecting ',' delimiter: line 115 column 6 (char 3456)
+2026-05-11 14:13:10  WARNING   JSON parse error attempt 1 for 11-The Worship Of The Church.docx: Expecting ',' delimiter: line 108 column 6 (char 3342)
+2026-05-11 14:13:19  WARNING   JSON parse error attempt 2 for 11-The Worship Of The Church.docx: Expecting ',' delimiter: line 108 column 6 (char 3307)
+2026-05-11 14:13:28  WARNING   JSON parse error attempt 3 for 11-The Worship Of The Church.docx: Expecting ',' delimiter: line 108 column 6 (char 3238)
+2026-05-11 14:14:05  WARNING   JSON parse error attempt 1 for 12-I Am His And He Is Mine.docx: Expecting ',' delimiter: line 122 column 6 (char 3474)
+2026-05-11 14:14:13  WARNING   JSON parse error attempt 2 for 12-I Am His And He Is Mine.docx: Expecting ',' delimiter: line 122 column 6 (char 3535)
+2026-05-11 14:14:22  WARNING   JSON parse error attempt 3 for 12-I Am His And He Is Mine.docx: Expecting ',' delimiter: line 116 column 6 (char 3391)
+2026-05-11 14:14:55  WARNING   JSON parse error attempt 1 for 13-4-1-5-Redeemed From The Law.docx: Expecting ',' delimiter: line 99 column 6 (char 3186)
+2026-05-11 14:15:44  WARNING   JSON parse error attempt 1 for 14-The Enemy Of The Tongue.docx: Expecting ',' delimiter: line 115 column 6 (char 3317)
+2026-05-11 14:15:52  WARNING   JSON parse error attempt 2 for 14-The Enemy Of The Tongue.docx: Expecting ',' delimiter: line 116 column 6 (char 3379)
+2026-05-11 14:16:01  WARNING   JSON parse error attempt 3 for 14-The Enemy Of The Tongue.docx: Expecting ',' delimiter: line 115 column 6 (char 3330)
+2026-05-11 14:16:33  WARNING   JSON parse error attempt 1 for 15-The Pulpit And The Church.docx: Expecting ',' delimiter: line 108 column 6 (char 3024)
+2026-05-11 14:16:42  WARNING   JSON parse error attempt 2 for 15-The Pulpit And The Church.docx: Expecting ',' delimiter: line 100 column 6 (char 3045)
+2026-05-11 14:17:07  WARNING   JSON parse error attempt 1 for 16-4-4-7-Sons - Not Servants.docx: Expecting ',' delimiter: line 114 column 6 (char 3393)
+2026-05-11 14:17:35  WARNING   JSON parse error attempt 1 for 18-4-1-7-What An Inheritance.docx: Expecting ',' delimiter: line 123 column 6 (char 3457)
+2026-05-11 14:17:44  WARNING   JSON parse error attempt 2 for 18-4-1-7-What An Inheritance.docx: Expecting ',' delimiter: line 115 column 6 (char 3683)
+2026-05-11 14:17:53  WARNING   JSON parse error attempt 3 for 18-4-1-7-What An Inheritance.docx: Expecting ',' delimiter: line 124 column 6 (char 3519)
+2026-05-11 14:17:57  INFO      Wrote 50 sermons to Firestore
+2026-05-11 14:18:18  WARNING   JSON parse error attempt 1 for 2- The Wondrous Works Of God.docx: Expecting ',' delimiter: line 122 column 6 (char 3306)
+2026-05-11 14:18:26  WARNING   JSON parse error attempt 2 for 2- The Wondrous Works Of God.docx: Expecting ',' delimiter: line 122 column 6 (char 3372)
+2026-05-11 14:18:35  WARNING   JSON parse error attempt 3 for 2- The Wondrous Works Of God.docx: Expecting ',' delimiter: line 114 column 6 (char 3256)
+2026-05-11 14:19:32  WARNING   JSON parse error attempt 1 for 2007-An Odious Woman When She Is Married.doc: Expecting ',' delimiter: line 101 column 6 (char 3127)
+2026-05-11 14:20:48  WARNING   JSON parse error attempt 1 for 2009-We Have Hope In Christ.docx: Expecting ',' delimiter: line 117 column 6 (char 3565)
+2026-05-11 14:20:57  WARNING   JSON parse error attempt 2 for 2009-We Have Hope In Christ.docx: Expecting ',' delimiter: line 116 column 6 (char 3454)
+2026-05-11 14:21:06  WARNING   JSON parse error attempt 3 for 2009-We Have Hope In Christ.docx: Expecting ',' delimiter: line 116 column 6 (char 3534)
+2026-05-11 14:21:43  WARNING   JSON parse error attempt 1 for 2010.doc: Expecting ',' delimiter: line 105 column 6 (char 3276)
+2026-05-11 14:21:59  WARNING   JSON parse error attempt 1 for 21-4-19-31-Children Of The Free.docx: Expecting ',' delimiter: line 124 column 6 (char 3515)
+2026-05-11 14:22:07  WARNING   JSON parse error attempt 2 for 21-4-19-31-Children Of The Free.docx: Expecting ',' delimiter: line 115 column 6 (char 3593)
+2026-05-11 14:22:47  WARNING   JSON parse error attempt 1 for 23-5-1-10-A Little Leaven.docx: Expecting ',' delimiter: line 109 column 6 (char 3247)
+2026-05-11 14:23:03  WARNING   JSON parse error attempt 1 for 23-Jobs Ss and Gods Ps.docx: Expecting ',' delimiter: line 119 column 6 (char 3226)
+2026-05-11 14:23:19  WARNING   JSON parse error attempt 1 for 25-5-10-12-The Offence of the Cross of Christ.docx: Expecting ',' delimiter: line 107 column 6 (char 3155)
+2026-05-11 14:23:28  WARNING   JSON parse error attempt 2 for 25-5-10-12-The Offence of the Cross of Christ.docx: Expecting ',' delimiter: line 107 column 6 (char 3455)
+2026-05-11 14:23:38  WARNING   JSON parse error attempt 3 for 25-5-10-12-The Offence of the Cross of Christ.docx: Expecting ',' delimiter: line 107 column 6 (char 3185)
+2026-05-11 14:24:35  WARNING   JSON parse error attempt 1 for 3-1-6-9-The Curse Of The Gospel.docx: Expecting ',' delimiter: line 100 column 6 (char 3152)
+2026-05-11 14:24:44  WARNING   JSON parse error attempt 2 for 3-1-6-9-The Curse Of The Gospel.docx: Expecting ',' delimiter: line 109 column 6 (char 3519)
+2026-05-11 14:25:23  WARNING   JSON parse error attempt 1 for 3-17-4-9-Walking After Pauls Example.docx: Expecting ',' delimiter: line 114 column 6 (char 3614)
+2026-05-11 14:25:31  WARNING   JSON parse error attempt 2 for 3-17-4-9-Walking After Pauls Example.docx: Expecting ',' delimiter: line 99 column 6 (char 3475)
+2026-05-11 14:25:40  WARNING   JSON parse error attempt 3 for 3-17-4-9-Walking After Pauls Example.docx: Expecting ',' delimiter: line 98 column 6 (char 3387)
+2026-05-11 14:26:33  INFO      Wrote 50 sermons to Firestore
+2026-05-11 14:26:53  WARNING   JSON parse error attempt 1 for 34-6-14-The Glory Of The Cross.docx: Expecting ',' delimiter: line 114 column 6 (char 3579)
+2026-05-11 14:27:01  WARNING   JSON parse error attempt 2 for 34-6-14-The Glory Of The Cross.docx: Expecting ',' delimiter: line 114 column 6 (char 3335)
+2026-05-11 14:27:10  WARNING   JSON parse error attempt 3 for 34-6-14-The Glory Of The Cross.docx: Expecting ',' delimiter: line 114 column 6 (char 3371)
+2026-05-11 14:27:21  WARNING   JSON parse error attempt 1 for 36-6-15-18-The Marks Of The Lord Jesus.docx: Expecting ',' delimiter: line 106 column 6 (char 3052)
+2026-05-11 14:27:30  WARNING   JSON parse error attempt 2 for 36-6-15-18-The Marks Of The Lord Jesus.docx: Expecting ',' delimiter: line 106 column 6 (char 3261)
+2026-05-11 14:27:39  WARNING   JSON parse error attempt 3 for 36-6-15-18-The Marks Of The Lord Jesus.docx: Expecting ',' delimiter: line 106 column 6 (char 3068)
+2026-05-11 14:27:58  WARNING   JSON parse error attempt 1 for 4-1-10-24-The Gospel of God.docx: Expecting ',' delimiter: line 115 column 6 (char 3083)
+2026-05-11 14:28:14  WARNING   JSON parse error attempt 1 for 4-13-15-What Is Your Life.doc: Expecting ',' delimiter: line 115 column 6 (char 3194)
+2026-05-11 14:28:23  WARNING   JSON parse error attempt 2 for 4-13-15-What Is Your Life.doc: Expecting ',' delimiter: line 114 column 6 (char 3164)
+2026-05-11 14:28:32  WARNING   JSON parse error attempt 3 for 4-13-15-What Is Your Life.doc: Expecting ',' delimiter: line 113 column 6 (char 3126)
+2026-05-11 14:28:55  WARNING   JSON parse error attempt 1 for 4-Musts In Building A Church.docx: Expecting ',' delimiter: line 123 column 6 (char 3302)
+2026-05-11 14:29:02  WARNING   JSON parse error attempt 2 for 4-Musts In Building A Church.docx: Expecting ',' delimiter: line 123 column 6 (char 3351)
+2026-05-11 14:29:11  WARNING   JSON parse error attempt 3 for 4-Musts In Building A Church.docx: Expecting ',' delimiter: line 123 column 6 (char 3394)
+2026-05-11 14:29:55  WARNING   JSON parse error attempt 1 for 5-2-1-5-Our Liberty In Christ.docx: Expecting ',' delimiter: line 117 column 6 (char 3503)
+2026-05-11 14:30:03  WARNING   JSON parse error attempt 2 for 5-2-1-5-Our Liberty In Christ.docx: Expecting ',' delimiter: line 116 column 6 (char 3399)
+2026-05-11 14:30:13  WARNING   JSON parse error attempt 3 for 5-2-1-5-Our Liberty In Christ.docx: Expecting ',' delimiter: line 116 column 6 (char 3397)
+2026-05-11 14:30:32  WARNING   JSON parse error attempt 1 for 6-The Eternal Word Of God.docx: Expecting ',' delimiter: line 102 column 6 (char 3144)
+2026-05-11 14:30:48  WARNING   JSON parse error attempt 1 for 6-The Pastor And His Ministry.doc: Expecting ',' delimiter: line 116 column 6 (char 3461)
+2026-05-11 14:30:55  WARNING   JSON parse error attempt 2 for 6-The Pastor And His Ministry.doc: Expecting ',' delimiter: line 116 column 6 (char 3398)
+2026-05-11 14:31:04  WARNING   JSON parse error attempt 3 for 6-The Pastor And His Ministry.doc: Expecting ',' delimiter: line 116 column 6 (char 3403)
+2026-05-11 14:31:29  WARNING   JSON parse error attempt 1 for 7-The Majesty Of God.docx: Expecting ',' delimiter: line 113 column 6 (char 3085)
+2026-05-11 14:32:37  WARNING   JSON parse error attempt 1 for Limiting God.doc: Expecting ',' delimiter: line 116 column 6 (char 3431)
+2026-05-11 14:32:45  WARNING   JSON parse error attempt 2 for Limiting God.doc: Expecting ',' delimiter: line 108 column 6 (char 3193)
+2026-05-11 14:32:54  WARNING   JSON parse error attempt 3 for Limiting God.doc: Expecting ',' delimiter: line 108 column 6 (char 3209)
+2026-05-11 14:40:48  WARNING   JSON parse error attempt 1 for Our Infinite God.doc: Expecting ',' delimiter: line 113 column 6 (char 3192)
+2026-05-11 14:40:55  WARNING   JSON parse error attempt 2 for Our Infinite God.doc: Expecting ',' delimiter: line 129 column 6 (char 3377)
+2026-05-11 14:41:04  WARNING   JSON parse error attempt 3 for Our Infinite God.doc: Expecting ',' delimiter: line 129 column 6 (char 3399)
+2026-05-11 14:41:14  WARNING   JSON parse error attempt 1 for Our Labor of Love.doc: Expecting ',' delimiter: line 114 column 6 (char 3425)
+2026-05-11 14:42:15  INFO      Wrote 50 sermons to Firestore
+2026-05-11 14:42:47  WARNING   JSON parse error attempt 1 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 122 column 6 (char 3389)
+2026-05-11 14:42:54  WARNING   JSON parse error attempt 2 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 122 column 6 (char 3483)
+2026-05-11 14:43:03  WARNING   JSON parse error attempt 3 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 114 column 6 (char 3372)
+2026-05-11 14:44:10  WARNING   JSON parse error attempt 1 for THANKSGIVING.doc: Expecting ',' delimiter: line 122 column 6 (char 3434)
+2026-05-11 14:45:37  WARNING   JSON parse error attempt 1 for THE INCARNATION.doc: Expecting ',' delimiter: line 116 column 6 (char 3469)
+2026-05-11 14:45:46  WARNING   JSON parse error attempt 2 for THE INCARNATION.doc: Expecting ',' delimiter: line 124 column 6 (char 3550)
+2026-05-11 14:45:56  WARNING   JSON parse error attempt 3 for THE INCARNATION.doc: Expecting ',' delimiter: line 118 column 6 (char 3469)
+2026-05-11 14:46:59  WARNING   JSON parse error attempt 1 for THE PASTORS RESPONSIBILITY.doc: Expecting ',' delimiter: line 116 column 6 (char 3393)
+2026-05-11 14:47:08  WARNING   JSON parse error attempt 2 for THE PASTORS RESPONSIBILITY.doc: Expecting ',' delimiter: line 116 column 6 (char 3390)
+2026-05-11 14:47:17  WARNING   JSON parse error attempt 3 for THE PASTORS RESPONSIBILITY.doc: Expecting ',' delimiter: line 116 column 6 (char 3374)
+2026-05-11 14:47:54  WARNING   JSON parse error attempt 1 for The Scandalous Affair of David and Bathsheba.doc: Expecting ',' delimiter: line 103 column 6 (char 3291)
+2026-05-11 14:48:10  WARNING   JSON parse error attempt 1 for The Second Gift of Christmas.doc: Expecting ',' delimiter: line 114 column 6 (char 3373)
+2026-05-11 14:48:18  WARNING   JSON parse error attempt 2 for The Second Gift of Christmas.doc: Expecting ',' delimiter: line 114 column 6 (char 3307)
+2026-05-11 14:48:27  WARNING   JSON parse error attempt 3 for The Second Gift of Christmas.doc: Expecting ',' delimiter: line 123 column 6 (char 3655)
+2026-05-11 14:48:44  WARNING   JSON parse error attempt 1 for The Tabernacle in the Wilderness.doc: Expecting ',' delimiter: line 110 column 6 (char 3316)
+2026-05-11 14:48:52  WARNING   JSON parse error attempt 2 for The Tabernacle in the Wilderness.doc: Expecting ',' delimiter: line 110 column 6 (char 3303)
+2026-05-11 14:49:02  WARNING   JSON parse error attempt 3 for The Tabernacle in the Wilderness.doc: Expecting ',' delimiter: line 110 column 6 (char 3280)
+2026-05-11 14:49:45  INFO      Wrote 50 sermons to Firestore
+2026-05-11 14:51:20  WARNING   JSON parse error attempt 1 for What Have I Done.doc: Expecting ',' delimiter: line 116 column 6 (char 3531)
+2026-05-11 14:51:28  WARNING   JSON parse error attempt 2 for What Have I Done.doc: Expecting ',' delimiter: line 123 column 6 (char 3502)
+2026-05-11 14:51:38  WARNING   JSON parse error attempt 3 for What Have I Done.doc: Expecting ',' delimiter: line 116 column 6 (char 3401)
+2026-05-11 14:52:40  WARNING   JSON parse error attempt 1 for WHEN THE LORD COMES.doc: Expecting ',' delimiter: line 124 column 6 (char 3325)
+2026-05-11 14:52:48  WARNING   JSON parse error attempt 2 for WHEN THE LORD COMES.doc: Expecting ',' delimiter: line 116 column 6 (char 3169)
+2026-05-11 14:52:56  WARNING   JSON parse error attempt 3 for WHEN THE LORD COMES.doc: Expecting ',' delimiter: line 124 column 6 (char 3291)
+2026-05-11 14:53:14  WARNING   JSON parse error attempt 1 for WhenIsItRightToFight.doc: Expecting ',' delimiter: line 124 column 6 (char 3506)
+2026-05-11 14:53:22  WARNING   JSON parse error attempt 2 for WhenIsItRightToFight.doc: Expecting ',' delimiter: line 124 column 6 (char 3393)
+2026-05-11 14:53:31  WARNING   JSON parse error attempt 3 for WhenIsItRightToFight.doc: Expecting ',' delimiter: line 124 column 6 (char 3618)
+2026-05-11 14:54:10  WARNING   JSON parse error attempt 1 for Why I Preach The Resurrection of Christ.doc: Expecting ',' delimiter: line 124 column 6 (char 3480)
+2026-05-11 14:54:18  WARNING   JSON parse error attempt 2 for Why I Preach The Resurrection of Christ.doc: Expecting ',' delimiter: line 124 column 6 (char 3562)
+2026-05-11 14:54:54  WARNING   JSON parse error attempt 1 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 123 column 6 (char 3444)
+2026-05-11 14:55:03  WARNING   JSON parse error attempt 2 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 115 column 6 (char 3435)
+2026-05-11 14:55:12  WARNING   JSON parse error attempt 3 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 115 column 6 (char 3283)
+2026-05-11 14:55:44  WARNING   JSON parse error attempt 1 for Worthy Is the Lam1.doc: Expecting ',' delimiter: line 114 column 6 (char 3328)
+2026-05-11 14:55:53  WARNING   JSON parse error attempt 2 for Worthy Is the Lam1.doc: Expecting ',' delimiter: line 122 column 6 (char 3338)
+2026-05-11 14:56:03  WARNING   JSON parse error attempt 3 for Worthy Is the Lam1.doc: Expecting ',' delimiter: line 122 column 6 (char 3352)
+2026-05-11 14:56:28  INFO      Wrote 41 sermons to Firestore
+2026-05-11 14:56:28  INFO      Computing stats...
+2026-05-11 14:56:30  INFO      Stats: 1041 sermons
