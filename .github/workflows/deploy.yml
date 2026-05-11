@@ -42,17 +42,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build
         env:
-          # Inject secrets as environment variables at build time
           REACT_APP_ANTHROPIC_API_KEY: ${{ secrets.REACT_APP_ANTHROPIC_API_KEY }}
-          # React Router needs this for GitHub Pages subdirectory hosting
-          PUBLIC_URL: /${{ github.event.repository.name }}
+          PUBLIC_URL: /sermon-library
+          CI: false
         run: npm run build
 
       - name: Setup Pages
