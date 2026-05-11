@@ -45,7 +45,6 @@ export default function LibraryPage({ pastor }) {
       setLoading(false);
       setLoadingMore(false);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pastor?.id, filters, search]);
 
   useEffect(() => { load(true); }, [pastor?.id, filters]);
