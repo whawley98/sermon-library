@@ -81,7 +81,6 @@ export default function StatsPage({ pastor }) {
 
       </div>
     </div>
-    </div>
   );
 }
 
@@ -91,7 +90,6 @@ function StatCard({ icon, value, label }) {
       <span className="stat-card-icon">{icon}</span>
       <span className="stat-card-value">{value ?? "—"}</span>
       <span className="stat-card-label">{label}</span>
-    </div>
     </div>
   );
 }
