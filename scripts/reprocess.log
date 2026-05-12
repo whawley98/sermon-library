@@ -1,0 +1,783 @@
+2026-05-11 18:50:05,139 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:50:13,705 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:50:13,706 WARNING  JSON error attempt 1 for Hindsight Is Not Always 20-20.doc: Expecting ',' delimiter: line 117 column 6 (char 3641)
+2026-05-11 18:50:22,243 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:50:22,244 WARNING  JSON error attempt 2 for Hindsight Is Not Always 20-20.doc: Expecting ',' delimiter: line 110 column 6 (char 3527)
+2026-05-11 18:50:32,086 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:50:32,089 WARNING  JSON error attempt 3 for Hindsight Is Not Always 20-20.doc: Expecting ',' delimiter: line 116 column 6 (char 3524)
+2026-05-11 18:50:43,302 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:50:43,304 WARNING  JSON error attempt 1 for Old Fashion Day.doc: Expecting ',' delimiter: line 118 column 6 (char 3313)
+2026-05-11 18:50:51,917 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:50:51,919 WARNING  JSON error attempt 2 for Old Fashion Day.doc: Expecting ',' delimiter: line 118 column 6 (char 3417)
+2026-05-11 18:51:00,859 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:51:00,862 WARNING  JSON error attempt 3 for Old Fashion Day.doc: Expecting ',' delimiter: line 118 column 6 (char 3271)
+2026-05-11 18:51:11,909 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:51:11,910 WARNING  JSON error attempt 1 for 52-Dead End Roads (5-31-09).pdf: Expecting ',' delimiter: line 110 column 6 (char 3389)
+2026-05-11 18:51:21,558 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:51:21,559 WARNING  JSON error attempt 2 for 52-Dead End Roads (5-31-09).pdf: Expecting ',' delimiter: line 114 column 6 (char 3607)
+2026-05-11 18:51:31,620 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:51:31,621 WARNING  JSON error attempt 3 for 52-Dead End Roads (5-31-09).pdf: Expecting ',' delimiter: line 110 column 6 (char 3343)
+2026-05-11 18:51:41,347 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:51:41,348 WARNING  JSON error attempt 1 for STILL GRACE.doc: Expecting ',' delimiter: line 126 column 6 (char 3281)
+2026-05-11 18:51:49,224 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:51:49,226 WARNING  JSON error attempt 2 for STILL GRACE.doc: Expecting ',' delimiter: line 126 column 6 (char 3370)
+2026-05-11 18:51:58,340 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:51:58,341 WARNING  JSON error attempt 3 for STILL GRACE.doc: Expecting ',' delimiter: line 126 column 6 (char 3400)
+2026-05-11 18:52:08,645 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:52:08,645 WARNING  JSON error attempt 1 for 07-Day of Atonement (2-3-10).pdf: Expecting ',' delimiter: line 110 column 6 (char 3257)
+2026-05-11 18:52:16,833 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:52:16,834 WARNING  JSON error attempt 2 for 07-Day of Atonement (2-3-10).pdf: Expecting ',' delimiter: line 110 column 6 (char 3231)
+2026-05-11 18:52:26,184 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:52:26,185 WARNING  JSON error attempt 3 for 07-Day of Atonement (2-3-10).pdf: Expecting ',' delimiter: line 110 column 6 (char 3315)
+2026-05-11 18:52:36,645 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:52:36,646 WARNING  JSON error attempt 1 for 14-The Enemy Of The Tongue.docx: Expecting ',' delimiter: line 112 column 6 (char 3469)
+2026-05-11 18:52:44,976 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:52:44,977 WARNING  JSON error attempt 2 for 14-The Enemy Of The Tongue.docx: Expecting ',' delimiter: line 114 column 6 (char 3442)
+2026-05-11 18:52:54,372 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:52:54,373 WARNING  JSON error attempt 3 for 14-The Enemy Of The Tongue.docx: Expecting ',' delimiter: line 116 column 6 (char 3368)
+2026-05-11 18:53:03,856 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:53:03,858 WARNING  JSON error attempt 1 for God Give Us A Heart.doc: Expecting ',' delimiter: line 121 column 6 (char 3467)
+2026-05-11 18:53:11,569 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:53:11,571 WARNING  JSON error attempt 2 for God Give Us A Heart.doc: Expecting ',' delimiter: line 113 column 6 (char 3429)
+2026-05-11 18:53:20,612 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:53:20,614 WARNING  JSON error attempt 3 for God Give Us A Heart.doc: Expecting ',' delimiter: line 105 column 6 (char 3609)
+2026-05-11 18:53:31,201 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:53:31,203 WARNING  JSON error attempt 1 for 18-4-1-7-What An Inheritance.docx: Expecting ',' delimiter: line 115 column 6 (char 3671)
+2026-05-11 18:53:39,346 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:53:39,347 WARNING  JSON error attempt 2 for 18-4-1-7-What An Inheritance.docx: Expecting ',' delimiter: line 114 column 6 (char 3321)
+2026-05-11 18:53:48,588 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:53:48,589 WARNING  JSON error attempt 3 for 18-4-1-7-What An Inheritance.docx: Expecting ',' delimiter: line 110 column 6 (char 3351)
+2026-05-11 18:53:58,084 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:53:58,085 WARNING  JSON error attempt 1 for Limiting God.doc: Expecting ',' delimiter: line 110 column 6 (char 3228)
+2026-05-11 18:54:05,715 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:54:05,716 WARNING  JSON error attempt 2 for Limiting God.doc: Expecting ',' delimiter: line 110 column 6 (char 3343)
+2026-05-11 18:54:14,585 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:54:14,586 WARNING  JSON error attempt 3 for Limiting God.doc: Expecting ',' delimiter: line 110 column 6 (char 3140)
+2026-05-11 18:54:26,198 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:54:26,199 WARNING  JSON error attempt 1 for A Father's Failure.doc: Expecting ',' delimiter: line 114 column 6 (char 3344)
+2026-05-11 18:54:35,349 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:54:35,350 WARNING  JSON error attempt 2 for A Father's Failure.doc: Expecting ',' delimiter: line 114 column 6 (char 3435)
+2026-05-11 18:54:45,465 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:54:45,466 WARNING  JSON error attempt 3 for A Father's Failure.doc: Expecting ',' delimiter: line 110 column 6 (char 3388)
+2026-05-11 18:54:56,856 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:54:56,857 WARNING  JSON error attempt 1 for 51-The Eyes of the Lord (5-27-09).pdf: Expecting ',' delimiter: line 118 column 6 (char 3490)
+2026-05-11 18:55:05,386 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:55:05,386 WARNING  JSON error attempt 2 for 51-The Eyes of the Lord (5-27-09).pdf: Expecting ',' delimiter: line 118 column 6 (char 3266)
+2026-05-11 18:55:15,335 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:55:15,336 WARNING  JSON error attempt 3 for 51-The Eyes of the Lord (5-27-09).pdf: Expecting ',' delimiter: line 118 column 6 (char 3389)
+2026-05-11 18:55:26,648 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:55:26,650 WARNING  JSON error attempt 1 for What Have I Done.doc: Expecting ',' delimiter: line 118 column 6 (char 3434)
+2026-05-11 18:55:34,812 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:55:34,813 WARNING  JSON error attempt 2 for What Have I Done.doc: Expecting ',' delimiter: line 118 column 6 (char 3232)
+2026-05-11 18:55:44,047 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:55:44,049 WARNING  JSON error attempt 3 for What Have I Done.doc: Expecting ',' delimiter: line 110 column 6 (char 3382)
+2026-05-11 18:55:54,072 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:55:54,073 WARNING  JSON error attempt 1 for When The King Comes Back.doc: Expecting ',' delimiter: line 126 column 6 (char 3439)
+2026-05-11 18:56:02,488 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:56:02,489 WARNING  JSON error attempt 2 for When The King Comes Back.doc: Expecting ',' delimiter: line 126 column 6 (char 3517)
+2026-05-11 18:56:11,603 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:56:11,604 WARNING  JSON error attempt 3 for When The King Comes Back.doc: Expecting ',' delimiter: line 126 column 6 (char 3451)
+2026-05-11 18:56:22,355 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:56:22,356 WARNING  JSON error attempt 1 for Controversy of Christ2.DOC: Expecting ',' delimiter: line 108 column 6 (char 3700)
+2026-05-11 18:56:32,910 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:56:32,911 WARNING  JSON error attempt 2 for Controversy of Christ2.DOC: Expecting ',' delimiter: line 108 column 6 (char 3705)
+2026-05-11 18:56:42,689 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:56:42,690 WARNING  JSON error attempt 3 for Controversy of Christ2.DOC: Expecting ',' delimiter: line 108 column 6 (char 3665)
+2026-05-11 18:56:53,258 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:56:53,258 WARNING  JSON error attempt 1 for Gods Darling Lamb.doc: Expecting ',' delimiter: line 102 column 6 (char 3099)
+2026-05-11 18:57:02,415 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:57:02,416 WARNING  JSON error attempt 2 for Gods Darling Lamb.doc: Expecting ',' delimiter: line 102 column 6 (char 3003)
+2026-05-11 18:57:12,113 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:57:12,114 WARNING  JSON error attempt 3 for Gods Darling Lamb.doc: Expecting ',' delimiter: line 102 column 6 (char 3168)
+2026-05-11 18:57:22,092 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:57:22,093 WARNING  JSON error attempt 1 for Onward Christian Soldiers.doc: Expecting ',' delimiter: line 118 column 6 (char 3355)
+2026-05-11 18:57:30,305 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:57:30,306 WARNING  JSON error attempt 2 for Onward Christian Soldiers.doc: Expecting ',' delimiter: line 118 column 6 (char 3540)
+2026-05-11 18:57:39,374 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:57:39,375 WARNING  JSON error attempt 3 for Onward Christian Soldiers.doc: Expecting ',' delimiter: line 118 column 6 (char 3409)
+2026-05-11 18:57:49,799 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:57:49,801 WARNING  JSON error attempt 1 for 25-5-10-12-The Offence of the Cross of Christ.docx: Expecting ',' delimiter: line 107 column 6 (char 3355)
+2026-05-11 18:57:58,223 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:57:58,225 WARNING  JSON error attempt 2 for 25-5-10-12-The Offence of the Cross of Christ.docx: Expecting ',' delimiter: line 105 column 6 (char 3206)
+2026-05-11 18:58:07,607 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:58:07,607 WARNING  JSON error attempt 3 for 25-5-10-12-The Offence of the Cross of Christ.docx: Expecting ',' delimiter: line 112 column 6 (char 3344)
+2026-05-11 18:58:17,468 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:58:17,470 WARNING  JSON error attempt 1 for Who Jesus Is.doc: Expecting ',' delimiter: line 118 column 6 (char 3426)
+2026-05-11 18:58:25,363 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:58:25,364 WARNING  JSON error attempt 2 for Who Jesus Is.doc: Expecting ',' delimiter: line 118 column 6 (char 3456)
+2026-05-11 18:58:34,173 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:58:34,174 WARNING  JSON error attempt 3 for Who Jesus Is.doc: Expecting ',' delimiter: line 118 column 6 (char 3302)
+2026-05-11 18:58:44,176 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:58:44,177 WARNING  JSON error attempt 1 for Our Infinite God.doc: Expecting ',' delimiter: line 122 column 6 (char 3408)
+2026-05-11 18:58:52,384 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:58:52,386 WARNING  JSON error attempt 2 for Our Infinite God.doc: Expecting ',' delimiter: line 116 column 6 (char 3499)
+2026-05-11 18:59:00,995 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:59:00,996 WARNING  JSON error attempt 3 for Our Infinite God.doc: Expecting ',' delimiter: line 121 column 6 (char 3431)
+2026-05-11 18:59:11,864 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:59:11,865 WARNING  JSON error attempt 1 for 02-Passover (12-2-09).pdf: Expecting ',' delimiter: line 116 column 6 (char 3325)
+2026-05-11 18:59:20,970 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:59:20,972 WARNING  JSON error attempt 2 for 02-Passover (12-2-09).pdf: Expecting ',' delimiter: line 116 column 6 (char 3431)
+2026-05-11 18:59:30,216 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:59:30,217 WARNING  JSON error attempt 3 for 02-Passover (12-2-09).pdf: Expecting ',' delimiter: line 118 column 6 (char 3209)
+2026-05-11 18:59:40,831 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:59:40,835 WARNING  JSON error attempt 1 for A Sad Funeral Service.doc: Expecting ',' delimiter: line 110 column 6 (char 3533)
+2026-05-11 18:59:48,719 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:59:48,720 WARNING  JSON error attempt 2 for A Sad Funeral Service.doc: Expecting ',' delimiter: line 115 column 6 (char 3299)
+2026-05-11 18:59:57,547 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 18:59:57,548 WARNING  JSON error attempt 3 for A Sad Funeral Service.doc: Expecting ',' delimiter: line 113 column 6 (char 3434)
+2026-05-11 19:00:07,568 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 19:00:07,569 WARNING  JSON error attempt 1 for THINGS GOD WANTS US TO KNOW.doc: Expecting ',' delimiter: line 126 column 6 (char 3278)
+2026-05-11 19:00:15,371 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 19:00:15,372 WARNING  JSON error attempt 2 for THINGS GOD WANTS US TO KNOW.doc: Expecting ',' delimiter: line 126 column 6 (char 3152)
+2026-05-11 19:00:23,871 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 19:00:23,872 WARNING  JSON error attempt 3 for THINGS GOD WANTS US TO KNOW.doc: Expecting ',' delimiter: line 126 column 6 (char 3096)
+2026-05-11 19:00:34,377 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 19:00:34,379 WARNING  JSON error attempt 1 for THE HEDGE.doc: Expecting ',' delimiter: line 118 column 6 (char 3484)
+2026-05-11 20:02:52,812 INFO     Retrying request to /v1/messages in 0.456928 seconds
+2026-05-11 20:03:01,141 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 20:03:01,142 WARNING  JSON error attempt 2 for THE HEDGE.doc: Expecting ',' delimiter: line 118 column 6 (char 3472)
+2026-05-11 20:03:10,394 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 20:03:10,398 WARNING  JSON error attempt 3 for THE HEDGE.doc: Expecting ',' delimiter: line 118 column 6 (char 3367)
+2026-05-11 20:03:20,742 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 20:03:20,743 WARNING  JSON error attempt 1 for No Excuses.doc: Expecting ',' delimiter: line 118 column 6 (char 3556)
+2026-05-11 20:03:28,865 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 20:03:28,867 WARNING  JSON error attempt 2 for No Excuses.doc: Expecting ',' delimiter: line 122 column 6 (char 3382)
+2026-05-11 20:03:37,874 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 20:03:37,875 WARNING  JSON error attempt 3 for No Excuses.doc: Expecting ',' delimiter: line 118 column 6 (char 3406)
+2026-05-11 20:03:47,836 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 20:03:47,837 WARNING  JSON error attempt 1 for Don't Wait Too Long.doc: Expecting ',' delimiter: line 118 column 6 (char 3420)
+2026-05-11 20:03:55,744 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 20:03:55,746 WARNING  JSON error attempt 2 for Don't Wait Too Long.doc: Expecting ',' delimiter: line 110 column 6 (char 3364)
+2026-05-11 20:59:55,143 INFO     Retrying request to /v1/messages in 0.391420 seconds
+2026-05-11 21:00:03,028 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 21:00:03,029 WARNING  JSON error attempt 3 for Don't Wait Too Long.doc: Expecting ',' delimiter: line 118 column 6 (char 3388)
+2026-05-11 21:59:54,109 INFO     Retrying request to /v1/messages in 0.386194 seconds
+2026-05-11 22:00:02,792 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 22:00:02,793 WARNING  JSON error attempt 1 for 10-32-40-The Christian Warfare.docx: Expecting ',' delimiter: line 115 column 6 (char 3613)
+2026-05-11 22:54:44,880 INFO     Retrying request to /v1/messages in 0.498122 seconds
+2026-05-11 22:59:55,308 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 22:59:55,460 WARNING  JSON error attempt 2 for 10-32-40-The Christian Warfare.docx: Expecting ',' delimiter: line 115 column 6 (char 3616)
+2026-05-11 23:00:04,757 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-11 23:00:04,757 WARNING  JSON error attempt 3 for 10-32-40-The Christian Warfare.docx: Expecting ',' delimiter: line 110 column 6 (char 3519)
+2026-05-11 23:59:55,553 INFO     Retrying request to /v1/messages in 0.421410 seconds
+2026-05-12 00:00:04,089 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 00:00:04,090 WARNING  JSON error attempt 1 for The Man Christ Jesus.doc: Expecting ',' delimiter: line 110 column 6 (char 3170)
+2026-05-12 00:00:13,134 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 00:00:13,135 WARNING  JSON error attempt 2 for The Man Christ Jesus.doc: Expecting ',' delimiter: line 114 column 6 (char 3268)
+2026-05-12 00:31:32,821 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 00:31:32,822 WARNING  JSON error attempt 3 for The Man Christ Jesus.doc: Expecting ',' delimiter: line 110 column 6 (char 3000)
+2026-05-12 01:03:25,194 INFO     Retrying request to /v1/messages in 0.386685 seconds
+2026-05-12 01:03:33,411 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 01:03:33,414 WARNING  JSON error attempt 1 for SUBDUING MOAB.doc: Expecting ',' delimiter: line 110 column 6 (char 3253)
+2026-05-12 01:59:31,100 INFO     Retrying request to /v1/messages in 0.477406 seconds
+2026-05-12 01:59:38,875 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 01:59:38,876 WARNING  JSON error attempt 2 for SUBDUING MOAB.doc: Expecting ',' delimiter: line 118 column 6 (char 3476)
+2026-05-12 02:51:04,626 INFO     Retrying request to /v1/messages in 0.465238 seconds
+2026-05-12 02:54:57,494 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:54:57,604 WARNING  JSON error attempt 3 for SUBDUING MOAB.doc: Expecting ',' delimiter: line 110 column 6 (char 3129)
+2026-05-12 02:55:08,241 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:55:08,242 WARNING  JSON error attempt 1 for What Men Thinketh2.doc: Expecting ',' delimiter: line 102 column 6 (char 3305)
+2026-05-12 02:55:16,726 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:55:24,390 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:55:24,391 WARNING  JSON error attempt 1 for 4-Musts In Building A Church.docx: Expecting ',' delimiter: line 126 column 6 (char 3490)
+2026-05-12 02:55:31,590 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:55:31,645 WARNING  JSON error attempt 2 for 4-Musts In Building A Church.docx: Expecting ',' delimiter: line 118 column 6 (char 3233)
+2026-05-12 02:55:40,269 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:55:40,270 WARNING  JSON error attempt 3 for 4-Musts In Building A Church.docx: Expecting ',' delimiter: line 118 column 6 (char 3414)
+2026-05-12 02:55:50,500 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:55:50,501 WARNING  JSON error attempt 1 for 12-I Am His And He Is Mine.docx: Expecting ',' delimiter: line 110 column 6 (char 3479)
+2026-05-12 02:55:58,122 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:55:58,124 WARNING  JSON error attempt 2 for 12-I Am His And He Is Mine.docx: Expecting ',' delimiter: line 126 column 6 (char 3464)
+2026-05-12 02:56:07,200 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:56:07,201 WARNING  JSON error attempt 3 for 12-I Am His And He Is Mine.docx: Expecting ',' delimiter: line 118 column 6 (char 3616)
+2026-05-12 02:56:17,648 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:56:17,648 WARNING  JSON error attempt 1 for THE INCARNATION.doc: Expecting ',' delimiter: line 121 column 6 (char 3393)
+2026-05-12 02:56:25,917 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:56:25,980 WARNING  JSON error attempt 2 for THE INCARNATION.doc: Expecting ',' delimiter: line 130 column 6 (char 3478)
+2026-05-12 02:56:34,982 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:56:34,983 WARNING  JSON error attempt 3 for THE INCARNATION.doc: Expecting ',' delimiter: line 118 column 6 (char 3340)
+2026-05-12 02:56:45,054 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:56:45,055 WARNING  JSON error attempt 1 for WhenIsItRightToFight.doc: Expecting ',' delimiter: line 118 column 6 (char 3488)
+2026-05-12 02:56:53,182 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:56:53,183 WARNING  JSON error attempt 2 for WhenIsItRightToFight.doc: Expecting ',' delimiter: line 117 column 6 (char 3452)
+2026-05-12 02:57:02,511 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:57:02,512 WARNING  JSON error attempt 3 for WhenIsItRightToFight.doc: Expecting ',' delimiter: line 118 column 6 (char 3414)
+2026-05-12 02:57:12,646 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:57:12,647 WARNING  JSON error attempt 1 for Where Art Thou.doc: Expecting ',' delimiter: line 115 column 6 (char 3408)
+2026-05-12 02:57:20,776 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 02:57:20,777 WARNING  JSON error attempt 2 for Where Art Thou.doc: Expecting ',' delimiter: line 116 column 6 (char 3507)
+2026-05-12 03:29:18,692 INFO     Retrying request to /v1/messages in 0.390984 seconds
+2026-05-12 03:59:56,706 INFO     Retrying request to /v1/messages in 0.899239 seconds
+2026-05-12 04:00:05,632 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 04:00:05,633 WARNING  JSON error attempt 3 for Where Art Thou.doc: Expecting ',' delimiter: line 116 column 6 (char 3501)
+2026-05-12 04:00:16,784 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 04:00:16,786 WARNING  JSON error attempt 1 for DEADNESS IN OUR CHURCHES.doc: Expecting ',' delimiter: line 126 column 6 (char 3466)
+2026-05-12 04:00:26,394 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 04:00:26,396 WARNING  JSON error attempt 2 for DEADNESS IN OUR CHURCHES.doc: Expecting ',' delimiter: line 126 column 6 (char 3376)
+2026-05-12 04:59:55,459 INFO     Retrying request to /v1/messages in 0.456953 seconds
+2026-05-12 05:00:04,284 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 05:00:04,285 WARNING  JSON error attempt 3 for DEADNESS IN OUR CHURCHES.doc: Expecting ',' delimiter: line 126 column 6 (char 3337)
+2026-05-12 06:59:57,697 INFO     Retrying request to /v1/messages in 0.398804 seconds
+2026-05-12 07:00:07,581 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:00:07,582 WARNING  JSON error attempt 1 for WHEN THE LORD COMES.doc: Expecting ',' delimiter: line 126 column 6 (char 3237)
+2026-05-12 07:00:15,631 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:00:15,632 WARNING  JSON error attempt 2 for WHEN THE LORD COMES.doc: Expecting ',' delimiter: line 118 column 6 (char 3065)
+2026-05-12 07:00:24,136 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:00:24,184 WARNING  JSON error attempt 3 for WHEN THE LORD COMES.doc: Expecting ',' delimiter: line 118 column 6 (char 3043)
+2026-05-12 07:00:34,603 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:00:34,604 WARNING  JSON error attempt 1 for The Coming World Dictator.doc: Expecting ',' delimiter: line 114 column 6 (char 3574)
+2026-05-12 07:00:43,182 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:00:43,183 WARNING  JSON error attempt 2 for The Coming World Dictator.doc: Expecting ',' delimiter: line 114 column 6 (char 3446)
+2026-05-12 07:00:52,153 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:00:52,154 WARNING  JSON error attempt 3 for The Coming World Dictator.doc: Expecting ',' delimiter: line 122 column 6 (char 3592)
+2026-05-12 07:01:03,718 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:01:03,719 WARNING  JSON error attempt 1 for 07-Preparing for Victory (3-14-10pm).pdf: Expecting ',' delimiter: line 118 column 6 (char 3519)
+2026-05-12 07:01:12,531 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:01:12,532 WARNING  JSON error attempt 2 for 07-Preparing for Victory (3-14-10pm).pdf: Expecting ',' delimiter: line 113 column 6 (char 3448)
+2026-05-12 07:01:22,289 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:01:22,344 WARNING  JSON error attempt 3 for 07-Preparing for Victory (3-14-10pm).pdf: Expecting ',' delimiter: line 118 column 6 (char 3411)
+2026-05-12 07:01:33,410 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:01:33,470 WARNING  JSON error attempt 1 for What About Hell.doc: Expecting ',' delimiter: line 118 column 6 (char 3621)
+2026-05-12 07:01:45,260 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 07:01:45,290 WARNING  JSON error attempt 2 for What About Hell.doc: Expecting ',' delimiter: line 118 column 6 (char 3570)
+2026-05-12 08:10:17,487 INFO     Retrying request to /v1/messages in 0.478181 seconds
+2026-05-12 08:10:26,923 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:10:26,924 WARNING  JSON error attempt 3 for What About Hell.doc: Expecting ',' delimiter: line 117 column 6 (char 3689)
+2026-05-12 08:10:37,430 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:10:37,432 WARNING  JSON error attempt 1 for STUMBLING OVER THE TRUTH.doc: Expecting ',' delimiter: line 118 column 6 (char 3549)
+2026-05-12 08:10:45,839 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:10:45,841 WARNING  JSON error attempt 2 for STUMBLING OVER THE TRUTH.doc: Expecting ',' delimiter: line 118 column 6 (char 3502)
+2026-05-12 08:10:57,517 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:10:57,579 WARNING  JSON error attempt 3 for STUMBLING OVER THE TRUTH.doc: Expecting ',' delimiter: line 118 column 6 (char 3376)
+2026-05-12 08:11:07,388 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:11:07,390 WARNING  JSON error attempt 1 for Walking With God.doc: Expecting ',' delimiter: line 110 column 6 (char 3322)
+2026-05-12 08:11:15,216 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:11:15,275 WARNING  JSON error attempt 2 for Walking With God.doc: Expecting ',' delimiter: line 110 column 6 (char 3371)
+2026-05-12 08:11:23,576 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:11:23,578 WARNING  JSON error attempt 3 for Walking With God.doc: Expecting ',' delimiter: line 118 column 6 (char 3372)
+2026-05-12 08:11:34,111 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:11:34,112 WARNING  JSON error attempt 1 for 11-The Worship Of The Church.docx: Expecting ',' delimiter: line 102 column 6 (char 3210)
+2026-05-12 08:11:43,175 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:11:43,177 WARNING  JSON error attempt 2 for 11-The Worship Of The Church.docx: Expecting ',' delimiter: line 106 column 6 (char 3207)
+2026-05-12 08:11:52,946 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:11:52,947 WARNING  JSON error attempt 3 for 11-The Worship Of The Church.docx: Expecting ',' delimiter: line 113 column 6 (char 3766)
+2026-05-12 08:12:06,701 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:12:16,022 ERROR    AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0x00000220CBF36BA0>" raised exception!
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\http\client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\http\client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\http\client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\requests\adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\util\retry.py", line 490, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\http\client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\http\client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\http\client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\auth\transport\requests.py", line 188, in __call__
+    response = self.session.request(
+        method, url, data=body, headers=headers, timeout=timeout, **kwargs
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\requests\sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\requests\sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\requests\adapters.py", line 660, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        context, _AuthMetadataPluginCallback(callback_state, callback)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\auth\transport\grpc.py", line 93, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\auth\transport\grpc.py", line 79, in _get_authorization_headers
+    self._credentials.before_request(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._request, context.method_name, context.service_url, headers
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\auth\credentials.py", line 469, in before_request
+    self._blocking_refresh(request)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\auth\credentials.py", line 203, in _blocking_refresh
+    self.refresh(request)
+    ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\auth\credentials.py", line 482, in refresh
+    self._perform_refresh_token(request)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\oauth2\service_account.py", line 460, in _perform_refresh_token
+    access_token, expiry, _ = _client.jwt_grant(
+                              ~~~~~~~~~~~~~~~~~^
+        request, self._token_uri, assertion
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\oauth2\_client.py", line 307, in jwt_grant
+    response_data = _token_endpoint_request(
+        request,
+    ...<5 lines>...
+        },
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\oauth2\_client.py", line 267, in _token_endpoint_request
+    ) = _token_endpoint_request_no_throw(
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<6 lines>...
+        **kwargs
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\oauth2\_client.py", line 196, in _token_endpoint_request_no_throw
+    response = request(
+        method="POST", url=token_uri, headers=headers_to_use, body=body, **kwargs
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\auth\transport\requests.py", line 195, in __call__
+    raise new_exc from caught_exc
+google.auth.exceptions.TransportError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-05-12 08:12:55,004 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:12:55,006 WARNING  JSON error attempt 1 for A Friend of God.doc: Expecting ',' delimiter: line 118 column 6 (char 3355)
+2026-05-12 08:13:04,001 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:13:04,003 WARNING  JSON error attempt 2 for A Friend of God.doc: Expecting ',' delimiter: line 118 column 6 (char 3236)
+2026-05-12 08:13:13,926 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:13:13,927 WARNING  JSON error attempt 3 for A Friend of God.doc: Expecting ',' delimiter: line 118 column 6 (char 3444)
+2026-05-12 08:13:24,023 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:13:24,025 WARNING  JSON error attempt 1 for 6-The Pastor And His Ministry.doc: Expecting ',' delimiter: line 118 column 6 (char 3383)
+2026-05-12 08:13:31,778 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:13:31,780 WARNING  JSON error attempt 2 for 6-The Pastor And His Ministry.doc: Expecting ',' delimiter: line 118 column 6 (char 3206)
+2026-05-12 08:13:40,542 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:13:40,543 WARNING  JSON error attempt 3 for 6-The Pastor And His Ministry.doc: Expecting ',' delimiter: line 118 column 6 (char 3253)
+2026-05-12 08:13:50,552 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:13:50,553 WARNING  JSON error attempt 1 for Why I Preach The Resurrection of Christ.doc: Expecting ',' delimiter: line 118 column 6 (char 3380)
+2026-05-12 08:13:58,859 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:13:58,860 WARNING  JSON error attempt 2 for Why I Preach The Resurrection of Christ.doc: Expecting ',' delimiter: line 118 column 6 (char 3337)
+2026-05-12 08:14:07,871 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:14:07,872 WARNING  JSON error attempt 3 for Why I Preach The Resurrection of Christ.doc: Expecting ',' delimiter: line 118 column 6 (char 3393)
+2026-05-12 08:14:17,642 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:14:17,643 WARNING  JSON error attempt 1 for 2- The Wondrous Works Of God.docx: Expecting ',' delimiter: line 118 column 6 (char 3361)
+2026-05-12 08:14:25,296 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:14:25,297 WARNING  JSON error attempt 2 for 2- The Wondrous Works Of God.docx: Expecting ',' delimiter: line 118 column 6 (char 3255)
+2026-05-12 08:14:33,631 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:14:33,638 WARNING  JSON error attempt 3 for 2- The Wondrous Works Of God.docx: Expecting ',' delimiter: line 118 column 6 (char 3489)
+2026-05-12 08:14:44,656 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:14:44,658 WARNING  JSON error attempt 1 for 2009-We Have Hope In Christ.docx: Expecting ',' delimiter: line 106 column 6 (char 3541)
+2026-05-12 08:14:52,989 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:14:52,990 WARNING  JSON error attempt 2 for 2009-We Have Hope In Christ.docx: Expecting ',' delimiter: line 110 column 6 (char 3354)
+2026-05-12 08:15:02,467 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:15:02,468 WARNING  JSON error attempt 3 for 2009-We Have Hope In Christ.docx: Expecting ',' delimiter: line 117 column 6 (char 3526)
+2026-05-12 08:15:13,137 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:15:13,138 WARNING  JSON error attempt 1 for Brotherly Kindness.doc: Expecting ',' delimiter: line 118 column 6 (char 3564)
+2026-05-12 08:15:21,348 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:15:21,349 WARNING  JSON error attempt 2 for Brotherly Kindness.doc: Expecting ',' delimiter: line 118 column 6 (char 3437)
+2026-05-12 08:15:30,744 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:15:30,746 WARNING  JSON error attempt 3 for Brotherly Kindness.doc: Expecting ',' delimiter: line 117 column 6 (char 3456)
+2026-05-12 08:15:41,881 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:15:41,882 WARNING  JSON error attempt 1 for Will We Die For Jesus.doc: Expecting ',' delimiter: line 114 column 6 (char 3617)
+2026-05-12 08:15:50,377 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:15:50,380 WARNING  JSON error attempt 2 for Will We Die For Jesus.doc: Expecting ',' delimiter: line 110 column 6 (char 3588)
+2026-05-12 08:15:59,799 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:15:59,801 WARNING  JSON error attempt 3 for Will We Die For Jesus.doc: Expecting ',' delimiter: line 110 column 6 (char 3491)
+2026-05-12 08:16:09,594 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:16:09,596 WARNING  JSON error attempt 1 for THANKSGIVING.doc: Expecting ',' delimiter: line 118 column 6 (char 3478)
+2026-05-12 08:16:17,760 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:16:17,760 WARNING  JSON error attempt 2 for THANKSGIVING.doc: Expecting ',' delimiter: line 118 column 6 (char 3434)
+2026-05-12 08:16:26,799 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:16:26,800 WARNING  JSON error attempt 3 for THANKSGIVING.doc: Expecting ',' delimiter: line 118 column 6 (char 3549)
+2026-05-12 08:16:36,986 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:16:36,988 WARNING  JSON error attempt 1 for THE OLD RUGGED CROSS.doc: Expecting ',' delimiter: line 122 column 6 (char 3539)
+2026-05-12 08:16:44,888 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:16:44,890 WARNING  JSON error attempt 2 for THE OLD RUGGED CROSS.doc: Expecting ',' delimiter: line 122 column 6 (char 3300)
+2026-05-12 08:16:54,066 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:16:54,067 WARNING  JSON error attempt 3 for THE OLD RUGGED CROSS.doc: Expecting ',' delimiter: line 122 column 6 (char 3190)
+2026-05-12 08:17:05,325 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:17:05,326 WARNING  JSON error attempt 1 for The Tree In the Midst.doc: Expecting ',' delimiter: line 110 column 6 (char 3303)
+2026-05-12 08:17:14,845 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:17:14,846 WARNING  JSON error attempt 2 for The Tree In the Midst.doc: Expecting ',' delimiter: line 36 column 165 (char 3426)
+2026-05-12 08:17:25,487 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:17:25,488 WARNING  JSON error attempt 3 for The Tree In the Midst.doc: Expecting ',' delimiter: line 110 column 6 (char 3459)
+2026-05-12 08:17:37,016 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:17:37,017 WARNING  JSON error attempt 1 for Will You Deny Jesus.doc: Expecting ',' delimiter: line 110 column 6 (char 3166)
+2026-05-12 08:17:47,434 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:17:47,436 WARNING  JSON error attempt 2 for Will You Deny Jesus.doc: Expecting ',' delimiter: line 118 column 6 (char 3487)
+2026-05-12 08:18:00,262 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:18:00,263 WARNING  JSON error attempt 3 for Will You Deny Jesus.doc: Expecting ',' delimiter: line 118 column 6 (char 3425)
+2026-05-12 08:18:11,539 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:18:11,540 WARNING  JSON error attempt 1 for Worthy Is the Lam1.doc: Expecting ',' delimiter: line 118 column 6 (char 3258)
+2026-05-12 08:18:20,632 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:18:20,636 WARNING  JSON error attempt 2 for Worthy Is the Lam1.doc: Expecting ',' delimiter: line 118 column 6 (char 3280)
+2026-05-12 08:18:31,745 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:18:31,746 WARNING  JSON error attempt 3 for Worthy Is the Lam1.doc: Expecting ',' delimiter: line 126 column 6 (char 3470)
+2026-05-12 08:18:42,348 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:18:42,349 WARNING  JSON error attempt 1 for TWO MEN SITTING AT A GATE.docx: Expecting ',' delimiter: line 112 column 6 (char 3340)
+2026-05-12 08:18:50,828 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:18:50,829 WARNING  JSON error attempt 2 for TWO MEN SITTING AT A GATE.docx: Expecting ',' delimiter: line 113 column 6 (char 3563)
+2026-05-12 08:19:00,038 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:19:00,040 WARNING  JSON error attempt 3 for TWO MEN SITTING AT A GATE.docx: Expecting ',' delimiter: line 116 column 6 (char 3432)
+2026-05-12 08:19:10,125 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:19:10,126 WARNING  JSON error attempt 1 for 1-1-1-Saints.doc: Expecting ',' delimiter: line 112 column 6 (char 3366)
+2026-05-12 08:19:18,654 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:19:18,655 WARNING  JSON error attempt 2 for 1-1-1-Saints.doc: Expecting ',' delimiter: line 109 column 6 (char 3607)
+2026-05-12 08:19:28,035 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:19:28,037 WARNING  JSON error attempt 3 for 1-1-1-Saints.doc: Expecting ',' delimiter: line 108 column 6 (char 3380)
+2026-05-12 08:19:39,106 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:19:39,107 WARNING  JSON error attempt 1 for A Friend of God.doc: Expecting ',' delimiter: line 118 column 6 (char 3332)
+2026-05-12 08:19:47,762 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:19:47,763 WARNING  JSON error attempt 2 for A Friend of God.doc: Expecting ',' delimiter: line 118 column 6 (char 3240)
+2026-05-12 08:19:57,720 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:19:57,721 WARNING  JSON error attempt 3 for A Friend of God.doc: Expecting ',' delimiter: line 118 column 6 (char 3308)
+2026-05-12 08:20:07,856 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:20:07,857 WARNING  JSON error attempt 1 for Stop and Think.doc: Expecting ',' delimiter: line 118 column 6 (char 3291)
+2026-05-12 08:20:16,313 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:20:16,314 WARNING  JSON error attempt 2 for Stop and Think.doc: Expecting ',' delimiter: line 118 column 6 (char 3305)
+2026-05-12 08:20:25,650 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:20:25,651 WARNING  JSON error attempt 3 for Stop and Think.doc: Expecting ',' delimiter: line 118 column 6 (char 3440)
+2026-05-12 08:20:36,686 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:20:36,687 WARNING  JSON error attempt 1 for JOB.DOC: Expecting ',' delimiter: line 118 column 6 (char 3551)
+2026-05-12 08:20:45,700 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:20:45,702 WARNING  JSON error attempt 2 for JOB.DOC: Expecting ',' delimiter: line 126 column 6 (char 3532)
+2026-05-12 08:20:56,403 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:20:56,404 WARNING  JSON error attempt 3 for JOB.DOC: Expecting ',' delimiter: line 118 column 6 (char 3619)
+2026-05-12 08:21:07,955 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:21:07,956 WARNING  JSON error attempt 1 for LORD ITS GOOD TO BE HERE.doc: Expecting ',' delimiter: line 118 column 6 (char 3261)
+2026-05-12 08:21:17,316 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:21:17,317 WARNING  JSON error attempt 2 for LORD ITS GOOD TO BE HERE.doc: Expecting ',' delimiter: line 118 column 6 (char 3273)
+2026-05-12 08:21:27,494 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:21:27,495 WARNING  JSON error attempt 3 for LORD ITS GOOD TO BE HERE.doc: Expecting ',' delimiter: line 122 column 6 (char 3450)
+2026-05-12 08:21:37,802 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:21:37,804 WARNING  JSON error attempt 1 for 4-13-15-What Is Your Life.doc: Expecting ',' delimiter: line 118 column 6 (char 3013)
+2026-05-12 08:21:46,034 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:21:46,036 WARNING  JSON error attempt 2 for 4-13-15-What Is Your Life.doc: Expecting ',' delimiter: line 113 column 6 (char 3190)
+2026-05-12 08:21:55,873 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:21:55,874 WARNING  JSON error attempt 3 for 4-13-15-What Is Your Life.doc: Expecting ',' delimiter: line 115 column 6 (char 3481)
+2026-05-12 08:22:06,144 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:22:06,145 WARNING  JSON error attempt 1 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 119 column 6 (char 3571)
+2026-05-12 08:22:14,142 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:22:14,144 WARNING  JSON error attempt 2 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 118 column 6 (char 3278)
+2026-05-12 08:22:22,988 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:22:22,989 WARNING  JSON error attempt 3 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 126 column 6 (char 3441)
+2026-05-12 08:22:33,437 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:22:33,438 WARNING  JSON error attempt 1 for The Stars Also (2-24-10).pdf: Expecting ',' delimiter: line 126 column 6 (char 3433)
+2026-05-12 08:22:42,001 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:22:42,002 WARNING  JSON error attempt 2 for The Stars Also (2-24-10).pdf: Expecting ',' delimiter: line 124 column 6 (char 3587)
+2026-05-12 08:22:51,267 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:22:51,269 WARNING  JSON error attempt 3 for The Stars Also (2-24-10).pdf: Expecting ',' delimiter: line 126 column 6 (char 3331)
+2026-05-12 08:23:01,715 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:23:01,717 WARNING  JSON error attempt 1 for The Second Gift of Christmas.doc: Expecting ',' delimiter: line 110 column 6 (char 3472)
+2026-05-12 08:23:10,240 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:23:10,241 WARNING  JSON error attempt 2 for The Second Gift of Christmas.doc: Expecting ',' delimiter: line 110 column 6 (char 3514)
+2026-05-12 08:23:19,465 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:23:19,466 WARNING  JSON error attempt 3 for The Second Gift of Christmas.doc: Expecting ',' delimiter: line 110 column 6 (char 3205)
+2026-05-12 08:23:30,106 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:23:30,108 WARNING  JSON error attempt 1 for Why Christ Came.doc: Expecting ',' delimiter: line 118 column 6 (char 3410)
+2026-05-12 08:23:40,099 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:23:40,105 WARNING  JSON error attempt 2 for Why Christ Came.doc: Expecting ',' delimiter: line 113 column 6 (char 3369)
+2026-05-12 08:23:49,313 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:23:49,314 WARNING  JSON error attempt 3 for Why Christ Came.doc: Expecting ',' delimiter: line 110 column 6 (char 3459)
+2026-05-12 08:24:01,035 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:24:01,036 WARNING  JSON error attempt 1 for Having the Mind of A Pastor.doc: Expecting ',' delimiter: line 108 column 6 (char 3325)
+2026-05-12 08:24:10,449 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:24:18,442 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:24:18,443 WARNING  JSON error attempt 1 for 08-Battle of Jericho (3_21_10).pdf: Expecting ',' delimiter: line 106 column 6 (char 3134)
+2026-05-12 08:24:26,931 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:24:26,933 WARNING  JSON error attempt 2 for 08-Battle of Jericho (3_21_10).pdf: Expecting ',' delimiter: line 105 column 6 (char 3216)
+2026-05-12 08:24:36,586 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:24:36,587 WARNING  JSON error attempt 3 for 08-Battle of Jericho (3_21_10).pdf: Expecting ',' delimiter: line 102 column 6 (char 3187)
+2026-05-12 08:24:46,837 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:24:46,838 WARNING  JSON error attempt 1 for Do You Believe.doc: Expecting ',' delimiter: line 110 column 6 (char 3165)
+2026-05-12 08:24:55,136 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:24:55,138 WARNING  JSON error attempt 2 for Do You Believe.doc: Expecting ',' delimiter: line 110 column 6 (char 3200)
+2026-05-12 08:25:04,469 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:25:04,470 WARNING  JSON error attempt 3 for Do You Believe.doc: Expecting ',' delimiter: line 110 column 6 (char 3233)
+2026-05-12 08:25:15,622 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:25:15,623 WARNING  JSON error attempt 1 for 34-6-14-The Glory Of The Cross.docx: Expecting ',' delimiter: line 112 column 6 (char 3545)
+2026-05-12 08:25:24,736 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:25:24,737 WARNING  JSON error attempt 2 for 34-6-14-The Glory Of The Cross.docx: Expecting ',' delimiter: line 114 column 6 (char 3638)
+2026-05-12 08:25:34,137 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:25:34,138 WARNING  JSON error attempt 3 for 34-6-14-The Glory Of The Cross.docx: Expecting ',' delimiter: line 118 column 6 (char 3445)
+2026-05-12 08:25:44,566 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:25:44,568 WARNING  JSON error attempt 1 for I AM THE LORD2.doc: Expecting ',' delimiter: line 110 column 6 (char 3348)
+2026-05-12 08:25:52,260 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:25:52,261 WARNING  JSON error attempt 2 for I AM THE LORD2.doc: Expecting ',' delimiter: line 126 column 6 (char 3324)
+2026-05-12 08:26:01,156 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:26:01,157 WARNING  JSON error attempt 3 for I AM THE LORD2.doc: Expecting ',' delimiter: line 126 column 6 (char 3273)
+2026-05-12 08:26:13,207 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:26:13,208 WARNING  JSON error attempt 1 for 17-Peril of Slackness (6-13-10am).pdf: Expecting ',' delimiter: line 101 column 6 (char 3785)
+2026-05-12 08:26:23,310 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:26:23,311 WARNING  JSON error attempt 2 for 17-Peril of Slackness (6-13-10am).pdf: Expecting ',' delimiter: line 109 column 6 (char 3831)
+2026-05-12 08:26:33,800 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:26:33,801 WARNING  JSON error attempt 3 for 17-Peril of Slackness (6-13-10am).pdf: Expecting ',' delimiter: line 109 column 6 (char 3815)
+2026-05-12 08:26:44,496 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:26:44,498 WARNING  JSON error attempt 1 for 03-Feast of Unleavened Bread (12-16-09).pdf: Expecting ',' delimiter: line 110 column 6 (char 3323)
+2026-05-12 08:26:53,062 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:26:53,064 WARNING  JSON error attempt 2 for 03-Feast of Unleavened Bread (12-16-09).pdf: Expecting ',' delimiter: line 113 column 6 (char 3415)
+2026-05-12 08:27:02,716 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:27:02,717 WARNING  JSON error attempt 3 for 03-Feast of Unleavened Bread (12-16-09).pdf: Expecting ',' delimiter: line 110 column 6 (char 3529)
+2026-05-12 08:27:15,340 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:27:15,342 WARNING  JSON error attempt 1 for This Man.doc: Expecting ',' delimiter: line 102 column 6 (char 3012)
+2026-05-12 08:27:24,500 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:27:24,502 WARNING  JSON error attempt 2 for This Man.doc: Expecting ',' delimiter: line 102 column 6 (char 3413)
+2026-05-12 08:27:34,391 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:27:34,392 WARNING  JSON error attempt 3 for This Man.doc: Expecting ',' delimiter: line 102 column 6 (char 3136)
+2026-05-12 08:27:45,033 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:27:52,513 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:27:52,514 WARNING  JSON error attempt 1 for SHOW ME THE CROSS.doc: Expecting ',' delimiter: line 118 column 6 (char 3449)
+2026-05-12 08:28:00,472 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:28:00,473 WARNING  JSON error attempt 2 for SHOW ME THE CROSS.doc: Expecting ',' delimiter: line 118 column 6 (char 3462)
+2026-05-12 08:28:09,082 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:28:09,084 WARNING  JSON error attempt 3 for SHOW ME THE CROSS.doc: Expecting ',' delimiter: line 118 column 6 (char 3360)
+2026-05-12 08:28:19,750 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:28:19,751 WARNING  JSON error attempt 1 for Eternal Life.doc: Expecting ',' delimiter: line 110 column 6 (char 3206)
+2026-05-12 08:28:29,136 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:28:29,137 WARNING  JSON error attempt 2 for Eternal Life.doc: Expecting ',' delimiter: line 110 column 6 (char 3320)
+2026-05-12 08:28:41,791 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:28:41,792 WARNING  JSON error attempt 3 for Eternal Life.doc: Expecting ',' delimiter: line 110 column 6 (char 3010)
+2026-05-12 08:28:52,403 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:28:52,405 WARNING  JSON error attempt 1 for Our Memory Vs God's Memory.doc: Expecting ',' delimiter: line 118 column 6 (char 3367)
+2026-05-12 08:29:01,618 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:29:01,619 WARNING  JSON error attempt 2 for Our Memory Vs God's Memory.doc: Expecting ',' delimiter: line 118 column 6 (char 3460)
+2026-05-12 08:29:10,699 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:29:10,700 WARNING  JSON error attempt 3 for Our Memory Vs God's Memory.doc: Expecting ',' delimiter: line 118 column 6 (char 3269)
+2026-05-12 08:29:20,116 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:29:20,117 WARNING  JSON error attempt 1 for His Grace and Mercy are Eternal.doc: Expecting ',' delimiter: line 118 column 6 (char 3197)
+2026-05-12 08:29:27,642 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:29:27,643 WARNING  JSON error attempt 2 for His Grace and Mercy are Eternal.doc: Expecting ',' delimiter: line 118 column 6 (char 3366)
+2026-05-12 08:29:35,930 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:29:35,932 WARNING  JSON error attempt 3 for His Grace and Mercy are Eternal.doc: Expecting ',' delimiter: line 118 column 6 (char 3178)
+2026-05-12 08:29:46,024 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:29:46,025 WARNING  JSON error attempt 1 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 118 column 6 (char 3510)
+2026-05-12 08:29:54,835 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:29:54,836 WARNING  JSON error attempt 2 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 118 column 6 (char 3503)
+2026-05-12 08:30:03,984 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:30:03,985 WARNING  JSON error attempt 3 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 118 column 6 (char 3526)
+2026-05-12 08:30:14,740 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:30:14,741 WARNING  JSON error attempt 1 for What Men Thinketh.doc: Expecting ',' delimiter: line 118 column 6 (char 3424)
+2026-05-12 08:30:24,083 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:30:24,084 WARNING  JSON error attempt 2 for What Men Thinketh.doc: Expecting ',' delimiter: line 118 column 6 (char 3409)
+2026-05-12 08:30:41,500 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:30:41,501 WARNING  JSON error attempt 3 for What Men Thinketh.doc: Expecting ',' delimiter: line 126 column 6 (char 3438)
+2026-05-12 08:30:51,772 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:30:59,776 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:30:59,778 WARNING  JSON error attempt 1 for 50-The Sluggard (5-20-09).pdf: Expecting ',' delimiter: line 110 column 6 (char 3325)
+2026-05-12 08:31:08,480 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:31:08,481 WARNING  JSON error attempt 2 for 50-The Sluggard (5-20-09).pdf: Expecting ',' delimiter: line 106 column 6 (char 3379)
+2026-05-12 08:31:17,695 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:31:17,696 WARNING  JSON error attempt 3 for 50-The Sluggard (5-20-09).pdf: Expecting ',' delimiter: line 110 column 6 (char 3293)
+2026-05-12 08:31:28,315 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:31:28,328 WARNING  JSON error attempt 1 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 118 column 6 (char 3358)
+2026-05-12 08:31:36,919 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:31:36,920 WARNING  JSON error attempt 2 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 110 column 6 (char 3711)
+2026-05-12 08:31:46,206 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:31:46,207 WARNING  JSON error attempt 3 for Seeing Ourselves As God Sees Us.doc: Expecting ',' delimiter: line 118 column 6 (char 3538)
+2026-05-12 08:31:56,758 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:31:56,759 WARNING  JSON error attempt 1 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3478)
+2026-05-12 08:32:04,832 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:32:04,833 WARNING  JSON error attempt 2 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3484)
+2026-05-12 08:32:13,954 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:32:13,955 WARNING  JSON error attempt 3 for 12 OClock.doc: Expecting ',' delimiter: line 110 column 6 (char 3457)
+2026-05-12 08:32:24,663 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:32:24,664 WARNING  JSON error attempt 1 for Zacchaeus- How The Tax Collector Got Saved (2-7-10).pdf: Expecting ',' delimiter: line 114 column 6 (char 3323)
+2026-05-12 08:32:33,242 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:32:33,243 WARNING  JSON error attempt 2 for Zacchaeus- How The Tax Collector Got Saved (2-7-10).pdf: Expecting ',' delimiter: line 114 column 6 (char 3273)
+2026-05-12 08:32:43,208 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:32:43,210 WARNING  JSON error attempt 3 for Zacchaeus- How The Tax Collector Got Saved (2-7-10).pdf: Expecting ',' delimiter: line 114 column 6 (char 3532)
+2026-05-12 08:32:56,013 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:32:56,015 WARNING  JSON error attempt 1 for APPROVED OF GOD 2.doc: Expecting ',' delimiter: line 102 column 6 (char 3119)
+2026-05-12 08:33:05,270 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:33:05,271 WARNING  JSON error attempt 2 for APPROVED OF GOD 2.doc: Expecting ',' delimiter: line 102 column 6 (char 3053)
+2026-05-12 08:33:15,392 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:33:23,642 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:33:31,395 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:33:31,396 WARNING  JSON error attempt 1 for HASTY SPIRIT.docx: Expecting ',' delimiter: line 113 column 6 (char 3422)
+2026-05-12 08:33:39,439 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:33:39,441 WARNING  JSON error attempt 2 for HASTY SPIRIT.docx: Expecting ',' delimiter: line 118 column 6 (char 3469)
+2026-05-12 08:33:48,178 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:33:48,180 WARNING  JSON error attempt 3 for HASTY SPIRIT.docx: Expecting ',' delimiter: line 121 column 6 (char 3393)
+2026-05-12 08:34:00,319 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:34:00,320 WARNING  JSON error attempt 1 for Limiting God.doc: Expecting ',' delimiter: line 110 column 6 (char 3311)
+2026-05-12 08:34:08,427 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:34:08,429 WARNING  JSON error attempt 2 for Limiting God.doc: Expecting ',' delimiter: line 110 column 6 (char 3127)
+2026-05-12 08:34:18,564 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:34:18,565 WARNING  JSON error attempt 3 for Limiting God.doc: Expecting ',' delimiter: line 110 column 6 (char 3242)
+2026-05-12 08:34:29,730 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:34:29,732 WARNING  JSON error attempt 1 for 36-6-15-18-The Marks Of The Lord Jesus.docx: Expecting ',' delimiter: line 102 column 6 (char 3303)
+2026-05-12 08:34:38,503 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:34:38,505 WARNING  JSON error attempt 2 for 36-6-15-18-The Marks Of The Lord Jesus.docx: Expecting ',' delimiter: line 103 column 6 (char 3385)
+2026-05-12 08:34:48,214 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:34:48,215 WARNING  JSON error attempt 3 for 36-6-15-18-The Marks Of The Lord Jesus.docx: Expecting ',' delimiter: line 104 column 6 (char 3630)
+2026-05-12 08:34:58,170 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:34:58,172 WARNING  JSON error attempt 1 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 126 column 6 (char 3520)
+2026-05-12 08:35:05,781 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:35:05,782 WARNING  JSON error attempt 2 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 126 column 6 (char 3444)
+2026-05-12 08:35:14,450 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:35:14,451 WARNING  JSON error attempt 3 for WILL YOU BE FOUND WATCHING.doc: Expecting ',' delimiter: line 118 column 6 (char 3331)
+2026-05-12 08:35:24,375 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:35:24,377 WARNING  JSON error attempt 1 for THE PASTORS RESPONSIBILITY.doc: Expecting ',' delimiter: line 118 column 6 (char 3354)
+2026-05-12 08:35:32,635 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:35:32,636 WARNING  JSON error attempt 2 for THE PASTORS RESPONSIBILITY.doc: Expecting ',' delimiter: line 118 column 6 (char 3379)
+2026-05-12 08:35:41,790 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:35:41,791 WARNING  JSON error attempt 3 for THE PASTORS RESPONSIBILITY.doc: Expecting ',' delimiter: line 118 column 6 (char 3452)
+2026-05-12 08:35:52,546 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:35:52,547 WARNING  JSON error attempt 1 for The Tabernacle in the Wilderness.doc: Expecting ',' delimiter: line 102 column 6 (char 3205)
+2026-05-12 08:36:00,580 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:36:00,582 WARNING  JSON error attempt 2 for The Tabernacle in the Wilderness.doc: Expecting ',' delimiter: line 110 column 6 (char 3461)
+2026-05-12 08:36:09,848 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:36:09,849 WARNING  JSON error attempt 3 for The Tabernacle in the Wilderness.doc: Expecting ',' delimiter: line 118 column 6 (char 3482)
+2026-05-12 08:36:19,967 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:36:19,968 WARNING  JSON error attempt 1 for Armed With The Mind Of Christ.doc: Expecting ',' delimiter: line 110 column 6 (char 3299)
+2026-05-12 08:36:28,174 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:36:28,175 WARNING  JSON error attempt 2 for Armed With The Mind Of Christ.doc: Expecting ',' delimiter: line 110 column 6 (char 3178)
+2026-05-12 08:36:37,368 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:36:37,370 WARNING  JSON error attempt 3 for Armed With The Mind Of Christ.doc: Expecting ',' delimiter: line 102 column 6 (char 3461)
+2026-05-12 08:36:47,709 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:36:47,710 WARNING  JSON error attempt 1 for 5-2-1-5-Our Liberty In Christ.docx: Expecting ',' delimiter: line 119 column 6 (char 3504)
+2026-05-12 08:36:55,736 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:36:55,737 WARNING  JSON error attempt 2 for 5-2-1-5-Our Liberty In Christ.docx: Expecting ',' delimiter: line 118 column 6 (char 3380)
+2026-05-12 08:37:05,074 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:37:05,076 WARNING  JSON error attempt 3 for 5-2-1-5-Our Liberty In Christ.docx: Expecting ',' delimiter: line 118 column 6 (char 3178)
+2026-05-12 08:37:15,209 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:37:15,210 WARNING  JSON error attempt 1 for ANOTHER GOSPEL.doc: Expecting ',' delimiter: line 110 column 6 (char 2994)
+2026-05-12 08:37:22,859 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:37:22,860 WARNING  JSON error attempt 2 for ANOTHER GOSPEL.doc: Expecting ',' delimiter: line 118 column 6 (char 3264)
+2026-05-12 08:37:32,076 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:37:32,077 WARNING  JSON error attempt 3 for ANOTHER GOSPEL.doc: Expecting ',' delimiter: line 117 column 6 (char 3269)
+2026-05-12 08:37:42,815 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:37:42,816 WARNING  JSON error attempt 1 for 1-3-The Common Salvation.docx: Expecting ',' delimiter: line 118 column 6 (char 3566)
+2026-05-12 08:37:51,456 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:37:51,457 WARNING  JSON error attempt 2 for 1-3-The Common Salvation.docx: Expecting ',' delimiter: line 113 column 6 (char 3550)
+2026-05-12 08:38:01,558 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:38:01,559 WARNING  JSON error attempt 3 for 1-3-The Common Salvation.docx: Expecting ',' delimiter: line 116 column 6 (char 3707)
+2026-05-12 08:38:11,768 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:38:11,769 WARNING  JSON error attempt 1 for The Awful Doctrine of Hell.pdf: Expecting ',' delimiter: line 120 column 6 (char 3378)
+2026-05-12 08:38:19,854 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:38:19,855 WARNING  JSON error attempt 2 for The Awful Doctrine of Hell.pdf: Expecting ',' delimiter: line 126 column 6 (char 3513)
+2026-05-12 08:38:28,813 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:38:28,814 WARNING  JSON error attempt 3 for The Awful Doctrine of Hell.pdf: Expecting ',' delimiter: line 115 column 6 (char 3443)
+2026-05-12 08:38:39,729 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:38:39,730 WARNING  JSON error attempt 1 for 45-The Unwalled Spirit (4-22-09).pdf: Expecting ',' delimiter: line 110 column 6 (char 3444)
+2026-05-12 08:38:48,766 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:38:48,773 WARNING  JSON error attempt 2 for 45-The Unwalled Spirit (4-22-09).pdf: Expecting ',' delimiter: line 110 column 6 (char 3471)
+2026-05-12 08:38:58,690 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:38:58,697 WARNING  JSON error attempt 3 for 45-The Unwalled Spirit (4-22-09).pdf: Expecting ',' delimiter: line 113 column 6 (char 3512)
+2026-05-12 08:39:08,718 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:39:08,719 WARNING  JSON error attempt 1 for WHY DO WE NEED GOD'S WORD.doc: Expecting ',' delimiter: line 117 column 6 (char 3469)
+2026-05-12 08:39:17,249 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:39:17,252 WARNING  JSON error attempt 2 for WHY DO WE NEED GOD'S WORD.doc: Expecting ',' delimiter: line 117 column 6 (char 3334)
+2026-05-12 08:39:26,339 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:39:26,340 WARNING  JSON error attempt 3 for WHY DO WE NEED GOD'S WORD.doc: Expecting ',' delimiter: line 110 column 6 (char 3389)
+2026-05-12 08:39:37,831 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:39:37,832 WARNING  JSON error attempt 1 for 1-1Behold The Man.doc: Expecting ',' delimiter: line 107 column 6 (char 3478)
+2026-05-12 08:39:46,361 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:39:46,363 WARNING  JSON error attempt 2 for 1-1Behold The Man.doc: Expecting ',' delimiter: line 118 column 6 (char 3328)
+2026-05-12 08:39:56,753 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:39:56,754 WARNING  JSON error attempt 3 for 1-1Behold The Man.doc: Expecting ',' delimiter: line 108 column 6 (char 3416)
+2026-05-12 08:40:07,195 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:40:07,196 WARNING  JSON error attempt 1 for A Prison Without Bars.doc: Expecting ',' delimiter: line 110 column 6 (char 3526)
+2026-05-12 08:40:15,691 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:40:15,693 WARNING  JSON error attempt 2 for A Prison Without Bars.doc: Expecting ',' delimiter: line 110 column 6 (char 3462)
+2026-05-12 08:40:25,494 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:40:25,496 WARNING  JSON error attempt 3 for A Prison Without Bars.doc: Expecting ',' delimiter: line 111 column 6 (char 3585)
+2026-05-12 08:40:35,740 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:40:35,741 WARNING  JSON error attempt 1 for A DAILY DISCIPLINE.doc: Expecting ',' delimiter: line 105 column 6 (char 3291)
+2026-05-12 08:40:44,800 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:40:44,801 WARNING  JSON error attempt 2 for A DAILY DISCIPLINE.doc: Expecting ',' delimiter: line 105 column 6 (char 3207)
+2026-05-12 08:40:53,967 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:40:53,968 WARNING  JSON error attempt 3 for A DAILY DISCIPLINE.doc: Expecting ',' delimiter: line 105 column 6 (char 3362)
+2026-05-12 08:41:04,332 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:41:04,333 WARNING  JSON error attempt 1 for BITTERNESS.doc: Expecting ',' delimiter: line 110 column 6 (char 3560)
+2026-05-12 08:41:12,537 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:41:12,539 WARNING  JSON error attempt 2 for BITTERNESS.doc: Expecting ',' delimiter: line 109 column 6 (char 3416)
+2026-05-12 08:41:21,529 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:41:21,530 WARNING  JSON error attempt 3 for BITTERNESS.doc: Expecting ',' delimiter: line 109 column 6 (char 3425)
+2026-05-12 08:41:31,651 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:41:31,652 WARNING  JSON error attempt 1 for In Jesus Name.doc: Expecting ',' delimiter: line 126 column 6 (char 3473)
+2026-05-12 08:41:39,619 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:41:39,621 WARNING  JSON error attempt 2 for In Jesus Name.doc: Expecting ',' delimiter: line 126 column 6 (char 3421)
+2026-05-12 08:41:48,781 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:41:48,782 WARNING  JSON error attempt 3 for In Jesus Name.doc: Expecting ',' delimiter: line 118 column 6 (char 3561)
+2026-05-12 08:41:59,164 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:41:59,165 WARNING  JSON error attempt 1 for Living Within The Realm Of God's Grace.doc: Expecting ',' delimiter: line 110 column 6 (char 3375)
+2026-05-12 08:42:07,496 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:42:07,497 WARNING  JSON error attempt 2 for Living Within The Realm Of God's Grace.doc: Expecting ',' delimiter: line 110 column 6 (char 3442)
+2026-05-12 08:42:16,615 INFO     HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-12 08:42:16,617 WARNING  JSON error attempt 3 for Living Within The Realm Of God's Grace.doc: Expecting ',' delimiter: line 118 column 6 (char 3423)
