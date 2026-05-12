@@ -37,7 +37,7 @@
   font-size: 1.1rem;
   pointer-events: none;
 }
-.search-input  { padding-left: 2.4rem; padding-right: 2.2rem; }
+.search-input  { padding-left: 2.6rem !important; padding-right: 2.2rem; }
 .search-clear  {
   position: absolute;
   right: 0.5rem;

@@ -1,6 +1,6 @@
 // src/App.js
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { getPastors } from "./lib/firebase";
 import { useTheme } from "./hooks/useTheme";
 import Header from "./components/Header";
@@ -35,7 +35,7 @@ export default function App() {
   );
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app-shell">
         <Header
           pastors={pastors}
@@ -65,7 +65,7 @@ export default function App() {
           </main>
         )}
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
