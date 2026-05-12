@@ -158,7 +158,7 @@ def main():
         books.extend(s.get("bible_books") or [])
 
     top_keywords = Counter(keywords).most_common(30)
-    top_books    = Counter(books).most_common(25)
+    top_books    = Counter(books).most_common(66)
 
     stats = {
         "pastor_id":             pastor_id,
@@ -166,7 +166,7 @@ def main():
         "william_hawley_count":  primary,
         "other_preachers_count": other,
         "top_keywords":    [{"word": w, "count": c} for w, c in top_keywords],
-        "top_bible_books": [{"book": b, "count": c} for b, c in top_books],
+        "top_bible_books": [{"book": b, "count": c} for b, c in Counter(books).most_common(66)],
     }
 
     db.collection("stats").document(pastor_id).set(stats)
