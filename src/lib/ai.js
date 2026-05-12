@@ -4,7 +4,7 @@
 import { getSermons, searchSermonsByTitle } from "./firebase";
 
 const ANTHROPIC_API = "https://api.anthropic.com/v1/messages";
-const MODEL         = "claude-sonnet-4-20250514";
+const MODEL         = "claude-haiku-4-5-20251001";
 
 function getApiKey() {
   return process.env.REACT_APP_ANTHROPIC_API_KEY || "";
