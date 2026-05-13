@@ -1,3 +1,8 @@
 firebase-credentials.json 
 API Key.txt 
 scripts/staging/ 
+scripts/__pycache__/
+scripts/*.log
+scripts/test*.py
+scripts/test*.txt
+*.pyc
