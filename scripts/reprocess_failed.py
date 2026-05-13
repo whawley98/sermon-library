@@ -93,13 +93,12 @@ def sanitize(text):
     return text.strip()
 
 # ── Claude analysis ───────────────────────────────────────────────────────────
-SYSTEM = """You are a sermon analysis assistant. Respond with ONLY a valid JSON object. No markdown, no fences.
-Your response must start with { and end with }
+SYSTEM = """Analyze this sermon. Return ONLY a JSON object starting with { and ending with }.
+Use only simple ASCII characters in all string values.
+Do not use special punctuation like smart quotes or em dashes in your response.
 
-Fields: title, author_detected, date_detected, summary, main_theme, series_name,
-structure (has_introduction, main_points, has_conclusion, has_altar_call),
-scripture_references (reference, book, chapter, verse_start, verse_end, context),
-keywords, estimated_length, notes"""
+Return this exact structure:
+{"title":"...","author_detected":null,"date_detected":null,"summary":"...","main_theme":"...","series_name":null,"structure":{"has_introduction":true,"main_points":[],"has_conclusion":true,"has_altar_call":false},"scripture_references":[{"reference":"John 3:16","book":"John","chapter":3,"verse_start":16,"verse_end":16,"context":"..."}],"keywords":["faith","salvation"],"estimated_length":"medium","notes":null}"""
 
 def analyze(client, text, filename):
     if len(text.strip()) < 80:
@@ -112,7 +111,7 @@ def analyze(client, text, filename):
         try:
             resp = client.messages.create(
                 model="claude-haiku-4-5-20251001",
-                max_tokens=1200,
+                max_tokens=800,
                 system=SYSTEM,
                 messages=[{"role":"user","content":msg}],
             )
@@ -121,11 +120,18 @@ def analyze(client, text, filename):
             end   = raw.rfind("}")
             if start != -1 and end > start:
                 raw = raw[start:end+1]
+            # Fix Claude's invalid JSON escape: ' is not valid JSON, replace with '
+            raw = raw.replace("\\'", "'")
             parsed = json.loads(raw)
             parsed["_analysis_quality"] = "success"
             return parsed, "success"
         except json.JSONDecodeError as e:
             log.warning(f"JSON error attempt {attempt+1} for {filename}: {e}")
+            # Show the exact problem context
+            lines = raw.split("\n")
+            if e.lineno <= len(lines):
+                log.warning(f"  Problem line: {repr(lines[e.lineno-1])}")
+                log.warning(f"  Context: {repr(raw[max(0,e.pos-80):e.pos+80])}")
             time.sleep(attempt+1)
         except anthropic.RateLimitError:
             time.sleep(60*(attempt+1))

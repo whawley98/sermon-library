@@ -633,3 +633,2844 @@
 2026-05-11 14:56:30  INFO      Stats: 1041 sermons
 2026-05-12 08:44:05  INFO      Computing stats...
 2026-05-12 08:44:06  INFO      Stats: 1041 sermons
+2026-05-12 18:39:53  INFO      Initializing Firebase...
+2026-05-12 18:41:32  INFO      Initializing Anthropic...
+2026-05-12 18:41:34  INFO      Pastor ID: 9oo0pTRt84yfUYrt82Jh
+2026-05-12 18:42:41  INFO      Microsoft login successful
+2026-05-12 18:42:41  INFO      Fetching OneDrive web URLs...
+2026-05-12 18:42:54  INFO      Found 1005 web URLs
+2026-05-12 18:42:54  INFO      Scanning local files...
+2026-05-12 18:42:54  INFO      Folder: Billy Sunday
+2026-05-12 18:42:54  INFO      Folder: Browning
+2026-05-12 18:42:54  INFO      Folder: Chapman
+2026-05-12 18:42:54  INFO      Folder: FBIS - Cloud
+2026-05-12 18:42:54  INFO      Folder: Franklin Sermons
+2026-05-12 18:42:54  INFO      Folder: Hughes
+2026-05-12 18:42:54  INFO      Skipping: Illustrations
+2026-05-12 18:42:54  INFO      Folder: Johnston
+2026-05-12 18:42:54  INFO      Found 1041 sermon files
+2026-05-12 18:42:54  DEBUG     Using converted: 06-Josh 4-Mounments.docx
+2026-05-12 18:43:00  DEBUG     Using converted: 08-Josh 6-Jericho.docx
+2026-05-12 18:43:06  DEBUG     Using converted: 12 OClock.docx
+2026-05-12 18:43:15  WARNING   JSON error attempt 1 for 12 OClock.doc: Expecting ',' delimiter: line 160 column 6 (char 4234)
+2026-05-12 18:43:15  WARNING     Problem: '    }'
+2026-05-12 18:43:24  WARNING   JSON error attempt 2 for 12 OClock.doc: Expecting ',' delimiter: line 160 column 6 (char 4152)
+2026-05-12 18:43:24  WARNING     Problem: '    }'
+2026-05-12 18:43:34  WARNING   JSON error attempt 3 for 12 OClock.doc: Expecting ',' delimiter: line 160 column 6 (char 4211)
+2026-05-12 18:43:34  WARNING     Problem: '    }'
+2026-05-12 18:43:37  DEBUG     Using converted: 2 Chronicles 7.docx
+2026-05-12 18:43:43  DEBUG     Using converted: 2 Kings 19.docx
+2026-05-12 18:45:17  DEBUG     Using converted: 22-Eccl 11.1-6-Be Bullish!.docx
+2026-05-12 18:45:21  DEBUG     Using converted: 23-Eccl 11.7-12.1-Enjoying Life Now, Not Later.docx
+2026-05-12 18:45:27  DEBUG     Using converted: A  MESSAGE TO  THE  WEARY.docx
+2026-05-12 18:55:02  INFO      Initializing Firebase...
+2026-05-12 18:55:58  INFO      Wiping Firestore...
+2026-05-12 18:55:58  INFO        Deleted 0 documents from sermons
+2026-05-12 18:55:58  INFO        Deleted 0 documents from pastors
+2026-05-12 18:55:58  INFO        Deleted 0 documents from stats
+2026-05-12 18:55:58  INFO      Firestore wiped clean
+2026-05-12 18:55:58  INFO      Initializing Anthropic...
+2026-05-12 18:55:59  INFO      Created pastor: William Hawley (id: 2om7aRsK8hK8SMpUFyeq)
+2026-05-12 18:55:59  INFO      Pastor ID: 2om7aRsK8hK8SMpUFyeq
+2026-05-12 18:56:33  INFO      Microsoft login successful
+2026-05-12 18:56:33  INFO      Fetching OneDrive web URLs...
+2026-05-12 18:56:46  INFO      Found 1005 web URLs
+2026-05-12 18:56:46  INFO      Scanning local files...
+2026-05-12 18:56:46  INFO      Folder: Billy Sunday
+2026-05-12 18:56:46  INFO      Folder: Browning
+2026-05-12 18:56:46  INFO      Folder: Chapman
+2026-05-12 18:56:46  INFO      Folder: FBIS - Cloud
+2026-05-12 18:56:46  INFO      Folder: Franklin Sermons
+2026-05-12 18:56:46  INFO      Folder: Hughes
+2026-05-12 18:56:46  INFO      Skipping: Illustrations
+2026-05-12 18:56:46  INFO      Folder: Johnston
+2026-05-12 18:56:46  INFO      Found 1041 sermon files
+2026-05-12 18:56:46  DEBUG     Using converted: 06-Josh 4-Mounments.docx
+2026-05-12 18:56:51  DEBUG     Using converted: 08-Josh 6-Jericho.docx
+2026-05-12 18:56:56  DEBUG     Using converted: 12 OClock.docx
+2026-05-12 18:57:05  DEBUG     Using converted: 2 Chronicles 7.docx
+2026-05-12 18:57:09  DEBUG     Using converted: 2 Kings 19.docx
+2026-05-12 18:57:15  DEBUG     Using converted: 22-Eccl 11.1-6-Be Bullish!.docx
+2026-05-12 18:57:18  DEBUG     Using converted: 23-Eccl 11.7-12.1-Enjoying Life Now, Not Later.docx
+2026-05-12 18:57:23  DEBUG     Using converted: A  MESSAGE TO  THE  WEARY.docx
+2026-05-12 18:57:28  DEBUG     Using converted: A Call to Prayer.docx
+2026-05-12 18:57:32  DEBUG     Using converted: A Case Of Mistaken Identity.docx
+2026-05-12 18:57:39  DEBUG     Using converted: A Dad Who Made A Difference.docx
+2026-05-12 18:57:45  DEBUG     Using converted: A DAILY DISCIPLINE.docx
+2026-05-12 18:57:51  DEBUG     Using converted: A Fathers Joy.docx
+2026-05-12 18:57:55  DEBUG     Using converted: A Field of Meditation.docx
+2026-05-12 18:58:00  DEBUG     Using converted: A FRESH LOOK.docx
+2026-05-12 18:58:05  DEBUG     Using converted: A Hope That Maketh Not Ashamed.docx
+2026-05-12 18:58:16  DEBUG     Using converted: A Love Story That Went Wrong.docx
+2026-05-12 18:58:20  DEBUG     Using converted: A PLACE AT THE LORDS TABLE.docx
+2026-05-12 18:58:24  DEBUG     Using converted: A PLACE TO GO WHEN WE HURT THE MOST.docx
+2026-05-12 18:58:28  DEBUG     Using converted: A Righteous Man.docx
+2026-05-12 18:58:33  DEBUG     Using converted: A SERMON WORTH REPEATING.docx
+2026-05-12 18:58:39  DEBUG     Using converted: A SHELTER IN THE TIME OF STORM.docx
+2026-05-12 18:58:46  DEBUG     Using converted: A Simple Christmas.docx
+2026-05-12 18:58:51  DEBUG     Using converted: A Symbol of Christian Liberty.docx
+2026-05-12 18:58:54  DEBUG     Using converted: A Time for Everything.docx
+2026-05-12 18:59:01  DEBUG     Using converted: A Time to Wake.docx
+2026-05-12 18:59:09  DEBUG     Using converted: A Warning to Believers.docx
+2026-05-12 18:59:13  DEBUG     Using converted: Abraham To The Rescue.docx
+2026-05-12 18:59:21  DEBUG     Using converted: Adam Where Art Thou.docx
+2026-05-12 18:59:26  DEBUG     Using converted: Against All Odds.docx
+2026-05-12 18:59:32  DEBUG     Using converted: AGUR Math.docx
+2026-05-12 18:59:38  DEBUG     Using converted: All Fowl of Every Wing.docx
+2026-05-12 18:59:42  DEBUG     Using converted: An Exposition of Luke 23.docx
+2026-05-12 18:59:49  DEBUG     Using converted: ANCIENT LANDMARKS.docx
+2026-05-12 18:59:54  DEBUG     Using converted: Anything You Wanted.docx
+2026-05-12 19:00:00  DEBUG     Using converted: ARE THE BIBLE AND CHURCH RELEVANT.docx
+2026-05-12 19:00:07  DEBUG     Using converted: Are They Getting a Separation.docx
+2026-05-12 19:00:11  DEBUG     Using converted: Are We Doing All God Says.docx
+2026-05-12 19:00:15  DEBUG     Using converted: Are We For Real.docx
+2026-05-12 19:00:21  DEBUG     Using converted: Are You Rapture Ready Or Rapture Resistant.docx
+2026-05-12 19:00:26  DEBUG     Using converted: ARE YOU THIRSTY.docx
+2026-05-12 19:00:29  DEBUG     Using converted: ARE YOU THIRSTY2.docx
+2026-05-12 19:00:33  DEBUG     Using converted: Back To The Basics-whawley-PC.docx
+2026-05-12 19:00:39  DEBUG     Using converted: Back To The Basics.docx
+2026-05-12 19:00:41  DEBUG     Using converted: Backslidden.docx
+2026-05-12 19:00:45  DEBUG     Using converted: Barefoot Christians.docx
+2026-05-12 19:00:48  DEBUG     Using converted: BE SURE YOUR SIN WILL FIND YOU OUT.docx
+2026-05-12 19:00:54  DEBUG     Using converted: Bearing Christians.docx
+2026-05-12 19:00:59  INFO      Wrote 50 sermons to Firestore
+2026-05-12 19:01:00  DEBUG     Using converted: BECAUSE GOD IS WITH YOU.docx
+2026-05-12 19:01:05  DEBUG     Using converted: BEHOLD.docx
+2026-05-12 19:01:12  DEBUG     Using converted: Being Still.docx
+2026-05-12 19:01:19  DEBUG     Using converted: Better Than I Deserve.docx
+2026-05-12 19:01:25  DEBUG     Using converted: BETTER THAN THE BEGINNING.docx
+2026-05-12 19:01:31  DEBUG     Using converted: Beware of Compromise.docx
+2026-05-12 19:01:51  DEBUG     Using converted: Binding The Hands Of Jesus.docx
+2026-05-12 19:01:55  DEBUG     Using converted: Bitterness for Him.docx
+2026-05-12 19:01:58  DEBUG     Using converted: BITTERNESS.docx
+2026-05-12 20:03:16  DEBUG     Using converted: Blood of Christ.docx
+2026-05-12 20:03:20  DEBUG     Using converted: BRINGING BACK THE BLESSING OF GOD.docx
+2026-05-12 20:03:25  DEBUG     Using converted: Bringing In the Sheaves.docx
+2026-05-12 20:03:34  DEBUG     Using converted: Brotherly Kindness.docx
+2026-05-12 20:03:44  WARNING   JSON error attempt 1 for Brotherly Kindness.doc: Expecting ',' delimiter: line 213 column 6 (char 5407)
+2026-05-12 20:03:44  WARNING     Problem: '    }'
+2026-05-12 20:03:56  WARNING   JSON error attempt 2 for Brotherly Kindness.doc: Expecting ',' delimiter: line 213 column 6 (char 5487)
+2026-05-12 20:03:56  WARNING     Problem: '    }'
+2026-05-12 20:04:08  WARNING   JSON error attempt 3 for Brotherly Kindness.doc: Expecting ',' delimiter: line 213 column 6 (char 5492)
+2026-05-12 20:04:08  WARNING     Problem: '    }'
+2026-05-12 20:04:11  DEBUG     Using converted: 'Lord Give Me This Mountain.docx
+2026-05-12 20:10:35  DEBUG     Using converted: A Case Of Mistaken Identity.docx
+2026-05-12 20:10:41  DEBUG     Using converted: A Friend of God.docx
+2026-05-12 20:10:48  DEBUG     Using converted: A KNOW SO SALVATION.docx
+2026-05-12 20:10:53  DEBUG     Using converted: A LIFE OF TOTAL COMMITMENT.docx
+2026-05-12 20:10:57  DEBUG     Using converted: A MIGHTY REVIVAL.docx
+2026-05-12 20:11:02  DEBUG     Using converted: A MOTHER WHO WORKED WITH GOD.docx
+2026-05-12 20:11:06  DEBUG     Using converted: A NEW FOCUS FOR A NEW YEAR.docx
+2026-05-12 20:11:11  DEBUG     Using converted: A RELIGION WITHOUT EASTER.docx
+2026-05-12 20:11:21  DEBUG     Using converted: A SUFFERING SAVIOR FOR SUFFERING PEOPLE.docx
+2026-05-12 20:11:32  DEBUG     Using converted: A Wholesome Faith.docx
+2026-05-12 20:11:39  DEBUG     Using converted: Affected by Grace.docx
+2026-05-12 20:11:44  DEBUG     Using converted: AFTER THE MOUNTAIN COMES THE VALLEY.docx
+2026-05-12 20:11:58  DEBUG     Using converted: AN INJURY AN INTERCESSION AN IMPUTATION.docx
+2026-05-12 20:12:02  DEBUG     Using converted: Answering The Call.docx
+2026-05-12 20:12:16  DEBUG     Using converted: BACK TO BETHEL.docx
+2026-05-12 20:12:26  DEBUG     Using converted: Because He Lives.docx
+2026-05-12 20:12:36  DEBUG     Using converted: Breaking Out Of A Rut.docx
+2026-05-12 20:12:46  DEBUG     Using converted: CAN YOU STAND THE HEAT.docx
+2026-05-12 20:13:29  INFO      Wrote 50 sermons to Firestore
+2026-05-12 23:03:36  INFO      Initializing Firebase...
+2026-05-12 23:03:36  INFO      Initializing Algolia...
+2026-05-12 23:05:01  INFO      Initializing Firebase...
+2026-05-12 23:05:01  INFO      Initializing Algolia...
+2026-05-12 23:05:02  INFO      Algolia index configured
+2026-05-12 23:05:06  INFO      Wiping Firestore...
+2026-05-12 23:05:07  INFO      Firestore wiped clean
+2026-05-12 23:05:07  INFO      Algolia index cleared
+2026-05-12 23:05:07  INFO      Algolia index cleared
+2026-05-12 23:05:07  INFO      Initializing Anthropic...
+2026-05-12 23:05:08  INFO      Created pastor: William Hawley (id: pX88hE9IdTIQGIw8sekw)
+2026-05-12 23:05:08  INFO      Pastor ID: pX88hE9IdTIQGIw8sekw
+2026-05-12 23:05:47  INFO      Microsoft login successful
+2026-05-12 23:05:47  INFO      Fetching OneDrive web URLs...
+2026-05-12 23:06:00  INFO      Found 1005 web URLs
+2026-05-12 23:06:00  INFO      Scanning local files...
+2026-05-12 23:06:00  INFO      Folder: Billy Sunday
+2026-05-12 23:06:00  INFO      Folder: Browning
+2026-05-12 23:06:00  INFO      Folder: Chapman
+2026-05-12 23:06:00  INFO      Folder: FBIS - Cloud
+2026-05-12 23:06:00  INFO      Folder: Franklin Sermons
+2026-05-12 23:06:00  INFO      Folder: Hughes
+2026-05-12 23:06:00  INFO      Skipping: Illustrations
+2026-05-12 23:06:00  INFO      Folder: Johnston
+2026-05-12 23:06:00  INFO      Found 1041 sermon files
+2026-05-12 23:07:20  WARNING   Phase1 JSON error attempt 1 for A DAILY DISCIPLINE.doc: Extra data: line 1 column 1009 (char 1008)
+2026-05-12 23:11:58  WARNING   Algolia batch save failed: 400 Client Error: Bad Request for url: https://a4149apl2c.algolia.net/1/indexes/sermons/batch
+2026-05-12 23:11:58  INFO      Wrote 50 sermons, 413 references
+2026-05-12 23:14:03  WARNING   Phase2 JSON error attempt 1 for Brotherly Kindness.doc: Expecting value: line 1 column 1 (char 0)
+2026-05-12 23:14:13  WARNING   Phase2 JSON error attempt 2 for Brotherly Kindness.doc: Expecting value: line 1 column 1 (char 0)
+2026-05-12 23:18:26  INFO      Wrote 50 sermons, 469 references
+2026-05-12 23:37:04  ERROR     FAILED: LIVING WITHOUT FEAR #3-THE PORTRAIT OF A FEARLESS CHRISTIAN.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 650, in flush_batch
+    ref_batch.commit()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:38:11  ERROR     FAILED: LIVING WITHOUT FEAR #4-EXCHANGING FEAR FOR COURAGE.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:39:01  ERROR     FAILED: LIVING WITHOUT FEAR 1 THE PERSON WHO TAKES AWAY OUR FEAR.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:39:53  ERROR     FAILED: LIVING WITHOUT FEAR 2 THE DANGERS OF FEAR.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:40:58  ERROR     FAILED: LIVING WITHOUT FEAR 3 THE PORTRAIT OF A FEARLESS CHRISTIAN.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:41:56  ERROR     FAILED: LIVING WITHOUT FEAR 4 EXCHANGING FEAR FOR COURAGE.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:42:54  ERROR     FAILED: LOVINGLY HE CAME.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:43:47  ERROR     FAILED: M-O-T-H-E-R.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:44:51  ERROR     FAILED: MOLDED BY THE MASTER 1.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:45:45  ERROR     FAILED: MOLDED BY THE MASTER 2.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:46:48  ERROR     FAILED: MOLDED BY THE MASTER 3.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:47:47  ERROR     FAILED: MOLDED BY THE MASTER 4.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:48:48  ERROR     FAILED: MORE LIKE JESUS.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:49:37  ERROR     FAILED: Motives That Move Us.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:50:37  ERROR     FAILED: Our Almighty Shepherd.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:51:45  ERROR     FAILED: OUR GRACIOUS AND MERCIFUL LORD.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:52:51  ERROR     FAILED: OUR HEAVENLY GUIDE.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:53:56  ERROR     FAILED: OUR INESCAPABLE DECISION.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:55:04  ERROR     FAILED: OVERCOMING OPPOSITION.docx -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:56:00  ERROR     FAILED: REDEEMED BY THE BLOOD OF THE LAMB.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:57:00  ERROR     FAILED: REPAIRING BROKEN ALTAR1.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:57:58  ERROR     FAILED: REPAIRING BROKEN ALTARS.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-12 23:59:05  ERROR     FAILED: SAFEGUARDS FOR THE SAINTS.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-13 00:00:00  ERROR     FAILED: SALVATION PLAIN AND SIMPLE.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-13 00:01:02  ERROR     FAILED: SATANS ATTACK.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-13 00:02:08  ERROR     FAILED: SATANS FIERY DARTS.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-13 00:03:04  ERROR     FAILED: SATANS NATURE.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-13 00:04:08  ERROR     FAILED: SATANS TEMPTATIONS.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-13 00:05:07  ERROR     FAILED: SAVIOR IDENTIFYING WITH OUR NEED.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_message:"Quota exceeded.", grpc_status:8}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+2026-05-13 00:06:16  ERROR     FAILED: Seeing Ourselves As God Sees Us.doc -- Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 55, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ~~~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<4 lines>...
+        compression=new_compression,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.RESOURCE_EXHAUSTED
+	details = "Quota exceeded."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.217.234:443 {grpc_status:8, grpc_message:"Quota exceeded."}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\grpc_helpers.py", line 57, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Quota exceeded.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 775, in run_ingestion
+    written, ref_count = flush_batch(db, algolia_index, pastor_id, batch)
+                         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WilliamHawley\Documents\Personal\sermon-library\sermon-library\scripts\ingest.py", line 625, in flush_batch
+    wb.commit()
+    ~~~~~~~~~^^
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\batch.py", line 63, in commit
+    commit_response = self._client._firestore_api.commit(
+        request=request,
+        metadata=self._client._rpc_metadata,
+        **kwargs,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\cloud\firestore_v1\services\firestore\client.py", line 1455, in commit
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\gapic_v1\method.py", line 128, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "C:\Users\WilliamHawley\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\google\api_core\retry\retry_base.py", line 231, in _retry_error_helper
+    raise final_exc from source_exc
+google.api_core.exceptions.RetryError: Timeout of 60.0s exceeded, last exception: 429 Quota exceeded.
