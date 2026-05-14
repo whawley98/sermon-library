@@ -94,7 +94,7 @@ def build_record(doc_id, data):
         "word_count":        data.get("word_count", 0),
         "web_url":           data.get("web_url", ""),
         "series_name":       data.get("series_name", ""),
-        "full_text_snippet": full_text[:8000],
+        "full_text_snippet": full_text[:3000],
     }
 
 def push_batch(records):

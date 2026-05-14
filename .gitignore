@@ -6,3 +6,6 @@ scripts/*.log
 scripts/test*.py
 scripts/test*.txt
 *.pyc
+scripts/enrich_errors.json
+scripts/upload_errors.json
+scripts/failed_files.json
