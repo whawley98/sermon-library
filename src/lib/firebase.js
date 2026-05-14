@@ -282,17 +282,18 @@ export async function getKJVVerse(osisRef) {
 export async function getKJVChapter(osisBook, chapter) {
   if (!osisBook || !chapter) return [];
   try {
+    // Query without orderBy to avoid composite index requirement
+    // Sort client-side instead
     const snap = await getDocs(
       query(
         collection(db, "kjv"),
         where("book",    "==", osisBook),
         where("chapter", "==", Number(chapter)),
-        orderBy("verse"),
       )
     );
-    return snap.docs.map(d => d.data());
+    const verses = snap.docs.map(d => d.data());
+    return verses.sort((a, b) => a.verse - b.verse);
   } catch (err) {
-    // Fallback: fetch by known OSIS refs if index missing
     console.warn("KJV chapter fetch failed:", err.message);
     return [];
   }
