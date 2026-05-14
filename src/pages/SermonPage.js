@@ -10,7 +10,7 @@
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getSermon, getScriptureRefs, getKJVVerse } from "../lib/firebase";
+import { getSermon, getScriptureRefs, getKJVVerse, getKJVChapter, parseOsisRef, osisToFullName } from "../lib/firebase";
 import { askSermon, getRelatedSermons } from "../lib/ai";
 import SermonTextRenderer from "../components/SermonTextRenderer";
 import KJVPanel from "../components/KJVPanel";
@@ -100,18 +100,39 @@ export default function SermonPage({ pastor }) {
     const rect = e.target.getBoundingClientRect();
     tooltipTimer.current = setTimeout(async () => {
       try {
-        const verse = await getKJVVerse(osisRef);
-        if (verse) {
-          setTooltip({
-            text:      verse.text,
-            reference: referenceStr,
-            top:       rect.bottom + window.scrollY + 8,
-            left:      rect.left + window.scrollX,
-          });
+        // Check if this is a verse range using our refs data
+        const ref        = refs.find(r => r.osis_ref === osisRef);
+        const verseStart = ref?.verse_start || parseInt((osisRef || "").split(".")[2] || "1", 10);
+        const verseEnd   = ref?.verse_end   || verseStart;
+
+        if (verseEnd > verseStart) {
+          // Fetch full chapter and filter to verse range
+          const parsed    = parseOsisRef(osisRef);
+          if (!parsed) return;
+          const allVerses = await getKJVChapter(parsed.book, parsed.chapter);
+          const inRange   = allVerses.filter(v => v.verse >= verseStart && v.verse <= verseEnd);
+          if (inRange.length > 0) {
+            setTooltip({
+              text:      inRange.map(v => v.text).join(" "),
+              reference: referenceStr,
+              top:       rect.bottom + window.scrollY + 8,
+              left:      rect.left + window.scrollX,
+            });
+          }
+        } else {
+          const verse = await getKJVVerse(osisRef);
+          if (verse) {
+            setTooltip({
+              text:      verse.text,
+              reference: referenceStr,
+              top:       rect.bottom + window.scrollY + 8,
+              left:      rect.left + window.scrollX,
+            });
+          }
         }
       } catch (_) {}
     }, 400);
-  }, []);
+  }, [refs]);
 
   const handleRefLeave = useCallback(() => {
     clearTimeout(tooltipTimer.current);
