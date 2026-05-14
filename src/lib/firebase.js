@@ -307,18 +307,25 @@ export function osisToFullName(osisBook) {
 
 export async function getKJVChapter(osisBook, chapter) {
   if (!osisBook || !chapter) return [];
-  // Convert OSIS abbreviation to full book name as stored in Firestore
-  const fullName = osisToFullName(osisBook);
-  try {
-    const snap = await getDocs(
-      query(
-        collection(db, "kjv"),
-        where("book",    "==", fullName),
-        where("chapter", "==", Number(chapter)),
-      )
+  // Fetch verses directly by document ID (OSIS ref format: "Book.Chapter.Verse")
+  // This avoids needing any composite index and works reliably.
+  // Max chapter in Bible is Psalm 119 with 176 verses.
+  console.log("getKJVChapter called with:", osisBook, chapter);
+  const chap = Number(chapter);
+  const promises = [];
+  for (let v = 1; v <= 176; v++) {
+    promises.push(
+      getDoc(doc(db, "kjv", `${osisBook}.${chap}.${v}`))
     );
-    const verses = snap.docs.map(d => d.data());
-    return verses.sort((a, b) => a.verse - b.verse);
+  }
+  try {
+    const results = await Promise.all(promises);
+    const verses  = results
+      .filter(d => d.exists())
+      .map(d => d.data())
+      .sort((a, b) => a.verse - b.verse);
+    console.log("getKJVChapter found:", verses.length, "verses for", osisBook, chap);
+    return verses;
   } catch (err) {
     console.warn("KJV chapter fetch failed:", err.message);
     return [];

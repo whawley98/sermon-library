@@ -89,12 +89,11 @@ export default function KJVPanel({ osisRef, referenceLabel, onClose }) {
     if (!osisRef) return;
     const parsed = parseOsisRef(osisRef);
     if (!parsed) return;
-    // Convert OSIS abbreviation to full book name for Firestore queries
-    const fullName = osisToFullName(parsed.book);
-    setCurrentBook(fullName);
+    // Store OSIS book code (e.g. "Ps") — used for doc ID fetching
+    setCurrentBook(parsed.book);
     setCurrentChap(parsed.chapter);
     setTargetVerse(parsed.verse);
-    loadChapter(fullName, parsed.chapter, parsed.verse);
+    loadChapter(parsed.book, parsed.chapter, parsed.verse);
   }, [osisRef, loadChapter]);
 
   // ── Scroll to highlighted verse ──────────────────────────────────────────
@@ -108,11 +107,12 @@ export default function KJVPanel({ osisRef, referenceLabel, onClose }) {
 
   // ── Navigation ───────────────────────────────────────────────────────────
   const goToBook = (book) => {
-    // book is already the full name from the BIBLE_BOOKS dropdown
-    setCurrentBook(book);
+    // book is full name from dropdown - convert to OSIS for doc ID fetching
+    const osisCode = BOOK_TO_OSIS[book] || book;
+    setCurrentBook(osisCode);
     setCurrentChap(1);
     setTargetVerse(null);
-    loadChapter(book, 1, null);
+    loadChapter(osisCode, 1, null);
   };
 
   const goToChapter = (chapter) => {
@@ -138,7 +138,8 @@ export default function KJVPanel({ osisRef, referenceLabel, onClose }) {
   };
 
   // ── Current display name ─────────────────────────────────────────────────
-  const bookDisplayName = currentBook;
+  // Convert OSIS book code to full display name for the dropdown
+  const bookDisplayName = Object.entries(BOOK_TO_OSIS).find(([,v]) => v === currentBook)?.[0] || currentBook;
 
   return (
     <div className="kjv-panel">
