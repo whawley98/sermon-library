@@ -1,141 +1,161 @@
 /* src/components/SermonCard.css */
 
-/* ── Grid card ───────────────────────────────────────────────── */
+/* ── Grid card ──────────────────────────────────────────────────────────── */
 .sermon-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 1.1rem 1.25rem;
-  cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
+  display:        flex;
   flex-direction: column;
-  gap: 0.5rem;
-  position: relative;
-  overflow: hidden;
+  gap:            var(--space-2);
+  padding:        var(--space-5);
+  background:     var(--color-surface);
+  border:         1px solid var(--color-border);
+  border-radius:  var(--radius-lg);
+  cursor:         pointer;
+  transition:     all var(--transition-base);
+  min-height:     200px;
 }
 
-.sermon-card::before {
-  content: '';
-  position: absolute;
-  left: 0; top: 0; bottom: 0;
-  width: 3px;
-  background: var(--color-gold);
-  transform: scaleY(0);
-  transition: transform 0.2s;
-  transform-origin: bottom;
-}
 .sermon-card:hover {
-  border-color: var(--color-gold);
-  box-shadow: 0 4px 16px var(--shadow-sm);
-  transform: translateY(-2px);
+  border-color: var(--color-gold-border);
+  box-shadow:   var(--shadow-md);
+  transform:    translateY(-1px);
 }
-.sermon-card:hover::before { transform: scaleY(1); }
 
 .sc-header {
-  display: flex;
+  display:         flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 0.5rem;
+  align-items:     center;
+  gap:             var(--space-2);
+}
+
+.sc-date {
+  font-family: var(--font-ui);
+  font-size:   var(--text-xs);
+  color:       var(--color-text-muted);
 }
 
 .sc-title {
-  font-family: var(--font-serif);
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.3;
-  color: var(--color-text-primary);
-  flex: 1;
+  font-family:  var(--font-serif);
+  font-size:    var(--text-lg);
+  font-weight:  600;
+  line-height:  var(--leading-snug);
+  color:        var(--color-text-primary);
 }
 
 .sc-theme {
-  font-size: 0.82rem;
-  color: var(--color-gold);
-  font-style: italic;
+  font-family: var(--font-ui);
+  font-size:   var(--text-sm);
+  color:       var(--color-gold);
+  font-style:  italic;
 }
 
 .sc-summary {
-  font-size: 0.88rem;
-  line-height: 1.55;
-  color: #4a3a22;
-  flex: 1;
-}
-
-.sc-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  margin-top: auto;
-}
-
-.sc-refs {
-  font-size: 0.78rem;
-  color: var(--color-text-muted);
-}
-
-.sc-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-}
-
-/* ── List card ───────────────────────────────────────────────── */
-.sermon-list-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  padding: 0.7rem 1.1rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  transition: all 0.15s;
-}
-.sermon-list-card:hover {
-  border-color: var(--color-gold);
-  background: white;
-}
-
-.slc-left { flex: 1; min-width: 0; }
-
-.slc-title {
-  font-family: var(--font-serif);
-  font-size: 0.98rem;
-  font-weight: 600;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-bottom: 0.15rem;
-}
-
-.slc-meta {
-  display: flex;
-  gap: 0.75rem;
-  font-size: 0.8rem;
-  color: var(--color-text-muted);
-  font-style: italic;
-}
-.slc-meta span::after { content: ' ·'; margin-left: 0.75rem; }
-.slc-meta span:last-child::after { content: ''; }
-
-.slc-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.2rem;
-  flex-shrink: 0;
-}
-
-.slc-date {
-  font-size: 0.75rem;
-  color: var(--color-text-muted);
-  font-family: var(--font-ui);
+  font-family:  var(--font-body);
+  font-size:    var(--text-sm);
+  line-height:  var(--leading-relaxed);
+  color:        var(--color-text-muted);
+  flex:         1;
 }
 
 .sc-no-summary {
-  font-size: 0.85rem;
-  color: var(--color-text-muted);
-  font-style: italic;
-  flex: 1;
+  font-family: var(--font-ui);
+  font-size:   var(--text-sm);
+  color:       var(--color-text-disabled);
+  font-style:  italic;
+  flex:        1;
 }
+
+.sc-footer {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-2);
+  margin-top:     auto;
+  padding-top:    var(--space-2);
+  border-top:     1px solid var(--color-border);
+}
+
+.sc-books {
+  display:  flex;
+  flex-wrap: wrap;
+  gap:      var(--space-1);
+}
+
+.sc-book-tag {
+  font-family:   var(--font-ui);
+  font-size:     var(--text-xs);
+  color:         var(--color-rust);
+  background:    var(--color-rust-subtle);
+  padding:       1px var(--space-2);
+  border-radius: var(--radius-full);
+}
+
+.sc-keywords {
+  display:  flex;
+  flex-wrap: wrap;
+  gap:      var(--space-1);
+}
+
+/* ── List card ──────────────────────────────────────────────────────────── */
+.sermon-list-card {
+  display:       flex;
+  align-items:   center;
+  gap:           var(--space-4);
+  padding:       var(--space-4) var(--space-5);
+  background:    var(--color-surface);
+  border:        1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor:        pointer;
+  transition:    all var(--transition-fast);
+}
+
+.sermon-list-card:hover {
+  border-color: var(--color-gold-border);
+  background:   var(--color-gold-subtle);
+}
+
+.slc-body { flex: 1; min-width: 0; }
+
+.slc-title-row {
+  display:         flex;
+  align-items:     flex-start;
+  justify-content: space-between;
+  gap:             var(--space-3);
+  margin-bottom:   var(--space-1);
+}
+
+.slc-title {
+  font-family: var(--font-serif);
+  font-size:   var(--text-base);
+  font-weight: 600;
+  color:       var(--color-text-primary);
+  line-height: var(--leading-snug);
+  flex:        1;
+  min-width:   0;
+}
+
+.slc-theme {
+  font-family: var(--font-ui);
+  font-size:   var(--text-sm);
+  color:       var(--color-gold);
+  font-style:  italic;
+  margin-bottom: var(--space-1);
+}
+
+.slc-meta {
+  display:  flex;
+  flex-wrap: wrap;
+  gap:      var(--space-3);
+}
+
+.slc-date, .slc-refs {
+  font-family: var(--font-ui);
+  font-size:   var(--text-xs);
+  color:       var(--color-text-muted);
+}
+
+.slc-arrow {
+  font-size: 1.2rem;
+  color:     var(--color-text-muted);
+  flex-shrink: 0;
+  transition: transform var(--transition-fast), color var(--transition-fast);
+}
+.sermon-list-card:hover .slc-arrow { transform: translateX(3px); color: var(--color-gold); }

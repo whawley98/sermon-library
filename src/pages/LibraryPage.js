@@ -1,90 +1,122 @@
 // src/pages/LibraryPage.js
-import React, { useState, useEffect, useRef } from "react";
-import { getSermons, searchSermonsByTitle } from "../lib/firebase";
+// Main sermon browsing page with Algolia search, sidebar filters,
+// grid/list toggle, pagination, and result counts.
+
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import Sidebar from "../components/Sidebar";
 import SermonCard from "../components/SermonCard";
+import { getSermons, searchSermons } from "../lib/firebase";
 import "./LibraryPage.css";
 
 const PAGE_SIZE = 24;
 
 export default function LibraryPage({ pastor }) {
-  const [sermons,     setSermons]     = useState([]);
-  const [loading,     setLoading]     = useState(true);
-  const [loadingMore, setLoadingMore] = useState(false);
-  const [lastDoc,     setLastDoc]     = useState(null);
-  const [hasMore,     setHasMore]     = useState(false);
-  const [error,       setError]       = useState(null);
-  const [view,        setView]        = useState("grid");
-  const [search,      setSearch]      = useState("");
-  const [filters,     setFilters]     = useState({ author: null, book: null, keyword: null });
-  const searchTimer = useRef(null);
-  const prevFilters = useRef(filters);
+  const [sermons,    setSermons]    = useState([]);
+  const [loading,    setLoading]    = useState(true);
+  const [loadingMore,setLoadingMore]= useState(false);
+  const [hasMore,    setHasMore]    = useState(false);
+  const [lastDoc,    setLastDoc]    = useState(null);
+  const [total,      setTotal]      = useState(null);
+  const [view,       setView]       = useState("grid"); // "grid" | "list"
+  const [searchText, setSearchText] = useState("");
+  const [isSearching,setIsSearching]= useState(false);
+  const [filters,    setFilters]    = useState({
+    isPrimary: null,
+    book:      null,
+    keyword:   null,
+  });
 
-  const load = async (reset = true) => {
+  const searchTimer  = useRef(null);
+  const isFiltered   = filters.isPrimary !== null || filters.book || filters.keyword;
+  const isSearchMode = searchText.trim().length >= 2;
+
+  // ── Fetch sermons ────────────────────────────────────────────────────────
+  const fetchSermons = useCallback(async (reset = true) => {
     if (!pastor?.id) return;
-    reset ? setLoading(true) : setLoadingMore(true);
-    setError(null);
+
+    if (reset) setLoading(true);
+    else       setLoadingMore(true);
 
     try {
-      let result;
-      if (search.trim().length >= 2) {
-        const found = await searchSermonsByTitle(search.trim(), pastor.id);
-        result = { sermons: found, lastDoc: null, hasMore: false };
-      } else {
-        // Convert author filter to isPrimary boolean
-        let isPrimary = null;
-        if (filters.author === "hawley") isPrimary = true;
-        if (filters.author === "other")  isPrimary = false;
+      const result = await getSermons({
+        pastorId:  pastor.id,
+        keyword:   filters.keyword,
+        book:      filters.book,
+        isPrimary: filters.isPrimary,
+        pageSize:  PAGE_SIZE,
+        lastDoc:   reset ? null : lastDoc,
+      });
 
-        result = await getSermons({
-          pastorId:  pastor.id,
-          keyword:   filters.keyword || null,
-          book:      filters.book    || null,
-          isPrimary,
-          pageSize:  PAGE_SIZE,
-          lastDoc:   reset ? null : lastDoc,
-        });
+      if (reset) {
+        setSermons(result.sermons);
+        setLastDoc(result.lastDoc);
+      } else {
+        setSermons(prev => [...prev, ...result.sermons]);
+        setLastDoc(result.lastDoc);
       }
-      setSermons(prev => reset ? result.sermons : [...prev, ...result.sermons]);
-      setLastDoc(result.lastDoc);
       setHasMore(result.hasMore);
-    } catch (e) {
-      console.error("Failed to load sermons:", e);
-      setError(e.message);
+    } catch (err) {
+      console.error("Failed to load sermons:", err);
     } finally {
       setLoading(false);
       setLoadingMore(false);
     }
-  };
+  }, [pastor?.id, filters, lastDoc]);
 
-  // Load when pastor changes
-  useEffect(() => {
-    load(true);
-  // eslint-disable-next-line
+  // ── Search ───────────────────────────────────────────────────────────────
+  const doSearch = useCallback(async (text) => {
+    if (!pastor?.id || text.trim().length < 2) return;
+    setIsSearching(true);
+    try {
+      const results = await searchSermons(text, pastor.id, 50);
+      setSermons(results);
+      setTotal(results.length);
+      setHasMore(false);
+    } catch (err) {
+      console.error("Search failed:", err);
+    } finally {
+      setIsSearching(false);
+    }
   }, [pastor?.id]);
 
-  // Load when filters change
+  // ── Effects ──────────────────────────────────────────────────────────────
+  // Load on mount and filter changes
   useEffect(() => {
-    if (prevFilters.current !== filters) {
-      prevFilters.current = filters;
-      load(true);
+    if (!isSearchMode) {
+      fetchSermons(true);
+      setTotal(null);
     }
-  // eslint-disable-next-line
-  }, [filters]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pastor?.id, filters]);
 
-  // Debounce search
+  // Debounced search
   useEffect(() => {
+    if (searchText.trim().length < 2) {
+      if (searchText.trim().length === 0) {
+        fetchSermons(true);
+        setTotal(null);
+      }
+      return;
+    }
     clearTimeout(searchTimer.current);
-    searchTimer.current = setTimeout(() => load(true), 400);
+    searchTimer.current = setTimeout(() => doSearch(searchText), 350);
     return () => clearTimeout(searchTimer.current);
-  // eslint-disable-next-line
-  }, [search]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchText]);
 
+  // ── Handlers ─────────────────────────────────────────────────────────────
   const handleFilterChange = (updates) => {
     setFilters(prev => ({ ...prev, ...updates }));
+    setSearchText("");
   };
 
-  const activeFilterCount = Object.values(filters).filter(Boolean).length;
+  const handleLoadMore = () => {
+    if (!loadingMore && hasMore) fetchSermons(false);
+  };
+
+  // ── Render ────────────────────────────────────────────────────────────────
+  const resultCount = total ?? sermons.length;
+  const showCount   = !loading && sermons.length > 0;
 
   return (
     <div className="library-layout">
@@ -94,96 +126,124 @@ export default function LibraryPage({ pastor }) {
         onFilterChange={handleFilterChange}
       />
 
-      <div className="library-content">
+      <div className="library-main">
         {/* Toolbar */}
-        <div className="toolbar">
+        <div className="library-toolbar">
           <div className="search-wrap">
-            <span className="search-icon">⌕</span>
+            <span className="search-icon">🔍</span>
             <input
-              className="input search-input"
-              type="text"
-              placeholder="Search by title…"
-              value={search}
-              onChange={e => setSearch(e.target.value)}
-              onKeyDown={e => e.key === "Escape" && setSearch("")}
+              className="search-input"
+              type="search"
+              placeholder="Search sermons…"
+              value={searchText}
+              onChange={e => setSearchText(e.target.value)}
+              aria-label="Search sermons"
             />
-            {search && (
-              <button className="search-clear" onClick={() => setSearch("")}>×</button>
-            )}
+            {(isSearching) && <span className="search-spinner" />}
           </div>
 
           <div className="toolbar-right">
-            {activeFilterCount > 0 && (
-              <button
-                className="btn btn-ghost"
-                onClick={() => setFilters({ author: null, book: null, keyword: null })}
-              >
-                ✕ Clear {activeFilterCount} filter{activeFilterCount > 1 ? "s" : ""}
-              </button>
+            {showCount && (
+              <span className="result-count">
+                {isSearchMode
+                  ? `${resultCount} result${resultCount !== 1 ? "s" : ""}`
+                  : isFiltered
+                    ? `${sermons.length} shown`
+                    : `${sermons.length} sermons`}
+              </span>
             )}
-            <div className="view-toggle">
-              <button className={`view-btn ${view === "grid" ? "active" : ""}`} onClick={() => setView("grid")}>⊞</button>
-              <button className={`view-btn ${view === "list" ? "active" : ""}`} onClick={() => setView("list")}>☰</button>
+
+            <div className="view-toggle" role="group" aria-label="View mode">
+              <button
+                className={`view-btn${view === "grid" ? " view-btn--active" : ""}`}
+                onClick={() => setView("grid")}
+                aria-label="Grid view"
+              >
+                ⊞
+              </button>
+              <button
+                className={`view-btn${view === "list" ? " view-btn--active" : ""}`}
+                onClick={() => setView("list")}
+                aria-label="List view"
+              >
+                ☰
+              </button>
             </div>
           </div>
         </div>
 
         {/* Active filter chips */}
-        {activeFilterCount > 0 && (
-          <div className="active-chips">
-            {filters.keyword && <FilterChip label={`Topic: ${filters.keyword}`}  onRemove={() => handleFilterChange({ keyword: null })} />}
-            {filters.book    && <FilterChip label={`Book: ${filters.book}`}      onRemove={() => handleFilterChange({ book: null })} />}
-            {filters.author  && <FilterChip label={`Author: ${filters.author === "hawley" ? pastor?.name : "Other Preachers"}`} onRemove={() => handleFilterChange({ author: null })} />}
+        {(isFiltered || isSearchMode) && (
+          <div className="active-filters">
+            {isSearchMode && (
+              <span className="filter-chip filter-chip--search">
+                🔍 "{searchText}"
+                <button onClick={() => setSearchText("")}>✕</button>
+              </span>
+            )}
+            {filters.book && (
+              <span className="filter-chip">
+                📖 {filters.book}
+                <button onClick={() => handleFilterChange({ book: null })}>✕</button>
+              </span>
+            )}
+            {filters.keyword && (
+              <span className="filter-chip">
+                🏷 {filters.keyword}
+                <button onClick={() => handleFilterChange({ keyword: null })}>✕</button>
+              </span>
+            )}
+            {filters.isPrimary !== null && (
+              <span className="filter-chip">
+                👤 {filters.isPrimary ? "Primary pastor" : "Guest preachers"}
+                <button onClick={() => handleFilterChange({ isPrimary: null })}>✕</button>
+              </span>
+            )}
           </div>
         )}
 
-        {!loading && !error && (
-          <p className="result-count">
-            {sermons.length > 0
-              ? `${sermons.length}${hasMore ? "+" : ""} sermon${sermons.length !== 1 ? "s" : ""}`
-              : "No sermons found"}
-          </p>
-        )}
-
+        {/* Content */}
         {loading ? (
-          <div className="grid-loading">
-            {Array.from({ length: 8 }).map((_, i) => <div key={i} className="skeleton-card" />)}
-          </div>
-        ) : error ? (
-          <div className="error-state">
-            ⚠️ {error}
-            <br /><small>Check browser console for details.</small>
+          <div className="library-loading">
+            {[...Array(8)].map((_, i) => (
+              <div key={i} className="skeleton" style={{ height: view === "grid" ? 220 : 72, borderRadius: 12 }} />
+            ))}
           </div>
         ) : sermons.length === 0 ? (
-          <div className="empty-state">
-            <div className="empty-icon">🕊️</div>
+          <div className="library-empty">
+            <div className="empty-icon">📭</div>
             <h3>No sermons found</h3>
-            <p>Try adjusting your search or filters.</p>
+            <p>
+              {isSearchMode
+                ? `No results for "${searchText}". Try different keywords.`
+                : "Try adjusting your filters."}
+            </p>
           </div>
         ) : (
           <>
             <div className={view === "grid" ? "sermon-grid" : "sermon-list"}>
-              {sermons.map(s => <SermonCard key={s.id} sermon={s} view={view} />)}
+              {sermons.map(s => (
+                <SermonCard key={s.id} sermon={s} view={view} />
+              ))}
             </div>
-            {hasMore && (
-              <div className="load-more">
-                <button className="btn btn-secondary" onClick={() => load(false)} disabled={loadingMore}>
-                  {loadingMore ? "Loading…" : "Load more sermons"}
+
+            {/* Load more */}
+            {hasMore && !isSearchMode && (
+              <div className="load-more-wrap">
+                <button
+                  className="btn btn-secondary load-more-btn"
+                  onClick={handleLoadMore}
+                  disabled={loadingMore}
+                >
+                  {loadingMore ? (
+                    <><span className="spinner" style={{ width: 16, height: 16, borderWidth: 2 }} /> Loading…</>
+                  ) : "Load more sermons"}
                 </button>
               </div>
             )}
           </>
         )}
       </div>
-    </div>
-  );
-}
-
-function FilterChip({ label, onRemove }) {
-  return (
-    <div className="filter-chip">
-      {label}
-      <button onClick={onRemove}>×</button>
     </div>
   );
 }
