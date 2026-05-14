@@ -86,8 +86,7 @@ export default function LibraryPage({ pastor }) {
       fetchSermons(true);
       setTotal(null);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pastor?.id, filters]);
+  }, [pastor?.id, filters.keyword, filters.book, filters.isPrimary]);
 
   // Debounced search
   useEffect(() => {
@@ -101,8 +100,7 @@ export default function LibraryPage({ pastor }) {
     clearTimeout(searchTimer.current);
     searchTimer.current = setTimeout(() => doSearch(searchText), 350);
     return () => clearTimeout(searchTimer.current);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchText]);
+  }, [searchText, pastor?.id]);
 
   // ── Handlers ─────────────────────────────────────────────────────────────
   const handleFilterChange = (updates) => {
