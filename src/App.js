@@ -16,7 +16,7 @@ export default function App() {
   const [activePastor, setActivePastor] = useState(null);
   const [loading,      setLoading]      = useState(true);
   const [error,        setError]        = useState(null);
-  const { theme, toggle: toggleTheme }  = useTheme();
+  const { theme, setTheme, toggle }     = useTheme();
 
   useEffect(() => {
     getPastors()
@@ -26,7 +26,7 @@ export default function App() {
   }, []);
 
   if (loading) return (
-    <div className="fullscreen-center" style={{ background: "var(--color-bg)" }}>
+    <div className="fullscreen-center">
       <div className="spinner" />
       <p style={{ marginTop: "1rem", fontFamily: "var(--font-serif)", color: "var(--color-text-muted)", fontSize: "1.1rem" }}>
         Loading the collection…
@@ -42,11 +42,13 @@ export default function App() {
           activePastor={activePastor}
           onPastorChange={setActivePastor}
           theme={theme}
-          onThemeToggle={toggleTheme}
+          setTheme={setTheme}
+          onThemeToggle={toggle}
         />
+
         {error ? (
           <div className="fullscreen-center">
-            <h2>Connection Error</h2>
+            <h2 style={{ fontFamily: "var(--font-serif)" }}>Connection Error</h2>
             <p style={{ color: "var(--color-text-muted)", marginTop: "0.5rem" }}>{error}</p>
           </div>
         ) : (
@@ -74,7 +76,7 @@ function EmptyState() {
     <div className="fullscreen-center">
       <div style={{ textAlign: "center", maxWidth: 480 }}>
         <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>📖</div>
-        <h2 style={{ marginBottom: "0.75rem" }}>No Collections Yet</h2>
+        <h2 style={{ fontFamily: "var(--font-serif)", marginBottom: "0.75rem" }}>No Collections Yet</h2>
         <p style={{ color: "var(--color-text-muted)" }}>
           Run the Python ingestion script to load sermons into the database, then refresh this page.
         </p>
