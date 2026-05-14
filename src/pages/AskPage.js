@@ -1,165 +1,184 @@
 // src/pages/AskPage.js
-import React, { useState, useRef } from "react";
-import { Link } from "react-router-dom";
-import { askCollection, generateMinistrySummary } from "../lib/ai";
-import { getStats } from "../lib/firebase";
+// Collection-level AI Q&A page with markdown rendering,
+// source citations, and suggested questions.
+
+import React, { useState } from "react";
+import { askCollection } from "../lib/ai";
+import { useNavigate } from "react-router-dom";
 import "./AskPage.css";
 
-const SUGGESTIONS = [
-  "What did he preach about most often?",
-  "Find sermons about grief and loss",
-  "Did he ever preach a series on prayer?",
-  "What Bible books did he reference most?",
-  "Find sermons about the Holy Spirit",
-  "What were his favorite illustrations?",
+const SUGGESTED_QUESTIONS = [
+  "What Bible books did he preach from most often?",
+  "What were his most common sermon themes?",
+  "How did his preaching evolve over the decades?",
+  "Which scripture verses did he reference most frequently?",
+  "What did he teach about prayer?",
+  "Find sermons about salvation and the gospel",
+  "What series did he preach on the tabernacle?",
+  "What did he emphasize about the Christian life?",
 ];
 
 export default function AskPage({ pastor }) {
-  const [messages,  setMessages]  = useState([]);
-  const [input,     setInput]     = useState("");
+  const navigate = useNavigate();
+  const [question,  setQuestion]  = useState("");
+  const [answer,    setAnswer]    = useState(null);
   const [loading,   setLoading]   = useState(false);
-  const [summaryLoading, setSummaryLoading] = useState(false);
-  const bottomRef = useRef(null);
+  const [error,     setError]     = useState("");
+  const [history,   setHistory]   = useState([]);
 
-  const sendMessage = async (text) => {
-    const question = text || input.trim();
-    if (!question || loading) return;
-    setInput("");
+  const handleAsk = async (q) => {
+    const text = (q || question).trim();
+    if (!text || !pastor) return;
 
-    const userMsg = { role: "user", content: question };
-    setMessages(prev => [...prev, userMsg]);
     setLoading(true);
+    setError("");
+    setAnswer(null);
 
     try {
-      const { answer, sourcedFrom } = await askCollection(question, pastor, pastor?.id);
-      setMessages(prev => [...prev, {
-        role: "assistant",
-        content: answer,
-        sources: sourcedFrom,
-      }]);
-    } catch (e) {
-      setMessages(prev => [...prev, {
-        role: "assistant",
-        content: `Sorry, I ran into an error: ${e.message}`,
-        error: true,
-      }]);
+      const result = await askCollection(text, pastor, pastor.id);
+      const entry  = { question: text, answer: result.answer, sources: result.sourcedFrom };
+      setAnswer(entry);
+      setHistory(prev => [entry, ...prev].slice(0, 10));
+      setQuestion("");
+    } catch (err) {
+      setError(err.message || "Something went wrong. Please try again.");
     } finally {
       setLoading(false);
-      setTimeout(() => bottomRef.current?.scrollIntoView({ behavior: "smooth" }), 100);
     }
   };
 
-  const generateSummary = async () => {
-    setSummaryLoading(true);
-    try {
-      const stats = await getStats(pastor?.id);
-      const summary = await generateMinistrySummary(pastor, stats);
-      setMessages(prev => [...prev, {
-        role: "assistant",
-        content: summary,
-        label: "Ministry Summary",
-      }]);
-    } catch (e) {
-      alert("Could not generate summary: " + e.message);
-    } finally {
-      setSummaryLoading(false);
-      setTimeout(() => bottomRef.current?.scrollIntoView({ behavior: "smooth" }), 100);
-    }
+  const handleSuggestion = (q) => {
+    setQuestion(q);
+    handleAsk(q);
   };
 
   return (
     <div className="ask-page">
-      <div className="page-header">
-        <h1>Ask the Collection</h1>
-        <p>
-          Ask questions about {pastor?.name || "the pastor"}'s sermons —
-          powered by AI with answers grounded in the actual text.
-        </p>
-      </div>
+      <div className="ask-inner">
 
-      {/* Special actions */}
-      <div className="ask-actions">
-        <button
-          className="btn btn-secondary"
-          onClick={generateSummary}
-          disabled={summaryLoading}
-        >
-          {summaryLoading ? "Generating…" : "✦ Generate Ministry Summary"}
-        </button>
-      </div>
+        {/* Header */}
+        <header className="ask-header">
+          <div className="ask-header-label">AI Assistant</div>
+          <h1 className="ask-title">Ask about the Collection</h1>
+          <p className="ask-subtitle">
+            Ask anything about {pastor?.name || "this pastor"}'s sermons — themes, scripture,
+            patterns across decades, or specific topics.
+          </p>
+        </header>
 
-      {/* Conversation */}
-      <div className="conversation">
-        {messages.length === 0 && (
-          <div className="ask-empty">
-            <div className="ask-empty-icon">💬</div>
-            <h3>Ask anything about the sermon collection</h3>
-            <p>Try one of these:</p>
-            <div className="suggestion-grid">
-              {SUGGESTIONS.map((s) => (
+        {/* Input */}
+        <div className="ask-input-section">
+          <div className="ask-input-wrap">
+            <textarea
+              className="ask-textarea"
+              placeholder="What would you like to know about this sermon collection?"
+              value={question}
+              onChange={e => setQuestion(e.target.value)}
+              onKeyDown={e => {
+                if (e.key === "Enter" && !e.shiftKey) {
+                  e.preventDefault();
+                  handleAsk();
+                }
+              }}
+              rows={3}
+              disabled={loading}
+            />
+            <button
+              className="btn btn-gold ask-submit-btn"
+              onClick={() => handleAsk()}
+              disabled={loading || !question.trim()}
+            >
+              {loading
+                ? <span className="spinner" style={{ width: 18, height: 18, borderWidth: 2 }} />
+                : "Ask ✦"}
+            </button>
+          </div>
+          <p className="ask-hint">Press Enter to submit · Shift+Enter for new line</p>
+        </div>
+
+        {/* Error */}
+        {error && (
+          <div className="ask-error">{error}</div>
+        )}
+
+        {/* Answer */}
+        {answer && (
+          <div className="ask-answer-card">
+            <div className="ask-answer-question">"{answer.question}"</div>
+            <div
+              className="markdown ask-answer-body"
+              dangerouslySetInnerHTML={{ __html: markdownToHtml(answer.answer) }}
+            />
+
+            {/* Sources */}
+            {answer.sources && answer.sources.length > 0 && (
+              <div className="ask-sources">
+                <div className="ask-sources-label">Sources used</div>
+                <div className="ask-sources-list">
+                  {answer.sources.map(s => (
+                    <button
+                      key={s.id}
+                      className="ask-source-chip"
+                      onClick={() => navigate(`/sermon/${s.id}`)}
+                      title="Open sermon"
+                    >
+                      📖 {s.title}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Suggested questions */}
+        {!answer && !loading && (
+          <div className="ask-suggestions">
+            <div className="ask-suggestions-label">Suggested questions</div>
+            <div className="ask-suggestions-grid">
+              {SUGGESTED_QUESTIONS.map(q => (
                 <button
-                  key={s}
-                  className="suggestion-btn"
-                  onClick={() => sendMessage(s)}
+                  key={q}
+                  className="ask-suggestion-btn"
+                  onClick={() => handleSuggestion(q)}
                 >
-                  {s}
+                  {q}
                 </button>
               ))}
             </div>
           </div>
         )}
 
-        {messages.map((msg, i) => (
-          <div key={i} className={`message message-${msg.role} ${msg.error ? "message-error" : ""}`}>
-            {msg.label && <div className="message-label">{msg.label}</div>}
-            <div className="message-content">
-              {msg.content.split("\n").map((line, j) => (
-                <p key={j}>{line}</p>
-              ))}
-            </div>
-            {msg.sources?.length > 0 && (
-              <div className="message-sources">
-                <span className="sources-label">Based on:</span>
-                {msg.sources.map((s) => (
-                  <Link key={s.id} to={`/sermon/${s.id}`} className="source-link">
-                    {s.title}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-        ))}
-
-        {loading && (
-          <div className="message message-assistant">
-            <div className="thinking">
-              <span /><span /><span />
-            </div>
+        {/* History */}
+        {history.length > 1 && (
+          <div className="ask-history">
+            <div className="ask-history-label">Previous questions</div>
+            {history.slice(1).map((entry, i) => (
+              <button
+                key={i}
+                className="ask-history-item"
+                onClick={() => setAnswer(entry)}
+              >
+                {entry.question}
+              </button>
+            ))}
           </div>
         )}
-
-        <div ref={bottomRef} />
-      </div>
-
-      {/* Input */}
-      <div className="ask-input-bar">
-        <input
-          className="input ask-input"
-          type="text"
-          placeholder={`Ask about ${pastor?.name || "the collection"}…`}
-          value={input}
-          onChange={e => setInput(e.target.value)}
-          onKeyDown={e => e.key === "Enter" && sendMessage()}
-          disabled={loading}
-        />
-        <button
-          className="btn btn-gold"
-          onClick={() => sendMessage()}
-          disabled={loading || !input.trim()}
-        >
-          Ask
-        </button>
       </div>
     </div>
   );
+}
+
+function markdownToHtml(text) {
+  return text
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(.+?)\*/g, "<em>$1</em>")
+    .replace(/^### (.+)$/gm, "<h3>$1</h3>")
+    .replace(/^## (.+)$/gm, "<h2>$1</h2>")
+    .replace(/^# (.+)$/gm, "<h1>$1</h1>")
+    .replace(/^\- (.+)$/gm, "<li>$1</li>")
+    .replace(/(<li>[\s\S]+?<\/li>)/g, "<ul>$1</ul>")
+    .replace(/\n\n/g, "</p><p>")
+    .replace(/^(?!<[hul])(.+)$/gm, m => m.startsWith("<") ? m : `<p>${m}</p>`);
 }

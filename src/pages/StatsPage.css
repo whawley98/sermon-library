@@ -1,115 +1,325 @@
+/* src/pages/StatsPage.css */
 
-.stats-page-wrap {
-  height: calc(100vh - var(--header-h));
-  overflow-y: auto;
-  background: var(--color-bg);
+.stats-page {
+  min-height:  calc(100vh - var(--header-h));
+  background:  var(--color-bg);
+  padding:     var(--space-8) var(--space-6);
 }
 
-/* src/pages/StatsPage.css */
-.stats-page {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 2.5rem;
+.stats-inner {
+  max-width:  900px;
+  margin:     0 auto;
+  display:    flex;
+  flex-direction: column;
+  gap:        var(--space-10);
 }
 
 .stats-loading, .stats-empty {
-  display: flex;
-  justify-content: center;
-  padding: 4rem;
-  color: var(--color-text-muted);
-}
-
-.stat-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.stat-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 1.25rem 1rem;
-  text-align: center;
-  display: flex;
+  display:        flex;
   flex-direction: column;
-  gap: 0.25rem;
-}
-.stat-card-icon { font-size: 1.5rem; }
-.stat-card-value {
-  font-family: var(--font-serif);
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--color-gold);
-  line-height: 1.1;
-}
-.stat-card-label {
-  font-family: var(--font-ui);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--color-text-muted);
+  align-items:    center;
+  justify-content: center;
+  min-height:     calc(100vh - var(--header-h));
+  gap:            var(--space-4);
+  color:          var(--color-text-muted);
+  font-family:    var(--font-ui);
 }
 
-.stats-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-}
-
-.stats-panel {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 1.25rem 1.5rem;
-}
-
-.stats-panel-title {
-  font-family: var(--font-serif);
-  font-size: 1.1rem;
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.5rem;
+/* ── Hero ───────────────────────────────────────────────────────────────── */
+.stats-hero {
+  text-align:    center;
+  padding:       var(--space-10) 0;
   border-bottom: 1px solid var(--color-border);
 }
 
-.bar-chart { display: flex; flex-direction: column; gap: 0.55rem; }
+.stats-hero-label {
+  font-family:    var(--font-ui);
+  font-size:      var(--text-xs);
+  font-weight:    600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color:          var(--color-gold);
+  margin-bottom:  var(--space-3);
+}
 
-.bar-row {
-  display: grid;
-  grid-template-columns: 120px 1fr 36px;
-  align-items: center;
-  gap: 0.6rem;
+.stats-hero-name {
+  font-family:   var(--font-serif);
+  font-size:     var(--text-4xl);
+  font-weight:   600;
+  color:         var(--color-text-primary);
+  margin-bottom: var(--space-3);
 }
-.bar-label {
-  font-size: 0.85rem;
-  color: var(--color-text-primary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: right;
+
+.stats-hero-desc {
+  font-family:   var(--font-serif);
+  font-size:     var(--text-xl);
+  font-style:    italic;
+  color:         var(--color-text-muted);
+  margin-bottom: var(--space-8);
 }
-.bar-track {
-  height: 14px;
-  background: var(--color-surface-sunken);
-  border-radius: 7px;
-  overflow: hidden;
+
+.stats-hero-numbers {
+  display:         flex;
+  justify-content: center;
+  align-items:     center;
+  gap:             var(--space-8);
+  flex-wrap:       wrap;
 }
-.bar-fill {
-  height: 100%;
-  background: var(--color-gold);
-  border-radius: 7px;
-  transition: width 0.6s ease;
+
+.hero-stat {
+  display:        flex;
+  flex-direction: column;
+  align-items:    center;
+  gap:            var(--space-1);
 }
-.bar-fill-rust { background: var(--color-rust); }
-.bar-count {
+
+.hero-num {
+  font-family: var(--font-serif);
+  font-size:   var(--text-4xl);
+  font-weight: 600;
+  color:       var(--color-text-primary);
+  line-height: 1;
+}
+
+.hero-label {
+  font-family:    var(--font-ui);
+  font-size:      var(--text-sm);
+  color:          var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero-stat-divider {
+  width:      1px;
+  height:     48px;
+  background: var(--color-border);
+}
+
+/* ── Sections ───────────────────────────────────────────────────────────── */
+.stats-section { }
+
+.stats-section-title {
+  font-family:   var(--font-serif);
+  font-size:     var(--text-2xl);
+  font-weight:   600;
+  color:         var(--color-text-primary);
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+  display:       flex;
+  align-items:   baseline;
+  gap:           var(--space-3);
+}
+
+.stats-section-count {
   font-family: var(--font-ui);
-  font-size: 0.75rem;
-  color: var(--color-text-muted);
-  text-align: right;
+  font-size:   var(--text-sm);
+  color:       var(--color-text-muted);
+  font-weight: 400;
 }
 
-@media (max-width: 768px) {
-  .stats-grid { grid-template-columns: 1fr; }
-  .bar-row { grid-template-columns: 90px 1fr 32px; }
+/* ── Decade chart ───────────────────────────────────────────────────────── */
+.decade-chart {
+  display:     flex;
+  align-items: flex-end;
+  gap:         var(--space-4);
+  height:      200px;
+  padding:     var(--space-4) 0;
+}
+
+.decade-bar-wrap {
+  display:        flex;
+  flex-direction: column;
+  align-items:    center;
+  gap:            var(--space-1);
+  flex:           1;
+}
+
+.decade-bar-outer {
+  width:         100%;
+  flex:          1;
+  display:       flex;
+  align-items:   flex-end;
+  background:    var(--color-surface-sunken);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  overflow:      hidden;
+}
+
+.decade-bar-inner {
+  width:         100%;
+  background:    var(--color-gold);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  transition:    height var(--transition-slow);
+  min-height:    4px;
+}
+
+.decade-count {
+  font-family: var(--font-ui);
+  font-size:   var(--text-xs);
+  font-weight: 600;
+  color:       var(--color-text-muted);
+}
+
+.decade-label {
+  font-family: var(--font-ui);
+  font-size:   var(--text-xs);
+  color:       var(--color-text-muted);
+  white-space: nowrap;
+}
+
+/* ── Bible books ────────────────────────────────────────────────────────── */
+.books-grid {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-2);
+}
+
+.book-bar-row {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-3);
+}
+
+.book-bar-name {
+  font-family: var(--font-ui);
+  font-size:   var(--text-sm);
+  color:       var(--color-text-secondary);
+  width:       140px;
+  flex-shrink: 0;
+  text-align:  right;
+}
+
+.book-bar-track {
+  flex:          1;
+  height:        8px;
+  background:    var(--color-surface-sunken);
+  border-radius: var(--radius-full);
+  overflow:      hidden;
+}
+
+.book-bar-fill {
+  height:        100%;
+  background:    var(--color-gold);
+  border-radius: var(--radius-full);
+  transition:    width var(--transition-slow);
+  min-width:     4px;
+}
+
+.book-bar-count {
+  font-family: var(--font-ui);
+  font-size:   var(--text-sm);
+  color:       var(--color-text-muted);
+  width:       36px;
+  flex-shrink: 0;
+  text-align:  right;
+}
+
+/* ── Top verses ─────────────────────────────────────────────────────────── */
+.verses-list {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-2);
+}
+
+.verse-row {
+  display:       flex;
+  align-items:   center;
+  gap:           var(--space-4);
+  padding:       var(--space-3) var(--space-4);
+  background:    var(--color-surface);
+  border:        1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.verse-rank {
+  font-family:  var(--font-ui);
+  font-size:    var(--text-sm);
+  font-weight:  700;
+  color:        var(--color-gold);
+  width:        1.5rem;
+  text-align:   center;
+  flex-shrink:  0;
+}
+
+.verse-ref {
+  font-family: var(--font-serif);
+  font-size:   var(--text-base);
+  font-weight: 600;
+  color:       var(--color-text-primary);
+  flex:        1;
+}
+
+.verse-count {
+  font-family: var(--font-ui);
+  font-size:   var(--text-sm);
+  color:       var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+/* ── Keyword cloud ──────────────────────────────────────────────────────── */
+.kw-grid {
+  display:     flex;
+  flex-wrap:   wrap;
+  gap:         var(--space-3);
+  align-items: center;
+  line-height: 1.8;
+}
+
+.kw-cloud-word {
+  font-family:  var(--font-body);
+  color:        var(--color-text-secondary);
+  cursor:       default;
+  transition:   color var(--transition-fast);
+}
+.kw-cloud-word:hover { color: var(--color-gold); }
+
+/* ── Ministry summary ───────────────────────────────────────────────────── */
+.stats-summary-section {
+  background:    var(--color-surface);
+  border:        1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding:       var(--space-8);
+}
+
+.stats-summary-intro {
+  color:         var(--color-text-muted);
+  font-family:   var(--font-ui);
+  font-size:     var(--text-base);
+  margin-bottom: var(--space-5);
+  line-height:   var(--leading-relaxed);
+}
+
+.stats-summary-btn {
+  font-size: var(--text-base);
+  padding:   var(--space-3) var(--space-6);
+}
+
+.stats-error {
+  padding:       var(--space-3) var(--space-4);
+  background:    var(--color-danger-subtle);
+  border:        1px solid var(--color-danger);
+  border-radius: var(--radius-md);
+  color:         var(--color-danger);
+  font-family:   var(--font-ui);
+  font-size:     var(--text-sm);
+  margin-top:    var(--space-3);
+}
+
+.stats-summary-text {
+  margin-top: var(--space-5);
+}
+
+.stats-regen-btn {
+  margin-top: var(--space-4);
+  font-size:  var(--text-sm);
+}
+
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .stats-page           { padding: var(--space-5) var(--space-4); }
+  .stats-hero-name      { font-size: var(--text-3xl); }
+  .hero-stat-divider    { display: none; }
+  .stats-hero-numbers   { gap: var(--space-6); }
+  .book-bar-name        { width: 90px; font-size: var(--text-xs); }
+  .decade-chart         { gap: var(--space-2); }
 }
